@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "timetable/base.html" %}
 {% load static %}
 
 {% block title %}Расписание{% endblock %}
@@ -135,7 +135,7 @@
                     {% if group_num %}
                         <p>По заданным параметрам не найдено расписание. Задайте другие параметры запроса.</p>
                     {% endif %}
-                    <p  align="center"><img src="{% static '/img/timetable_man.png' %}" width="600px"></p>
+                    <p  align="center"><img src="{% static 'timetable/img/timetable_man.png' %}" width="600px"></p>
                 </div>
             {% endif %}
             {% endblock table %}

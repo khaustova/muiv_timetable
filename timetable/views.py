@@ -20,7 +20,7 @@ def timetable(request):
     Получает данные из функции get_context_for_timetable() и выводит главную страницу с расписанием.
     """
     context = get_context_for_timetable(request)
-    return render(request, "index.html", context) 
+    return render(request, "timetable/index.html", context) 
 
 
 def get_context_for_timetable(request):
