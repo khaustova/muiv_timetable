@@ -1,0 +1,90 @@
+{% extends "timetable_manager.html" %}
+
+{% block title %} Расписание {% endblock title %}
+
+{% block table %}
+<div class="col-md-9 col-sm-12 justify-content-center p-4 my-4">
+    <div class="container-fluid form-group">
+        <form method="POST" action="">
+            {% csrf_token %}
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">День занятия</label>
+                <div class="col-sm-9">
+                  <input type="date" class="form-control" name="work_day" value="{{timetable.work_day|date:'Y-m-d'}}" />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Время начала занятия</label>
+                <div class="col-sm-9">
+                  <input type="time" class="form-control" name="work_start" value="{{timetable.work_start|time:"H:i"}}" />
+              </div>
+              </div>
+              <div class="row mb-3">
+                  <label for="work_end" class="col-sm-3 col-form-label">Время окончания занятия</label>
+                  <div class="col-sm-9">
+                      <input type="time" class="form-control" name="work_end" value="{{timetable.work_end|time:"H:i"}}" />
+                  </div>
+              </div>
+              <div class="row mb-3">
+                  <label class="col-sm-3 col-form-label">Дисциплина</label>
+                  <div class="col-sm-9">
+                    <select name="subject" class="form-select">
+                        <option selected>{{timetable.subject}}</option>  
+                        {% for subject in subjects %}
+                            <option value="{{ subject.subject_name }}">{{ subject.subject_name }}</option>
+                        {% endfor %}
+                    </select>
+                  </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Тип занятия</label>
+                <div class="col-sm-9">
+                    <select name="work_type" class="form-select">
+                        <option selected>{{timetable.work_type}}</option>  
+                        {% for work_type in work_types %}
+                            <option value="{{ work_type.work_type }}">{{ work_type.work_type }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Группа</label>
+                <div class="col-sm-9">
+                    <select name="group" class="form-select">
+                        <option selected>{{timetable.group}}</option>  
+                        {% for group in groups %}
+                            <option value="{{ group.group_num }}">{{ group.group_num }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Преподаватель</label>
+                <div class="col-sm-9">
+                    <select name="tutor" class="form-select">
+                        <option selected>{{timetable.tutor}}</option>  
+                        {% for tutor in tutors %}
+                            <option value="{{ tutor.tutor_name }}">{{ tutor.tutor_name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Аудитория</label>
+                <div class="col-sm-9">
+                    <select name="classroom" class="form-select">
+                        <option selected>{{timetable.classroom}}</option>  
+                        {% for classroom in classrooms %}
+                            <option value="{{ classroom.place }}">{{ classroom.place }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <input type="submit" value="Сохранить" class="btn-ruby btn mb-3 px-5">
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock table %}

@@ -1,0 +1,149 @@
+{% extends "timetable_manager.html" %}
+
+{% block title %}Управление объектами расписания{% endblock %}
+
+{% block table %}
+<div class="col-md-9 col-sm-12 justify-content-center p-4 my-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="dropdown d-grid gap-2 d-md-flex justify-content-md-end">       
+                <button class="btn-ruby btn dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Создать
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="link-ruby-without-underline dropdown-item" href="create-group">Группа</a></li>
+                    <li><a class="link-ruby-without-underline dropdown-item" href="create-tutor">Преподаватель</a></li>
+                    <li><a class="link-ruby-without-underline dropdown-item" href="create-subject">Дисциплина</a></li>
+                    <li><a class="link-ruby-without-underline dropdown-item" href="create-work-type">Тип занятия</a></li>
+                    <li><a class="link-ruby-without-underline dropdown-item" href="create-classroom">Аудитория</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="link-ruby-without-underline nav-link active" id="nav-groups-tab" data-bs-toggle="tab" data-bs-target="#nav-groups" type="button" role="tab" aria-controls="nav-groups" aria-selected="true">
+                    Группы
+                </button>
+                  <button class="link-ruby-without-underline nav-link" id="nav-tutors-tab" data-bs-toggle="tab" data-bs-target="#nav-tutors" type="button" role="tab" aria-controls="nav-tutors" aria-selected="false">
+                    Преподаватели
+                </button>
+                  <button class="link-ruby-without-underline nav-link" id="nav-subjects-tab" data-bs-toggle="tab" data-bs-target="#nav-subjects" type="button" role="tab" aria-controls="nav-subjects" aria-selected="false">
+                    Дисциплины
+                </button>
+                  <button class="link-ruby-without-underline nav-link" id="nav-work-types-tab" data-bs-toggle="tab" data-bs-target="#nav-work-types" type="button" role="tab" aria-controls="nav-work-types" aria-selected="false">
+                    Типы занятий
+                </button>
+                  <button class="link-ruby-without-underline nav-link" id="nav-classrooms-tab" data-bs-toggle="tab" data-bs-target="#nav-classrooms" type="button" role="tab" aria-controls="nav-classrooms" aria-selected="false">
+                    Аудитории
+                </button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-groups" role="tabpanel" aria-labelledby="nav-groups-tab">
+                    <div class="justify-content-center">
+                        <input class="form-control" type="text" placeholder="Начните вводить номер группы" id="search-group" onkeyup="tableSearchGroup()">
+                        <div class="wrapper" style="overflow-y: scroll; height: 550px">
+                            <table data-toggle="table" data-pagination="true" class="table align-self-center table-responsive scroll-table-body" id="group-table">
+                                <thead class="table-group-divider table-ruby">
+                                    <th>Номер группы</th>
+                                    <th>Операция</th>
+                                </thead>
+                                <tbody>
+                                    {% for group in groups %}
+                                    <tr><td>{{ group }}</td>
+                                    <td><a href="edit-group/{{ group.id }}" class="link-ruby">Редактировать</a><br>
+                                        <a href="delete-group/{{ group.id }}" class="link-ruby">Удалить</a></td></tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-tutors" role="tabpanel" aria-labelledby="nav-tutors-tab">
+                    <div class="justify-content-center">
+                        <input class="form-control" type="text" placeholder="Начните вводить ФИО преподавателя" id="search-tutor" onkeyup="tableSearchTutor()">
+                        <div class="wrapper" style="overflow-y: scroll; height: 550px">
+                            <table data-toggle="table" data-pagination="true" class="table align-self-center table-responsive scroll-table-body" id="tutor-table">
+                                <thead class="table-group-divider table-ruby">
+                                    <th>ФИО преподавателя</th>
+                                    <th>Операция</th>
+                                </thead>
+                                <tbody>
+                                    {% for tutor in tutors %}
+                                    <tr><td>{{ tutor }}</td>
+                                    <td><a href="edit-tutor/{{ tutor.id }}" class="link-ruby">Редактировать</a><br>
+                                        <a href="delete-tutor/{{ tutor.id }}" class="link-ruby">Удалить</a></td></tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-subjects" role="tabpanel" aria-labelledby="nav-subjects-tab">
+                    <div class="justify-content-center">
+                        <input class="form-control" type="text" placeholder="Начните вводить наименование дисциплины" id="search-subject" onkeyup="tableSearchSubject()">
+                        <div class="wrapper" style="overflow-y: scroll; height: 550px">
+                            <table data-toggle="table" data-pagination="true" class="table align-self-center table-responsive scroll-table-body" id="subject-table">
+                                <thead class="table-group-divider table-ruby">
+                                    <th>Дисциплина</th>
+                                    <th>Операция</th>
+                                </thead>
+                                <tbody>
+                                    {% for subject in subjects %}
+                                    <tr><td>{{ subject }}</td>
+                                    <td><a href="edit-subject/{{ subject.id }}" class="link-ruby">Редактировать</a><br>
+                                        <a href="delete-subject/{{ subject.id }}" class="link-ruby">Удалить</a></td></tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-work-types" role="tabpanel" aria-labelledby="nav-work-types-tab">
+                    <div class="justify-content-center">
+                        <input class="form-control" type="text" placeholder="Начните вводить тип занятия" id="search-work-type" onkeyup="tableSearchWorkType()">
+                        <div class="wrapper" style="overflow-y: scroll; height: 550px">
+                            <table data-toggle="table" data-pagination="true" class="table align-self-center table-responsive scroll-table-body" id="work-type-table">
+                                <thead class="table-group-divider table-ruby">
+                                    <th>Тип занятия</th>
+                                    <th>Операция</th>
+                                </thead>
+                                <tbody>
+                                    {% for work_type in work_types %}
+                                    <tr><td>{{work_type}}</td>
+                                    <td><a href="edit-work-type/{{ work_type.id }}" class="link-ruby">Редактировать</a><br>
+                                        <a href="delete-work-type/{{ work_type.id }}" class="link-ruby">Удалить</a></td></tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-classrooms" role="tabpanel" aria-labelledby="nav-classrooms-tab">
+                    <div class="justify-content-center">
+                        <input class="form-control" type="text" placeholder="Начните вводить номер аудитории" id="search-classroom" onkeyup="tableSearchClassroom()">
+                        <div class="wrapper" style="overflow-y: scroll; height: 550px">
+                            <table data-toggle="table" data-pagination="true" class="table align-self-center table-responsive scroll-table-body" id="classroom-table">
+                                <thead class="table-group-divider table-ruby">
+                                    <th>Аудитория</th>
+                                    <th>Операция</th>
+                                </thead>
+                                <tbody>
+                                    {% for classroom in classrooms %}
+                                    <tr><td>{{ classroom }}</td>
+                                    <td><a href="edit-classroom/{{ classroom.id }}" class="link-ruby">Редактировать</a><br>
+                                        <a href="delete-classroom/{{ classroom.id }}" class="link-ruby">Удалить</a></td></tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+</div>
+
+{% endblock table %}

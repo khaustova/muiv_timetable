@@ -1,0 +1,75 @@
+.font-ruby {
+    color: #9a0105 !important;
+}
+
+.link-ruby {
+    color: #9a0105 !important;
+    text-decoration: none !important;
+}
+
+.link-ruby:hover {
+    text-decoration: underline !important;
+}
+
+.link-ruby-without-underline {
+    color: #9a0105 !important;
+}
+
+.nav-link{
+    color:#9a0105;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover,.nav-pills .nav-link.active:focus{
+    background-color:#9a0105;
+    color:white;
+}
+
+.table > :not(:first-child) {
+    border-top: 1px solid white !important;
+}
+
+.table-ruby {
+    background-color:#9a0105;
+    color: white;
+}
+
+.tab-link-ruby:hover {
+    color:#9a0105;
+    text-decoration: dotted;
+}
+
+.tab-link-ruby:active {
+    color: white;
+}
+
+button {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+input {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.btn-ruby,
+.btn-ruby:hover,
+.btn-ruby:visited {
+    background: #9a0105;
+    color: white !important;
+}

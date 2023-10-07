@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Войти{% endblock %}
+
+{% block extrahead %}
+
+<style>
+  html, body {
+      height: 100%;
+  }
+  body {
+      background-color: azure;
+  }
+</style>
+
+{% endblock extrahead%}
+
+{% block content %}
+<div class="container-sm mt-5 pt-5">
+  {% if form.errors %}
+  <p>Логин и пароль не совпадают. Пожалуйста, попробуйте ещё раз.</p>
+  {% endif %}
+  {% if next %}
+    {% if user.is_authenticated %}
+      <p>У вашего аккаунта нет доступа к этой странице. Для того, чтобы продолжить, ойдите с учётной записью, которая имеет доступ.</p>
+    {% else %}
+    <p>Войдите для того, чтобы увидеть эту страницу.</p>
+  {% endif %}
+{% endif %}
+
+<div class="container-fluid d-flex h-100 justify-content-center align-items-center pt-5 pb-5 mt-5 mb-5">
+  <div class="row bg-white shadow-sm">
+    <div class="col border rounded p-4">
+      <h3 class="text-center mb-4">Вход</h3>
+        <form method="post" action="{% url 'login' %}">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="login">Логин</label>
+            <input type="login" class="form-control" id="login" name="username">
+          </div>
+          <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+          <div class="form-group">
+            <a class="link-ruby" href="{% url 'password_reset' %}">Забыли пароль?</a>
+          </div>
+          <input type="submit" value="Войти" class="btn-ruby btn mb-3 px-5">
+        </form>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+

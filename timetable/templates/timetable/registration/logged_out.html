@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Выход{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid d-flex h-100 justify-content-center align-items-center pt-5 pb-5 mt-5 mb-5">
+    <div class="row bg-white shadow-sm">
+      <div class="col border rounded p-4">
+        <h3 class="text-center mb-4">Вы вышли!</h3>
+        <a class="link-ruby" href="{% url 'login' %}">Кликните сюда, чтобы войти снова.</a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

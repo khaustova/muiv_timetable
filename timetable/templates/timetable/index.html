@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Расписание{% endblock %}
+
+{% block content %}
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 py-4">
+                <div class="section-title py-2">
+                    <span style="font-size: 130%"><b>Сегодня<br>{{ today }}</span><br>
+                    Неделя {{week}}</b>
+                </div>
+                <div class="form-group">
+                    <form method="GET" action=".">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="tab-link-ruby nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                    Группа
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="tab-link-ruby nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                    Преподаватель
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content mb-3" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <select name="select_group" class="form-select">
+                                    <option selected disabled>Выбрать</option>  
+                                    {% for group in groups %}
+                                        <option value="{{ group.group_num }}">{{ group.group_num }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <select name="select_tutor" class="form-select">
+                                    <option selected disabled>Выбрать</option>  
+                                    {% for tutor in tutors %}
+                                        <option value="{{ tutor.tutor_name }}">{{ tutor.tutor_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>  
+                        </div>
+                        <ul class="nav nav-pills mb-3" id="pills-tab-days" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="tab-link-ruby nav-link active" id="pills-day-tab" data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab" aria-controls="pills-day" aria-selected="true">
+                                    На день
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="tab-link-ruby nav-link" id="pills-range-tab" data-bs-toggle="pill" data-bs-target="#pills-range" type="button" role="tab" aria-controls="pills-range" aria-selected="false">
+                                    На период
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content mb-3" id="pills-tabContent-days">
+                            <div class="tab-pane fade show active" id="pills-day" role="tabpanel" aria-labelledby="pills-day-tab">
+                                <div class="input-group input-daterange col-md-4">
+                                    <input type="date" id="myDate" class="start-date form-control" name="one_date" value="{{ today|date:'Y-m-d' }}">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-range" role="tabpanel" aria-labelledby="pills-range-tab">
+                                <div class="input-group input-daterange col-md-4">
+                                    <input type="date" class="start-date form-control" name="from_date" value="">
+                                    <span class="input-group-addon">&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                                    <input type="date" class="end-date form-control" name="to_date" value="">
+                                </div>
+                            </div>
+                            <br><input type="submit" value="Показать" class="btn-ruby btn mb-3 px-5" style="color: white">
+                        </div>             
+                    </form>
+                    {% block manager_timetable%}{% endblock manager_timetable %}
+                </div>
+            {% block table %}
+            {% if is_exists %}
+            <div class="col-9 justify-content-center">
+                <div class="section-title text-center py-4">
+                    <h3 class="fw-bold my-2">Расписание 
+                        {% if is_group %}
+                        {{ group_num|default:""}}
+                        {% else %}
+                        {{ tutor|default:""}}
+                        {% endif %}               
+                    </h3>
+                </div>
+                <div class="justify-content-center">
+                    <table class="table align-self-center table-responsive">
+                            <thead class="table-group-divider table-ruby">
+                            <th>Дата</th>
+                            <th>Время</th>
+                            <th>Дисциплина</th>
+                            <th>Аудитория</th>
+                            <th>
+                                {% if is_group %}
+                                Преподаватель
+                                {% else %}
+                                Группа
+                                {% endif %}
+                            </th>
+                            {% block manager_head %}{% endblock manager_head %}
+                            </thead>
+                            <tbody>
+                            {% for day, daily_timetable in timetable_by_days.items %}
+                                {% for each in daily_timetable %}
+                                    <tr>
+                                        {% if forloop.first %}
+                                            <td rowspan="{{ daily_timetable|length }}">{{ each.work_day }}</td>
+                                        {% endif %}
+                                        <td>{{ each.work_start}} - {{ each.work_end }}</td>
+                                        <td>{{ each.subject.subject_name}}</td>
+                                        {% if not each.classroom %}
+                                            <td>-</td>
+                                        {% else %}
+                                            <td>{{ each.classroom }}</td>
+                                        {% endif %}                                      
+                                        <td>
+                                            {% if is_group %}
+                                            {{ each.tutor }}
+                                            {% else %}
+                                            {{ each.group }}
+                                            {% endif %}
+                                        </td>
+                                        {% block manager_data %}{% endblock manager_data %}
+                                    </tr>
+                                {% endfor %}
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                <div class="col-8 justify-content-center py-5">
+                    {% if group_num %}
+                        <p>По заданным параметрам не найдено расписание. Задайте другие параметры запроса.</p>
+                    {% endif %}
+                    <p  align="center"><img src="{% static '/img/timetable_man.png' %}" width="600px"></p>
+                </div>
+            {% endif %}
+            {% endblock table %}
+        </div>
+    </div>
+{% endblock %}

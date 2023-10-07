@@ -1,0 +1,49 @@
+{% extends "timetable_manager.html" %}
+
+{% block title %} Объекты расписания {% endblock title %}
+
+{% block table %}
+<div class="col-md-9 col-sm-12 justify-content-center p-4 my-4">
+    <div class="container-fluid form-group">
+        <form method="POST" action="">
+            {% csrf_token %}
+            <div class="row mb-3">
+                {% if check_group %}
+                <label class="col-sm-3 col-form-label">Номер группы</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="group_num" value="{{ group_num|default:''}}" />
+                </div>
+                {% endif %}
+                {% if check_tutor %}
+                <label class="col-sm-3 col-form-label">ФИО преподавателя</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="tutor_name" value="{{ tutor_name|default:'' }}" />
+                </div>
+                {% endif %}
+                {% if check_subject %}
+                <label class="col-sm-3 col-form-label">Дисциплина</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="subject_name" value="{{ subject_name|default:''}}" />
+                </div>
+                {% endif %}
+                {% if check_work_type %}
+                <label class="col-sm-3 col-form-label">Тип занятия</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="work_type" value="{{ work_type|default:'' }}" />
+                </div>
+                {% endif %}
+                {% if check_classroom %}
+                <label class="col-sm-3 col-form-label">Аудитория</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="place" value="{{ place|default:'' }}" />
+                </div>
+                {% endif %}
+            </div>
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <input type="submit" value="Сохранить" class=" btn-ruby btn mb-3 px-5">
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock table %}

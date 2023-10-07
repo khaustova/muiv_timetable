@@ -1,0 +1,36 @@
+{% extends "index.html" %}
+
+{% block title %}Управление расписанием{% endblock %}
+
+{% block manager_timetable %}
+<hr>
+<div class="form-group">
+    <div class="d-grid gap-2 mb-3">
+      <a class=" btn-ruby btn" href="/manager/create-timetable" role="button" style="color: white">Создать расписание</a>
+    </div>
+    <div class="d-grid gap-2">
+        <a class="btn-ruby btn" href="/manager/timetable-objects" role="button" style="color: white">Настроить объекты расписания</a>
+    </div>
+    <hr>
+    <div class="form-group">
+        <form method="POST" action="upload" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <label for="formFile" class="form-label">Загрузить расписание в формате JSON</label>
+            <input class="form-control" type="file" id="formFile" name="json_file">
+            <input type="submit" value="Загрузить" class="btn-ruby btn mb-3 px-5" style="color: white">
+        </form>
+    </div>
+</div>
+
+{% endblock manager_timetable %}
+
+{% block manager_head %}
+<th>Операция</th>
+{% endblock manager_head %}
+
+{% block manager_data %}
+<td>
+    <a href="edit-timetable/{{each.id}}" class="link-ruby">Редактировать</a><br>
+    <a href="delete-timetable/{{each.id}}" class="link-ruby">Удалить</a>
+</td>
+{% endblock manager_data %}
