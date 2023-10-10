@@ -5,6 +5,12 @@ from .serializers import TimetableSerializer
 
 
 class TimetableAPI(generics.ListAPIView):
-    queryset = Timetable.objects.all()
     serializer_class = TimetableSerializer
+
+    def get_queryset(self):
+        if 'subject' in self.request.query_params:
+            return Timetable.objects.filter(subject=self.request.query_params['subject'])
+        return Timetable.objects.all()
+
+
     

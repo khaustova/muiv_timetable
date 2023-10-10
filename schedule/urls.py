@@ -6,5 +6,5 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-   path("api/v1/timetablelist/", views.TimetableAPI.as_view(), name="timetableapi"),
+   path("api/timetablelist/", views.TimetableAPI.as_view(), name="timetableapi"),
 ]

@@ -3,6 +3,7 @@ from django.db import models
 class Timetable(models.Model):
     work_day = models.DateField()
     subject = models.CharField(max_length=256, verbose_name='Предмет')
+    tutor = models.CharField(max_length=256, verbose_name='Преподаватель')
     
     class Meta:
         ordering = ("work_day",)
