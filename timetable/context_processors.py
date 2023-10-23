@@ -9,22 +9,7 @@ from json import loads
 from .models import Group, Timetable, Tutor, Subject, Classroom, WorkType, JsonTimetable
 
 
-def index(request):
-    """ 
-    Перенаправляет с главной страницы на страницу /timetable.
-    """
-    return HttpResponseRedirect("timetable")
-
-
-def timetable(request):
-    """ 
-    Получает данные из функции get_context_for_timetable() и выводит главную страницу с расписанием.
-    """
-    context = get_context_for_timetable(request)
-    return render(request, "timetable/index.html", context) 
-
-
-def get_context_for_timetable(request):
+def context(request):
     """
     Принимает параметры из строки запроса и формирует данные для передачи в шаблон:
     1) group_num, tutor, one_date, from_date, to_date - параметры из строки запроса;
