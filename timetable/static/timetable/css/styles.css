@@ -1,9 +1,13 @@
+:root {
+    --ruby-color: #9a0105;
+}
+
 .font-ruby {
-    color: #9a0105 !important;
+    color: var(--ruby-color) !important;
 }
 
 .link-ruby {
-    color: #9a0105 !important;
+    color: var(--ruby-color)!important;
     text-decoration: none !important;
 }
 
@@ -12,16 +16,16 @@
 }
 
 .link-ruby-without-underline {
-    color: #9a0105 !important;
+    color: var(--ruby-color) !important;
 }
 
 .nav-link{
-    color:#9a0105;
+    color: var(--ruby-color);
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:hover,.nav-pills .nav-link.active:focus{
-    background-color:#9a0105;
-    color:white;
+    background-color: var(--ruby-color);
+    color: white;
 }
 
 .table > :not(:first-child) {
@@ -29,12 +33,12 @@
 }
 
 .table-ruby {
-    background-color:#9a0105;
+    background-color:var(--ruby-color);
     color: white;
 }
 
 .tab-link-ruby:hover {
-    color:#9a0105;
+    color:var(--ruby-color);
     text-decoration: dotted;
 }
 
@@ -70,6 +74,6 @@ input {
 .btn-ruby,
 .btn-ruby:hover,
 .btn-ruby:visited {
-    background: #9a0105;
+    background: var(--ruby-color);
     color: white !important;
 }
