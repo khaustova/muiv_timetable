@@ -106,7 +106,7 @@ class Timetable(models.Model):
     work_type = models.ForeignKey('WorkType', on_delete=models.CASCADE)
     
     class Meta:
-        ordering = ('work_day',)
+        ordering = ('work_day', 'work_start')
         verbose_name = 'Расписание'
         verbose_name_plural = 'Расписание'
 
