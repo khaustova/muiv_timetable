@@ -1,10 +1,11 @@
 from datetime import datetime, timedelta
+from typing import Dict, Tuple, TextIO
 from json import loads
 
 from .models import Group, Timetable, Tutor, Subject, Classroom, WorkType
 
 
-def daterange(start_date, end_date):
+def daterange(start_date: datetime, end_date: datetime) -> datetime:
     """
     Принимает начальную и конечную дату, генерирует даты из данного промежутка.
     Используется для формирования словаря с расписанием по дням.
@@ -13,7 +14,11 @@ def daterange(start_date, end_date):
         yield start_date + timedelta(n)
         
         
-def filter_by_day(from_date, to_date, timetable):
+def filter_by_day(
+    from_date: datetime, 
+    to_date: datetime, 
+    timetable: Timetable
+    ) -> Dict[datetime, Timetable]:
     """
     Принимает две даты, обозначающие начало заданного периода, и расписание,
     которое фильтрует в соответствии с ними.
@@ -24,17 +29,20 @@ def filter_by_day(from_date, to_date, timetable):
         timetable = timetable.filter(work_day__gte=from_date)
     if to_date:
         timetable = timetable.filter(work_day__lte=to_date) 
-               
-    timetable_days = {}
+    
     start = datetime.strptime(from_date, "%Y-%m-%d").date() if from_date else datetime.now().date()
     end = datetime.strptime(to_date, "%Y-%m-%d").date() if to_date else datetime.now().date()
+    
+    timetable_by_days = {}
+    
     for single_date in daterange(start, end + timedelta(days=1)):
-        timetable_days[single_date] = timetable.filter(work_day=single_date)
-    return timetable_days
+        timetable_by_days[single_date] = timetable.filter(work_day=single_date)
+        
+    return timetable_by_days
 
 
 
-def json_to_dict(file): 
+def json_to_dict(file: TextIO) -> Tuple: 
     """
     Принимает json-файл, который преобразует в объект Python и на его основе 
     формирует словарь с расписанием по датам.
@@ -83,10 +91,17 @@ def json_to_dict(file):
                     daily_routine["group"] = group
                     timetable[date].append(daily_routine.copy())
                     
-    return timetable, all_tutors, all_subjects, all_groups, all_classrooms, all_work_types
+    return (
+        timetable, 
+        all_tutors, 
+        all_subjects, 
+        all_groups, 
+        all_classrooms, 
+        all_work_types
+    )
 
 
-def upload_data(file):
+def upload_data(file: TextIO) -> None:
     
     """ 
     Загружает json-файл с расписанием на сервер и обрабатывает его с помощью 
