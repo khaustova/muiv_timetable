@@ -36,7 +36,8 @@ def filter_by_day(
     timetable_by_days = {}
     
     for single_date in daterange(start, end + timedelta(days=1)):
-        timetable_by_days[single_date] = timetable.filter(work_day=single_date)
+        if timetable.filter(work_day=single_date):
+            timetable_by_days[single_date] = timetable.filter(work_day=single_date)
         
     return timetable_by_days
 
