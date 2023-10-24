@@ -10,8 +10,9 @@ admin.site.register(Tutor)
 admin.site.register(Timetable)
 admin.site.register(WorkType)
 
-admin.site.site_title = "Администрирование расписания в университете"
-admin.site.site_header = "Администрирование расписания в университете"
+admin.site.site_title = 'Администрирование расписания в университете'
+admin.site.site_header = 'Администрирование расписания в университете'
+
 
 @admin.register(JsonTimetable)
 class JsonTimeTableAdmin(admin.ModelAdmin):

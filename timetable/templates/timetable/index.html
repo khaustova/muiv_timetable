@@ -87,9 +87,13 @@
                     </h3>
                 </div>
                 <div class="justify-content-center">
-                    <table class="table align-self-center table-responsive">
-                            <thead class="table-group-divider table-ruby">
-                            <th>Дата</th>
+                    {% for day, daily_timetable in timetable_by_days.items %}
+                    {% for each in daily_timetable %}
+                    {% if forloop.first %}
+                    {{ each.work_day }}
+                    {% endif %}
+                    <table class="table align-self-center table-responsive">         
+                        <thead class="table-group-divider table-ruby">
                             <th>Время</th>
                             <th>Дисциплина</th>
                             <th>Аудитория</th>
@@ -100,36 +104,35 @@
                                 Группа
                                 {% endif %}
                             </th>
-                            {% block manager_head %}{% endblock manager_head %}
-                            </thead>
-                            <tbody>
-                            {% for day, daily_timetable in timetable_by_days.items %}
-                                {% for each in daily_timetable %}
-                                    <tr>
-                                        {% if forloop.first %}
-                                            <td rowspan="{{ daily_timetable|length }}">{{ each.work_day }}</td>
-                                        {% endif %}
-                                        <td>{{ each.work_start}} - {{ each.work_end }}</td>
-                                        <td>{{ each.subject.subject_name}}</td>
-                                        {% if not each.classroom %}
-                                            <td>-</td>
+                        </thead>
+                        <tbody>
+                        {% comment %} {% for day, daily_timetable in timetable_by_days.items %}
+                            {% for each in daily_timetable %} {% endcomment %}
+                                <tr>
+                                    {% comment %} {% if forloop.first %}
+                                        <td rowspan="{{ daily_timetable|length }}">{{ each.work_day }}</td>
+                                    {% endif %} {% endcomment %}
+                                    <td>{{ each.work_start}} - {{ each.work_end }}</td>
+                                    <td>{{ each.subject.subject_name}}</td>
+                                    {% if not each.classroom %}
+                                        <td>-</td>
+                                    {% else %}
+                                        <td>{{ each.classroom }}</td>
+                                    {% endif %}                                      
+                                    <td>
+                                        {% if is_group %}
+                                        {{ each.tutor }}
                                         {% else %}
-                                            <td>{{ each.classroom }}</td>
-                                        {% endif %}                                      
-                                        <td>
-                                            {% if is_group %}
-                                            {{ each.tutor }}
-                                            {% else %}
-                                            {{ each.group }}
-                                            {% endif %}
-                                        </td>
-                                        {% block manager_data %}{% endblock manager_data %}
-                                    </tr>
-                                {% endfor %}
+                                        {{ each.group }}
+                                        {% endif %}
+                                    </td>
+                                    {% block manager_data %}{% endblock manager_data %}
+                                </tr>
                             {% endfor %}
-                            </tbody>
-                        </table>
-                    </div>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
                 {% else %}
                 <div class="col-8 justify-content-center py-5">
                     {% if group_num %}
