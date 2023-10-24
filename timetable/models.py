@@ -8,10 +8,12 @@ class Classroom(models.Model):
     place = models.CharField(max_length=20)
     
     class Meta:
-        ordering = ("place",)
+        ordering = ('place',)
+        verbose_name = 'Аудитория'
+        verbose_name_plural = 'Аудитории'
 
     def __str__(self):
-        return "%s" % (self.place)
+        return '%s' % (self.place)
 
 
 class Subject(models.Model): 
@@ -21,13 +23,15 @@ class Subject(models.Model):
     tutor - преподаватель дисцплины.
     """
     subject_name = models.CharField(max_length=100)
-    tutor = models.ManyToManyField("Tutor")
+    tutor = models.ManyToManyField('Tutor')
     
     class Meta:
-        ordering = ("subject_name",)
+        ordering = ('subject_name',)
+        verbose_name = 'Дисциплина'
+        verbose_name_plural = 'Дисциплины'
 
     def __str__(self):
-        return "%s" % (self.subject_name)
+        return '%s' % (self.subject_name)
 
 
 class Group(models.Model): 
@@ -40,10 +44,12 @@ class Group(models.Model):
     students = models.IntegerField(default=0)
 
     class Meta:
-        ordering = ("group_num",)
+        ordering = ('group_num',)
+        verbose_name = 'Группа'
+        verbose_name_plural = 'Группы'
     
     def __str__(self):
-        return "%s" % (self.group_num)
+        return '%s' % (self.group_num)
     
 
 class Tutor(models.Model):
@@ -54,10 +60,12 @@ class Tutor(models.Model):
     tutor_name = models.CharField(max_length=150)
     
     class Meta:
-        ordering = ("tutor_name",)
+        ordering = ('tutor_name',)
+        verbose_name = 'Преподаватель'
+        verbose_name_plural = 'Преподаватели'
 
     def __str__(self):
-        return "%s" % self.tutor_name
+        return '%s' % self.tutor_name
     
     
 class WorkType(models.Model):
@@ -68,10 +76,12 @@ class WorkType(models.Model):
     work_type = models.CharField(max_length=150)
     
     class Meta:
-        ordering = ("work_type",)
+        ordering = ('work_type',)
+        verbose_name = 'Тип занятия'
+        verbose_name_plural = 'Типы занятий'
 
     def __str__(self):
-        return "%s" % self.work_type
+        return '%s' % self.work_type
 
 
 class Timetable(models.Model):
@@ -89,17 +99,24 @@ class Timetable(models.Model):
     work_day = models.DateField()
     work_start = models.TimeField()
     work_end = models.TimeField()
-    tutor = models.ForeignKey("Tutor", on_delete=models.CASCADE)
-    classroom = models.ForeignKey("Classroom", on_delete=models.CASCADE, null=True)
-    group = models.ForeignKey("Group", on_delete=models.CASCADE)
-    subject = models.ForeignKey("Subject", on_delete=models.CASCADE)
-    work_type = models.ForeignKey("WorkType", on_delete=models.CASCADE)
+    tutor = models.ForeignKey('Tutor', on_delete=models.CASCADE)
+    classroom = models.ForeignKey('Classroom', on_delete=models.CASCADE, null=True)
+    group = models.ForeignKey('Group', on_delete=models.CASCADE)
+    subject = models.ForeignKey('Subject', on_delete=models.CASCADE)
+    work_type = models.ForeignKey('WorkType', on_delete=models.CASCADE)
     
     class Meta:
-        ordering = ("work_day",)
+        ordering = ('work_day',)
+        verbose_name = 'Расписание'
+        verbose_name_plural = 'Расписание'
 
     def __str__(self):
-        return "%s - (%s-%s) - %s" % (self.work_day, self.work_start, self.work_end, self.group)
+        return '%s - (%s-%s) - %s' % (
+            self.work_day, 
+            self.work_start, 
+            self.work_end, 
+            self.group
+        )
     
     
 class JsonTimetable(models.Model):
@@ -108,10 +125,15 @@ class JsonTimetable(models.Model):
     json_file - загруженный файл;
     date_time_of_upload - время загрузки (заполняется автоматически).
     """
-    json_file = models.FileField(upload_to="uploads/")
+    json_file = models.FileField(upload_to='uploads/')
     date_time_of_upload = models.DateTimeField(auto_now = True)
     
+    class Meta:
+        ordering = ('date_time_of_upload',)
+        verbose_name = 'Файл с расписанием'
+        verbose_name_plural = 'Файлы с расписанием'
+    
     def __str__(self):
-        return "%s" % self.json_file
+        return '%s' % self.json_file
     
     
