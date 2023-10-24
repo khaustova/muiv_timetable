@@ -68,6 +68,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
+
 # Database
 
 DATABASES = {
