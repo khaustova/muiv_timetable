@@ -7,18 +7,22 @@ admin.site.register(Classroom)
 admin.site.register(Subject)
 admin.site.register(Group)
 admin.site.register(Tutor)
-admin.site.register(Timetable)
 admin.site.register(WorkType)
 
-admin.site.site_title = 'Администрирование расписания в университете'
-admin.site.site_header = 'Администрирование расписания в университете'
 
+@admin.register(Timetable)
+class TimetableAdmin(admin.ModelAdmin):
+    list_display = ('work_day', 'work_start', 'work_end', 'tutor', 'subject', 'work_type', 'group', 'classroom')
+    list_filter = ('work_day', 'tutor', 'group', 'subject', 'classroom', 'work_type')
+    
 
 @admin.register(JsonTimetable)
 class JsonTimeTableAdmin(admin.ModelAdmin):
-    list_display = ('json_file', 'date_time_of_upload',)
+    fields = ('json_file',)
+    list_display = ('json_file', 'date_time_of_upload', 'message')
     
     def save_model(self, request, obj, form, change):
+        obj.message = upload_data(obj)
         super().save_model(request, obj, form, change)
-        if not change:
-            transaction.on_commit(lambda: upload_data(obj))
+        #transaction.on_commit(lambda: upload_data(obj))
+    

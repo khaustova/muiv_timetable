@@ -112,47 +112,53 @@ def upload_data(file: TextIO) -> None:
     Для каждого из расписания и объектов расписания проверяет его существование 
     во всех объектах модели, и если его не существует, то создаёт новый объект.
     """
-    timetable, all_tutors, all_subjects, all_groups, all_classrooms, all_work_types = json_to_dict(file)
+    try:
+        timetable, all_tutors, all_subjects, all_groups, all_classrooms, all_work_types = json_to_dict(file)
 
-    for tutor in all_tutors:
-        if not Tutor.objects.filter(tutor_name = tutor).exists():  
-            Tutor.objects.create(tutor_name = tutor)
-    
-    for group in all_groups:
-        if not Group.objects.filter(group_num = group).exists(): 
-            Group.objects.create(group_num = group)
-    
-    for subject in all_subjects:
-        if not Subject.objects.filter(subject_name = subject).exists(): 
-            Subject.objects.create(subject_name = subject)
-            
-    for classroom in all_classrooms:
-        if not Classroom.objects.filter(place = classroom).exists(): 
-            Classroom.objects.create(place = classroom)
-            
-    for work_type in all_work_types:
-        if not WorkType.objects.filter(work_type = work_type).exists(): 
-            WorkType.objects.create(work_type = work_type)
+        for tutor in all_tutors:
+            if not Tutor.objects.filter(tutor_name = tutor).exists():  
+                Tutor.objects.create(tutor_name = tutor)
 
-    for date, timetables_for_date in timetable.items():
-        for each_timetable in timetables_for_date:
-            if not Timetable.objects.filter(
-                work_start = each_timetable["work_start"],
-                work_end = each_timetable["work_end"],
-                work_day = date,
-                tutor = Tutor.objects.get(tutor_name = each_timetable["tutor"]),
-                group = Group.objects.get(group_num = each_timetable["group"]),
-                classroom = Classroom.objects.get(place = each_timetable["classroom"]),
-                subject = Subject.objects.get(subject_name = each_timetable["subject"]),
-                work_type = WorkType.objects.get(work_type = each_timetable["work_type"]),
-            ):
-                Timetable.objects.create(
-                work_start = each_timetable["work_start"],
-                work_end = each_timetable["work_end"],
-                work_day = date,
-                tutor = Tutor.objects.get(tutor_name = each_timetable["tutor"]),
-                group = Group.objects.get(group_num = each_timetable["group"]),
-                classroom = Classroom.objects.get(place = each_timetable["classroom"]),
-                subject = Subject.objects.get(subject_name = each_timetable["subject"]),
-                work_type = WorkType.objects.get(work_type = each_timetable["work_type"]),
-            )
+        for group in all_groups:
+            if not Group.objects.filter(group_num = group).exists(): 
+                Group.objects.create(group_num = group)
+
+        for subject in all_subjects:
+            if not Subject.objects.filter(subject_name = subject).exists(): 
+                Subject.objects.create(subject_name = subject)
+                
+        for classroom in all_classrooms:
+            if not Classroom.objects.filter(place = classroom).exists(): 
+                Classroom.objects.create(place = classroom)
+                
+        for work_type in all_work_types:
+            if not WorkType.objects.filter(work_type = work_type).exists(): 
+                WorkType.objects.create(work_type = work_type)
+
+        for date, timetables_for_date in timetable.items():
+            for each_timetable in timetables_for_date:
+                if not Timetable.objects.filter(
+                    work_start = each_timetable["work_start"],
+                    work_end = each_timetable["work_end"],
+                    work_day = date,
+                    tutor = Tutor.objects.get(tutor_name = each_timetable["tutor"]),
+                    group = Group.objects.get(group_num = each_timetable["group"]),
+                    classroom = Classroom.objects.get(place = each_timetable["classroom"]),
+                    subject = Subject.objects.get(subject_name = each_timetable["subject"]),
+                    work_type = WorkType.objects.get(work_type = each_timetable["work_type"]),
+                ):
+                    Timetable.objects.create(
+                    work_start = each_timetable["work_start"],
+                    work_end = each_timetable["work_end"],
+                    work_day = date,
+                    tutor = Tutor.objects.get(tutor_name = each_timetable["tutor"]),
+                    group = Group.objects.get(group_num = each_timetable["group"]),
+                    classroom = Classroom.objects.get(place = each_timetable["classroom"]),
+                    subject = Subject.objects.get(subject_name = each_timetable["subject"]),
+                    work_type = WorkType.objects.get(work_type = each_timetable["work_type"]),
+                )
+                    
+        return 'Данные успешно загружены'
+    
+    except Exception as e: 
+        return e
