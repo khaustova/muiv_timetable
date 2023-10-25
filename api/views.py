@@ -1,26 +1,16 @@
 from django.shortcuts import render
 from rest_framework import generics, viewsets
-# from .models import Timetable
-# from .serializers import TimetableSerializer, TodoSerializer
+from timetable.models import Timetable
+from .serializers import TimetableSerializer
 
 
-# class TimetableAPI(generics.ListAPIView):
-#     serializer_class = TimetableSerializer
+class TimetableAPI(generics.ListAPIView):
+    serializer_class = TimetableSerializer
 
-#     def get_queryset(self):
-#         if 'subject' in self.request.query_params:
-#             return Timetable.objects.filter(subject=self.request.query_params['subject'])
-#         return Timetable.objects.all()
-    
-# class TimetableViewSet(viewsets.ModelViewSet):
-#     serializer_class = TimetableSerializer
-#     queryset = Timetable.objects.all()
-
-    # def get_queryset(self):
-    #     if 'subject' in self.request.query_params:
-    #         return Timetable.objects.filter(subject=self.request.query_params['subject'])
-    #     return Timetable.objects.all()
-
-    # def perform_create(self, serializer):
-    #     # ensure current user is correctly populated on new objects
-    #     serializer.save(user=self.request.user)
+    def get_queryset(self):
+        if 'group' in self.request.query_params:
+            return Timetable.objects.filter(group__group_num=self.request.query_params['group'])
+        elif 'tutor' in self.request.query_params:
+            return Timetable.objects.filter(tutor__tutor_name=self.request.query_params['tutor'])
+        
+        return Timetable.objects.all()

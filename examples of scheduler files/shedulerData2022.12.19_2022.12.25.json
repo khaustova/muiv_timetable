@@ -1,0 +1,4021 @@
+{
+ "sheduler": [
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 25,
+   "workDateName": "25 декабря 2022 г.",
+   "workDay": "воскресенье",
+   "workSheduler": [
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Лекции",
+     "place": "ауд.  207",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "12:30",
+     "workEnd": "14:00",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Семинары ИПЗ",
+     "place": "ауд.  207",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Основы юридического консультирования",
+     "workType": "Лекции",
+     "place": "ауд.  208",
+     "tutor": "Савинов Владимир Александрович",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Основы юридического консультирования",
+     "workType": "Лекции",
+     "place": "ауд.  208",
+     "tutor": "Савинов Владимир Александрович",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "11:10",
+     "workEnd": "12:40",
+     "hours": 2,
+     "area": "Производственная практика (по профилю специальности) (ПМ.03)",
+     "workType": "Зачеты с оценкой",
+     "place": "Д",
+     "tutor": "Курдова Малика Агамурадовна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018176",
+       "groupNum": "КОМ-610-20 (9 кл.)",
+       "groupStudents": 18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 24,
+   "workDateName": "24 декабря 2022 г.",
+   "workDay": "суббота",
+   "workSheduler": [
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Жилищное право",
+     "workType": "Лекции",
+     "place": "ауд.  207",
+     "tutor": "Финатова Лилия Николаевна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Жилищное право",
+     "workType": "Лекции",
+     "place": "ауд.  207",
+     "tutor": "Финатова Лилия Николаевна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Уголовный процесс",
+     "workType": "Лекции",
+     "place": "ауд.  209",
+     "tutor": "Долгополов Анатолий Аркадьевич",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 5,
+     "groups": [
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Уголовный процесс",
+     "workType": "Семинары ИПЗ",
+     "place": "ауд.  209",
+     "tutor": "Долгополов Анатолий Аркадьевич",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 5,
+     "groups": [
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Присвоение квалификации",
+     "workType": "Защита ВКР",
+     "place": "Д",
+     "tutor": "Грачев Андрей Александрович",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 9,
+     "groups": [
+      {
+       "groupCode": "000018430",
+       "groupNum": "ПСО-110-20 11 кл. з",
+       "groupStudents": 9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 20,
+   "workDateName": "20 декабря 2022 г.",
+   "workDay": "вторник",
+   "workSheduler": [
+    {
+     "branch": "Колледж",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Разработка программных модулей",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 30,
+     "groups": [
+      {
+       "groupCode": "000018124",
+       "groupNum": "КДБсп 110п/1-20",
+       "groupStudents": 0
+      },
+      {
+       "groupCode": "000019404",
+       "groupNum": "КВБсп 110п/1-21",
+       "groupStudents": 10
+      },
+      {
+       "groupCode": "000018739",
+       "groupNum": "КВБсп 110п/1-20",
+       "groupStudents": 11
+      },
+      {
+       "groupCode": "000018742",
+       "groupNum": "КВБо 110п/1-20",
+       "groupStudents": 9
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Психология общения",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Александрова Оксана Александровна",
+     "cathedra": "Колледж",
+     "students": 56,
+     "groups": [
+      {
+       "groupCode": "000021016",
+       "groupNum": "КБсп 111п-22",
+       "groupStudents": 27
+      },
+      {
+       "groupCode": "000019403",
+       "groupNum": "КВБо 110п/1-21",
+       "groupStudents": 18
+      },
+      {
+       "groupCode": "000021015",
+       "groupNum": "КБсп 111р-22",
+       "groupStudents": 11
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Русский язык",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Гарманова Анна Юрьевна",
+     "cathedra": "Колледж",
+     "students": 144,
+     "groups": [
+      {
+       "groupCode": "000021021",
+       "groupNum": "КВДтБо 111п-22",
+       "groupStudents": 44
+      },
+      {
+       "groupCode": "000021377",
+       "groupNum": "КБо 112п-22",
+       "groupStudents": 2
+      },
+      {
+       "groupCode": "000021018",
+       "groupNum": "КВДтБо 111р-22",
+       "groupStudents": 22
+      },
+      {
+       "groupCode": "000021376",
+       "groupNum": "КБо 112р-22",
+       "groupStudents": 1
+      },
+      {
+       "groupCode": "000020991",
+       "groupNum": "КЗДтБо 61-22",
+       "groupStudents": 11
+      },
+      {
+       "groupCode": "000021007",
+       "groupNum": "КЗДтБо 141-22",
+       "groupStudents": 13
+      },
+      {
+       "groupCode": "000021373",
+       "groupNum": "КБо 142-22",
+       "groupStudents": 5
+      },
+      {
+       "groupCode": "000021000",
+       "groupNum": "КЗДтБо 121-22",
+       "groupStudents": 17
+      },
+      {
+       "groupCode": "000021375",
+       "groupNum": "КБо 122-22",
+       "groupStudents": 2
+      },
+      {
+       "groupCode": "000021379",
+       "groupNum": "КБо 12-22",
+       "groupStudents": 14
+      },
+      {
+       "groupCode": "000020989",
+       "groupNum": "КЗДтБо 41-22",
+       "groupStudents": 13
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Русский язык и культура речи",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Гарманова Анна Юрьевна",
+     "cathedra": "Колледж",
+     "students": 88,
+     "groups": [
+      {
+       "groupCode": "000019403",
+       "groupNum": "КВБо 110п/1-21",
+       "groupStudents": 18
+      },
+      {
+       "groupCode": "000019406",
+       "groupNum": "КВБо 110р/1-21",
+       "groupStudents": 11
+      },
+      {
+       "groupCode": "000019407",
+       "groupNum": "КВБо 110с/1-21",
+       "groupStudents": 2
+      },
+      {
+       "groupCode": "000019421",
+       "groupNum": "КДБо 61/1-21",
+       "groupStudents": 18
+      },
+      {
+       "groupCode": "000019425",
+       "groupNum": "КДБо 141/1-21",
+       "groupStudents": 19
+      },
+      {
+       "groupCode": "000019424",
+       "groupNum": "КДБо 121/1-21",
+       "groupStudents": 9
+      },
+      {
+       "groupCode": "000019420",
+       "groupNum": "КДБо 41/1-21",
+       "groupStudents": 11
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "13:45",
+     "workEnd": "15:15",
+     "hours": 2,
+     "area": "Системное программирование",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 11,
+     "groups": [
+      {
+       "groupCode": "000018739",
+       "groupNum": "КВБсп 110п/1-20",
+       "groupStudents": 11
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Разработка кода информационных систем",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 13,
+     "groups": [
+      {
+       "groupCode": "000018740",
+       "groupNum": "КВБсп 110р/1-20",
+       "groupStudents": 7
+      },
+      {
+       "groupCode": "000018745",
+       "groupNum": "КВБо 110р/1-19",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Практические основы бухгалтерского учета источников формирования активов организации",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Протасова Людмила Валерьевна",
+     "cathedra": "Колледж",
+     "students": 13,
+     "groups": [
+      {
+       "groupCode": "000018133",
+       "groupNum": "КДБо 51/1-20",
+       "groupStudents": 9
+      },
+      {
+       "groupCode": "000019418",
+       "groupNum": "КЗБсп 51/1-21",
+       "groupStudents": 4
+      },
+      {
+       "groupCode": "000015560",
+       "groupNum": "КДБо 51/0-18",
+       "groupStudents": 0
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Практические основы бухгалтерского учета активов организации",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Апухтин Антон Сергеевич",
+     "cathedra": "Колледж",
+     "students": 0,
+     "groups": [
+      {
+       "groupCode": "000015560",
+       "groupNum": "КДБо 51/0-18",
+       "groupStudents": 0
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Проектная компьютерная графика и мультимедиа",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Осипова Ксения Владимировна",
+     "cathedra": "Колледж",
+     "students": 19,
+     "groups": [
+      {
+       "groupCode": "000016846",
+       "groupNum": "КДБо 141/0-19",
+       "groupStudents": 12
+      },
+      {
+       "groupCode": "000018120",
+       "groupNum": "КДБсп 141/1-20",
+       "groupStudents": 7
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "08:00",
+     "workEnd": "09:30",
+     "hours": 2,
+     "area": "Страховое дело",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Рянжина Юлия Андреевна",
+     "cathedra": "Колледж",
+     "students": 60,
+     "groups": [
+      {
+       "groupCode": "000018106",
+       "groupNum": "КЗБо 11/1-20",
+       "groupStudents": 12
+      },
+      {
+       "groupCode": "000018132",
+       "groupNum": "КДБо 11/1-20",
+       "groupStudents": 33
+      },
+      {
+       "groupCode": "000019415",
+       "groupNum": "КЗБсп 11/1-21",
+       "groupStudents": 15
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Рынок ценных бумаг",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Протасова Людмила Валерьевна",
+     "cathedra": "Колледж",
+     "students": 11,
+     "groups": [
+      {
+       "groupCode": "000018130",
+       "groupNum": "КДБо 41/1-20",
+       "groupStudents": 11
+      },
+      {
+       "groupCode": "000015554",
+       "groupNum": "КДБо 41/0-18",
+       "groupStudents": 0
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "17:05",
+     "workEnd": "18:35",
+     "hours": 2,
+     "area": "Сопровождение и продвижение программного обеспечения отраслевой направленности (МДК)",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 13,
+     "groups": [
+      {
+       "groupCode": "000016604",
+       "groupNum": "КБо 81/0-19",
+       "groupStudents": 13
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "11:40",
+     "workEnd": "13:10",
+     "hours": 2,
+     "area": "Разработка, внедрение и адаптация программного обеспечения отраслевой направленности",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000016848",
+       "groupNum": "КДБо 81/0-19",
+       "groupStudents": 5
+      },
+      {
+       "groupCode": "000018090",
+       "groupNum": "КБсп 81/1-20",
+       "groupStudents": 3
+      },
+      {
+       "groupCode": "000018121",
+       "groupNum": "КДБсп 81/1-20",
+       "groupStudents": 8
+      },
+      {
+       "groupCode": "000018129",
+       "groupNum": "КДБо 81/1-20",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Колледж",
+     "workStart": "15:25",
+     "workEnd": "16:55",
+     "hours": 2,
+     "area": "Сопровождение и продвижение программного обеспечения отраслевой направленности",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Прокуронова Анастасия Юрьевна",
+     "cathedra": "Колледж",
+     "students": 16,
+     "groups": [
+      {
+       "groupCode": "000016848",
+       "groupNum": "КДБо 81/0-19",
+       "groupStudents": 5
+      },
+      {
+       "groupCode": "000018090",
+       "groupNum": "КБсп 81/1-20",
+       "groupStudents": 3
+      },
+      {
+       "groupCode": "000018121",
+       "groupNum": "КДБсп 81/1-20",
+       "groupStudents": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 19,
+   "workDateName": "19 декабря 2022 г.",
+   "workDay": "понедельник",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Учебная практика (ПМ.04)",
+     "workType": "Зачеты с оценкой",
+     "place": "Д",
+     "tutor": "Смыкова Марина Евгеньевна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018176",
+       "groupNum": "КОМ-610-20 (9 кл.)",
+       "groupStudents": 18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 21,
+   "workDateName": "21 декабря 2022 г.",
+   "workDay": "среда",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "11:10",
+     "workEnd": "12:40",
+     "hours": 2,
+     "area": "Физическая культура (школа)",
+     "workType": "Контрольные работы",
+     "place": "Д",
+     "tutor": "Терехин Сергей Николаевич",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 93,
+     "groups": [
+      {
+       "groupCode": "000021406",
+       "groupNum": "КОМ-610-22-1 (9 кл)",
+       "groupStudents": 21
+      },
+      {
+       "groupCode": "000021626",
+       "groupNum": "КОМ-610-22-2 (9 кл.)",
+       "groupStudents": 10
+      },
+      {
+       "groupCode": "000021404",
+       "groupNum": "ПСО-110-22-1 (9 кл.)",
+       "groupStudents": 23
+      },
+      {
+       "groupCode": "000021405",
+       "groupNum": "ПСО-110-22-2 (9 кл.)",
+       "groupStudents": 21
+      },
+      {
+       "groupCode": "000021612",
+       "groupNum": "ПСО-110-22-3 (9 кл.)",
+       "groupStudents": 18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 22,
+   "workDateName": "22 декабря 2022 г.",
+   "workDay": "четверг",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 5,
+     "area": "Защита выпускной квалификационной работы",
+     "workType": "Защита ВКР",
+     "place": "Д",
+     "tutor": "Синюгин Вадим Вадимович",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 9,
+     "groups": [
+      {
+       "groupCode": "000018430",
+       "groupNum": "ПСО-110-20 11 кл. з",
+       "groupStudents": 9
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "groupCode": "000016722",
+   "groupNum": "СПУС21.1/Б-19",
+   "students": [
+    {
+     "studentLogin": 70100549,
+     "studentFIO": "Варварычева Ольга  Алексеевна",
+     "admissionNumber": "СпБЗ130/22/4"
+    },
+    {
+     "studentLogin": 70172461,
+     "studentFIO": "Султонов Бахромбек Акбарали угли",
+     "admissionNumber": "СпБЗ094/20/2"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018414",
+   "groupNum": "СПЮСс22.1/Б-20",
+   "students": [
+    {
+     "studentLogin": 70167610,
+     "studentFIO": "Абрамов Владислав Николаевич",
+     "admissionNumber": "СпБВ060/20-c-п"
+    },
+    {
+     "studentLogin": 70163525,
+     "studentFIO": "Алексеева  Ольга Викторовна",
+     "admissionNumber": "СпБВ004/20-c"
+    },
+    {
+     "studentLogin": 70170638,
+     "studentFIO": "Барашков Никита Павлович",
+     "admissionNumber": "СпБВ084/20-c"
+    },
+    {
+     "studentLogin": 70163758,
+     "studentFIO": "Болдырева Алёна Денисовна",
+     "admissionNumber": "СпБВ006/20-c"
+    },
+    {
+     "studentLogin": 70166968,
+     "studentFIO": "Бударгин Михаил Алексеевич",
+     "admissionNumber": "СпБВ056/20-c"
+    },
+    {
+     "studentLogin": 70164357,
+     "studentFIO": "Василенко Оксана Александровна",
+     "admissionNumber": "СпБВ031/20-c"
+    },
+    {
+     "studentLogin": 70164360,
+     "studentFIO": "Горшкова Анастасия Игоревна",
+     "admissionNumber": "СпБВ033/20-c"
+    },
+    {
+     "studentLogin": 70164135,
+     "studentFIO": "Дронова Ульяна Павловна",
+     "admissionNumber": "СпБВ026/20-c"
+    },
+    {
+     "studentLogin": 70164355,
+     "studentFIO": "Ергунов  Павел Сергеевич",
+     "admissionNumber": "СпБВ030/20-c"
+    },
+    {
+     "studentLogin": 70168521,
+     "studentFIO": "Жуков Артем Сергеевич",
+     "admissionNumber": "СпБВ066/20"
+    },
+    {
+     "studentLogin": 70164123,
+     "studentFIO": "Косячкова  Полина Александровна ",
+     "admissionNumber": "СпБВ022/20-c"
+    },
+    {
+     "studentLogin": 70169548,
+     "studentFIO": "Курских Роман Алексеевич",
+     "admissionNumber": "СпБВ076/20-c"
+    },
+    {
+     "studentLogin": 70174832,
+     "studentFIO": "Макеев  Степан Владимирович",
+     "admissionNumber": "СпБВ105/20-c"
+    },
+    {
+     "studentLogin": 70166609,
+     "studentFIO": "Мельников Михаил Артемович",
+     "admissionNumber": "СпБВ052/20-c"
+    },
+    {
+     "studentLogin": 70168653,
+     "studentFIO": "Подгорнов Михаил Александрович",
+     "admissionNumber": "СпБВ067/20"
+    },
+    {
+     "studentLogin": 70164681,
+     "studentFIO": "Сухова Валерия Николаевна",
+     "admissionNumber": "СпБВ036/20-c"
+    },
+    {
+     "studentLogin": 70163987,
+     "studentFIO": "Филимонова Елизавета Владимировна",
+     "admissionNumber": "СпБВ008/20-c"
+    },
+    {
+     "studentLogin": 70163759,
+     "studentFIO": "Цекоев Михаил Алексеевич",
+     "admissionNumber": "СпБВ007/20-c"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016716",
+   "groupNum": "СПЮС22.1/Б-19",
+   "students": [
+    {
+     "studentLogin": 70150703,
+     "studentFIO": "Коник Карина Сергеевна",
+     "admissionNumber": "СпБД024/19"
+    },
+    {
+     "studentLogin": 70152958,
+     "studentFIO": "Кочетов Артем Сергеевич",
+     "admissionNumber": "СпБВ059/19"
+    },
+    {
+     "studentLogin": 70154677,
+     "studentFIO": "Петренко Александр Витальевич",
+     "admissionNumber": "СпБВ101/19"
+    },
+    {
+     "studentLogin": 70149335,
+     "studentFIO": "Самохина Татьяна Игоревна",
+     "admissionNumber": "СпБД015/19"
+    },
+    {
+     "studentLogin": 70149001,
+     "studentFIO": "Сиднева Виктория Михайловна",
+     "admissionNumber": "СпБВ013/19"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018124",
+   "groupNum": "КДБсп 110п/1-20",
+   "students": []
+  },
+  {
+   "groupCode": "000021016",
+   "groupNum": "КБсп 111п-22",
+   "students": [
+    {
+     "studentLogin": 70194116,
+     "studentFIO": "Алавердян Эрик Артурович",
+     "admissionNumber": "КД581/22-11 клш76ос"
+    },
+    {
+     "studentLogin": 70191245,
+     "studentFIO": "Алфёрова Юлия Олеговна",
+     "admissionNumber": "КД383/22-11 кл-пос"
+    },
+    {
+     "studentLogin": 70188426,
+     "studentFIO": "Аранов Марат Сергеевич",
+     "admissionNumber": "КД061/22-11 клос"
+    },
+    {
+     "studentLogin": 70190553,
+     "studentFIO": "Борисова Алёна Геннадиевна",
+     "admissionNumber": "КД306/22-11 клос"
+    },
+    {
+     "studentLogin": 70194084,
+     "studentFIO": "Волков Сергей Сергеевич",
+     "admissionNumber": "КД579/22-11 кл-пос"
+    },
+    {
+     "studentLogin": 70196730,
+     "studentFIO": "Гетежев Эльдар Эдуардович",
+     "admissionNumber": "КД763/22-11 кл-пос"
+    },
+    {
+     "studentLogin": 70194138,
+     "studentFIO": "Зайцев Данил Александрович",
+     "admissionNumber": "КД585/22-11 клос"
+    },
+    {
+     "studentLogin": 70189756,
+     "studentFIO": "Инкулец Иван Иванович",
+     "admissionNumber": "КД222/22-11 клос"
+    },
+    {
+     "studentLogin": 70191038,
+     "studentFIO": "Канаев Александр Александрович",
+     "admissionNumber": "КД361/22-11 клос"
+    },
+    {
+     "studentLogin": 70191233,
+     "studentFIO": "Кардонов Алексей Сергеевич",
+     "admissionNumber": "КД382/22-11 клос"
+    },
+    {
+     "studentLogin": 70196691,
+     "studentFIO": "Колядин Александр Владимирович",
+     "admissionNumber": "КД756/22-11 клос"
+    },
+    {
+     "studentLogin": 70192505,
+     "studentFIO": "Кореньков Даниил Александрович",
+     "admissionNumber": "КД455/22-11 клос"
+    },
+    {
+     "studentLogin": 70196448,
+     "studentFIO": "Кривошеев Андрей Андреевич",
+     "admissionNumber": "КД741/22-11 клос"
+    },
+    {
+     "studentLogin": 70188658,
+     "studentFIO": "Лаврентьев Никита Евгеньевич",
+     "admissionNumber": "КД083/22-11 клос"
+    },
+    {
+     "studentLogin": 70188741,
+     "studentFIO": "Ладнюк Кирилл Николаевич",
+     "admissionNumber": "КД091/22-11 клос"
+    },
+    {
+     "studentLogin": 70196685,
+     "studentFIO": "Лонкин Константин Виленович",
+     "admissionNumber": "КД754/22-11 клш86ос"
+    },
+    {
+     "studentLogin": 70194421,
+     "studentFIO": "Магрик Владимир Олегович",
+     "admissionNumber": "КД610/22-11 клш68ос"
+    },
+    {
+     "studentLogin": 70195403,
+     "studentFIO": "Маркин Даниил Владимирович",
+     "admissionNumber": "КД689/22-11 клос"
+    },
+    {
+     "studentLogin": 70190932,
+     "studentFIO": "Морозов Артём Павлович",
+     "admissionNumber": "КД349/22-11 клос"
+    },
+    {
+     "studentLogin": 70190080,
+     "studentFIO": "Папикян Мовсес Торгомович",
+     "admissionNumber": "КД268/22-11 клос"
+    },
+    {
+     "studentLogin": 70192275,
+     "studentFIO": "Редкоус Артём Андреевич",
+     "admissionNumber": "КД444/22-11 клос"
+    },
+    {
+     "studentLogin": 70194010,
+     "studentFIO": "Ризк Даниэль Абдулла",
+     "admissionNumber": "КД573/22-11 клос"
+    },
+    {
+     "studentLogin": 70193511,
+     "studentFIO": "Соловьев Дмитрий Игоревич",
+     "admissionNumber": "КД530/22-11 клос"
+    },
+    {
+     "studentLogin": 70191270,
+     "studentFIO": "Тимошин Максим Денисович",
+     "admissionNumber": "КД386/22-11 клос"
+    },
+    {
+     "studentLogin": 70193060,
+     "studentFIO": "Шумов Роман Дмитриевич",
+     "admissionNumber": "КД495/22-11 клос"
+    },
+    {
+     "studentLogin": 70192045,
+     "studentFIO": "Юрьев Александр Александрович",
+     "admissionNumber": "КД437/22-11 клос"
+    },
+    {
+     "studentLogin": 70196297,
+     "studentFIO": "Якушев Георгий Алексеевич",
+     "admissionNumber": "КД731/22-11 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021021",
+   "groupNum": "КВДтБо 111п-22",
+   "students": [
+    {
+     "studentLogin": 70197345,
+     "studentFIO": "Авдошенко Егор Михайлович",
+     "admissionNumber": "ККВ5289/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70191369,
+     "studentFIO": "Антонов Валерий Александрович",
+     "admissionNumber": "ККВ2290/22-9 клДос"
+    },
+    {
+     "studentLogin": 70192092,
+     "studentFIO": "Аргокова Алиса Алексеевна",
+     "admissionNumber": "ККВ2509/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195014,
+     "studentFIO": "Архипов Марк Алексеевич",
+     "admissionNumber": "ККВ3887/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196623,
+     "studentFIO": "Ахматуллин Константин Олегович",
+     "admissionNumber": "ККВ4874/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194785,
+     "studentFIO": "Бацылев Андрей Александрович",
+     "admissionNumber": "ККВ3754/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197512,
+     "studentFIO": "Васина Ксения Михайловна",
+     "admissionNumber": "ККВ5381/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195812,
+     "studentFIO": "Вахрамеев Евгений Олегович",
+     "admissionNumber": "ККВ4426/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196740,
+     "studentFIO": "Ващилин Виктор Максимович",
+     "admissionNumber": "ККВ4940/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70197995,
+     "studentFIO": "Гаврюшин Алексей Сергеевич",
+     "admissionNumber": "ККВ5648/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194484,
+     "studentFIO": "Годорожа Давид Сергеевич",
+     "admissionNumber": "ККВ3603/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197524,
+     "studentFIO": "Гуреев Алексей Владимирович",
+     "admissionNumber": "ККВ5388/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196159,
+     "studentFIO": "Евдашенко Даниил Дмитриевич",
+     "admissionNumber": "ККВ4628/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195985,
+     "studentFIO": "Егорова Екатерина Александровна",
+     "admissionNumber": "ККВ4540/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197471,
+     "studentFIO": "Еремин Сергей Михайлович",
+     "admissionNumber": "ККВ5360/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197538,
+     "studentFIO": "Ермилов Роман Владимирович",
+     "admissionNumber": "ККВ5398/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194175,
+     "studentFIO": "Жолдош уулу Жакшылык",
+     "admissionNumber": "ККВ3427/22-9 клДш66ос"
+    },
+    {
+     "studentLogin": 70192533,
+     "studentFIO": "Кобенко Сергей Олегович",
+     "admissionNumber": "ККВ2694/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197078,
+     "studentFIO": "Конев Дмитрий Александрович",
+     "admissionNumber": "ККВ5165/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187880,
+     "studentFIO": "Кравченко София Александровна",
+     "admissionNumber": "ККВ0965/22-9 клДос"
+    },
+    {
+     "studentLogin": 70193020,
+     "studentFIO": "Куричев Тимофей",
+     "admissionNumber": "ККВ2877/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197368,
+     "studentFIO": "Лунев Игнат Андреевич",
+     "admissionNumber": "ККВ5301/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194667,
+     "studentFIO": "Муртазалиев Адам Адланович",
+     "admissionNumber": "ККВ3691/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195144,
+     "studentFIO": "Осипов Владимир Романович",
+     "admissionNumber": "ККВ3957/22-9 клДос"
+    },
+    {
+     "studentLogin": 70186629,
+     "studentFIO": "Пашков Алексей Вячеславович",
+     "admissionNumber": "ККВ0169/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195477,
+     "studentFIO": "Петросян Давид Арменович",
+     "admissionNumber": "ККВ4194/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188149,
+     "studentFIO": "Портняжкина Арина Александровна",
+     "admissionNumber": "ККВ1159/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197399,
+     "studentFIO": "Русяев Никита Владиславович",
+     "admissionNumber": "ККВ5330/22-9 клДос"
+    },
+    {
+     "studentLogin": 70190015,
+     "studentFIO": "Сапожников Александр Алексеевич",
+     "admissionNumber": "ККВ1880/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197534,
+     "studentFIO": "Сарибекян Давид Акопович",
+     "admissionNumber": "ККВ5394/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194701,
+     "studentFIO": "Сингх Сабрина Амарджитовна",
+     "admissionNumber": "ККВ3710/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70197011,
+     "studentFIO": "Слободяник Виталий Александрович",
+     "admissionNumber": "ККВ5110/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188290,
+     "studentFIO": "Смирнов Дмитрий Сергеевич",
+     "admissionNumber": "ККВ1268/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188103,
+     "studentFIO": "Соломенников Егор Александрович",
+     "admissionNumber": "ККВ1122/22-9 клДос"
+    },
+    {
+     "studentLogin": 70189231,
+     "studentFIO": "Терешина Ксения Сергеевна",
+     "admissionNumber": "ККВ1637/22-9 клДос"
+    },
+    {
+     "studentLogin": 70193550,
+     "studentFIO": "Тимонин Антон Юрьевич",
+     "admissionNumber": "ККВ3118/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194456,
+     "studentFIO": "Тымань Егор Александрович",
+     "admissionNumber": "ККВ3583/22-9 клДш28ос"
+    },
+    {
+     "studentLogin": 70197389,
+     "studentFIO": "Усачёв Александр Сергеевич",
+     "admissionNumber": "ККВ5321/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187870,
+     "studentFIO": "Хлебус Александра Леонидовна",
+     "admissionNumber": "ККВ0958/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197084,
+     "studentFIO": "Цурик Валерий Касунович",
+     "admissionNumber": "ККВ5171/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195628,
+     "studentFIO": "Черных Андрей Игоревич",
+     "admissionNumber": "ККВ4299/22-9 клДос"
+    },
+    {
+     "studentLogin": 70190366,
+     "studentFIO": "Чернышёв Владислав Сергеевич",
+     "admissionNumber": "ККВ1962/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188005,
+     "studentFIO": "Чудаков Георгий Владимирович",
+     "admissionNumber": "ККВ1063/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197977,
+     "studentFIO": "Шиян Владимир Юрьевич",
+     "admissionNumber": "ККВ5633/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019403",
+   "groupNum": "КВБо 110п/1-21",
+   "students": [
+    {
+     "studentLogin": 70182449,
+     "studentFIO": "Анисимов Илья Александрович",
+     "admissionNumber": "ККВ2969/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182112,
+     "studentFIO": "Берсенев Роман Александрович",
+     "admissionNumber": "КД546/21-9 клос"
+    },
+    {
+     "studentLogin": 70175521,
+     "studentFIO": "Волкова Мария Константиновна",
+     "admissionNumber": "КД1124/21-9 клос"
+    },
+    {
+     "studentLogin": 70185037,
+     "studentFIO": "Георгиевский Никита Александрович",
+     "admissionNumber": "ККВ4747/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184171,
+     "studentFIO": "Гирфанова Розалия Радиковна",
+     "admissionNumber": "ККВ4146/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182358,
+     "studentFIO": "Жихарев Михаил Сергеевич",
+     "admissionNumber": "ККВ2927/21-9 клД-пос"
+    },
+    {
+     "studentLogin": 70178767,
+     "studentFIO": "Илюхин Виктор Сергеевич",
+     "admissionNumber": "ККВ1458/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184526,
+     "studentFIO": "Кондратьев Алексей Андреевич",
+     "admissionNumber": "ККВ4427/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184310,
+     "studentFIO": "Кошелевс Артурс",
+     "admissionNumber": "ККВ4265/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184338,
+     "studentFIO": "Маринин Алексей Викторович",
+     "admissionNumber": "ККВ4294/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182615,
+     "studentFIO": "Наговицына Екатерина Александровна",
+     "admissionNumber": "ККВ3069/21-9 клДос"
+    },
+    {
+     "studentLogin": 70188948,
+     "studentFIO": "Попова Василина Федоровна",
+     "admissionNumber": "ККВ1545/22/3-9 клД"
+    },
+    {
+     "studentLogin": 70184504,
+     "studentFIO": "Рафаелян Жирайр Самвелович",
+     "admissionNumber": "ККВ4408/21-9 клДос"
+    },
+    {
+     "studentLogin": 70178019,
+     "studentFIO": "Роменский Михаил Владимирович",
+     "admissionNumber": "ККВ1241/21-9 клДос"
+    },
+    {
+     "studentLogin": 70181120,
+     "studentFIO": "Ружьин Вадим Александрович",
+     "admissionNumber": "ККВ2325/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184479,
+     "studentFIO": "Тимофеев Андрей Романович",
+     "admissionNumber": "ККВ4393/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183112,
+     "studentFIO": "Фоменков Артём Вячеславович",
+     "admissionNumber": "ККВ3373/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184725,
+     "studentFIO": "Шомин Александр Эдуардович",
+     "admissionNumber": "ККВ4546/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019404",
+   "groupNum": "КВБсп 110п/1-21",
+   "students": [
+    {
+     "studentLogin": 70183477,
+     "studentFIO": "Аксенова Анастасия Ильинична",
+     "admissionNumber": "ККВ3628/21-11 клДос"
+    },
+    {
+     "studentLogin": 70175207,
+     "studentFIO": "Афанасьев Михаил Иванович",
+     "admissionNumber": "КВ1096/21-11 клос"
+    },
+    {
+     "studentLogin": 70184219,
+     "studentFIO": "Бочаров Кирилл Дмитриевич",
+     "admissionNumber": "ККВ4180/21-11 клДос"
+    },
+    {
+     "studentLogin": 70176501,
+     "studentFIO": "Искандеров Олег Сергеевич",
+     "admissionNumber": "ККВ0769/21-11 клДос"
+    },
+    {
+     "studentLogin": 70197850,
+     "studentFIO": "Кирюшин Владислав Александрович",
+     "admissionNumber": "ККВ5556/22/2-11 клД-пос"
+    },
+    {
+     "studentLogin": 70174990,
+     "studentFIO": "Коновалова Юлия Андреевна",
+     "admissionNumber": "КВ1087/21-11 клос"
+    },
+    {
+     "studentLogin": 70175318,
+     "studentFIO": "Свидерский Дмитрий Сергеевич",
+     "admissionNumber": "КВ1104/21-11 клос"
+    },
+    {
+     "studentLogin": 70181392,
+     "studentFIO": "Степанов Степан Олегович",
+     "admissionNumber": "ККВ2457/21-11 клДос"
+    },
+    {
+     "studentLogin": 70183170,
+     "studentFIO": "Терентьева Кристина Николаевна",
+     "admissionNumber": "ККВ3411/21-11 клДос"
+    },
+    {
+     "studentLogin": 70182489,
+     "studentFIO": "Франк Юлия Олеговна",
+     "admissionNumber": "ККВ2994/21-11 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021377",
+   "groupNum": "КБо 112п-22",
+   "students": [
+    {
+     "studentLogin": 70195533,
+     "studentFIO": "Сейдеев Айбек Нурбекович",
+     "admissionNumber": "КД695/22-9 клос"
+    },
+    {
+     "studentLogin": 70194163,
+     "studentFIO": "Сопин Игорь Евгеньевич",
+     "admissionNumber": "КД588/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018739",
+   "groupNum": "КВБсп 110п/1-20",
+   "students": [
+    {
+     "studentLogin": 70171337,
+     "studentFIO": "Аверин Владимир Сергеевич",
+     "admissionNumber": "ККЗ4037/20-11 клД"
+    },
+    {
+     "studentLogin": 70170298,
+     "studentFIO": "Агафонова Светлана Константиновна",
+     "admissionNumber": "ККЗ3501/20-11 клД-п"
+    },
+    {
+     "studentLogin": 70149287,
+     "studentFIO": "Бабич Александр Дмитриевич",
+     "admissionNumber": "ККВ5229/21/2-11 клД"
+    },
+    {
+     "studentLogin": 70171184,
+     "studentFIO": "Зуфаров Динислам Назифович",
+     "admissionNumber": "ККЗ3940/20-11 клД"
+    },
+    {
+     "studentLogin": 70166659,
+     "studentFIO": "Коленчук Алексей Кириллович",
+     "admissionNumber": "ККЗ2399/20-11 клД"
+    },
+    {
+     "studentLogin": 70172640,
+     "studentFIO": "Митрофанов Сергей Андреевич",
+     "admissionNumber": "ККЗ4868/20-11 клД"
+    },
+    {
+     "studentLogin": 70165168,
+     "studentFIO": "Суминова Арина Глебовна",
+     "admissionNumber": "ККЗ1836/20-11 клД-п"
+    },
+    {
+     "studentLogin": 70183553,
+     "studentFIO": "Филиппов Антон Викторович",
+     "admissionNumber": "КД654/21/2-11 кл"
+    },
+    {
+     "studentLogin": 70186340,
+     "studentFIO": "Хайдаров Отабек Ихтиёрович",
+     "admissionNumber": "ККВ5616/21/2-11 клДк30"
+    },
+    {
+     "studentLogin": 70171232,
+     "studentFIO": "Шалудин Алексей Вячеславович",
+     "admissionNumber": "ККЗ3967/20-11 клД-п"
+    },
+    {
+     "studentLogin": 70165433,
+     "studentFIO": "Юнусов Даниил Алексеевич",
+     "admissionNumber": "ККЗ1936/20-11 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018742",
+   "groupNum": "КВБо 110п/1-20",
+   "students": [
+    {
+     "studentLogin": 70167345,
+     "studentFIO": "Васильев Кирилл",
+     "admissionNumber": "ККЗ2557/20-9 клД"
+    },
+    {
+     "studentLogin": 70169153,
+     "studentFIO": "Гончарук Денис Сергеевич",
+     "admissionNumber": "ККЗ3156/20-9 клД"
+    },
+    {
+     "studentLogin": 70172030,
+     "studentFIO": "Иванин Юрий Юрьевич",
+     "admissionNumber": "ККЗ4461/20-9 клД"
+    },
+    {
+     "studentLogin": 70164025,
+     "studentFIO": "Курятников Егор Денисович",
+     "admissionNumber": "ККЗ1396/20-9 клД"
+    },
+    {
+     "studentLogin": 70169609,
+     "studentFIO": "Рощин Иван Николаевич",
+     "admissionNumber": "ККЗ3246/20-9 клД"
+    },
+    {
+     "studentLogin": 70164022,
+     "studentFIO": "Селиванов Денис Дмитриевич",
+     "admissionNumber": "ККЗ1394/20-9 клД"
+    },
+    {
+     "studentLogin": 70173302,
+     "studentFIO": "Тихонов Павел Александрович",
+     "admissionNumber": "ККЗ5384/20-9 клД"
+    },
+    {
+     "studentLogin": 70185841,
+     "studentFIO": "Файзуллина Аделина Анваровна",
+     "admissionNumber": "ККВ5277/21/2-9 клД"
+    },
+    {
+     "studentLogin": 70179102,
+     "studentFIO": "Щербаков Семён Игоревич",
+     "admissionNumber": "ККВ1555/21/2-9 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021015",
+   "groupNum": "КБсп 111р-22",
+   "students": [
+    {
+     "studentLogin": 70188460,
+     "studentFIO": "Бондаренко Алексей Сергеевич",
+     "admissionNumber": "КД066/22-11 клос"
+    },
+    {
+     "studentLogin": 70189943,
+     "studentFIO": "Гурин Денис Юрьевич",
+     "admissionNumber": "КД243/22-9 клос"
+    },
+    {
+     "studentLogin": 70196478,
+     "studentFIO": "Егоров Кирилл Германович",
+     "admissionNumber": "КД746/22-11 клос"
+    },
+    {
+     "studentLogin": 70193226,
+     "studentFIO": "Зуев Дмитрий Сергеевич",
+     "admissionNumber": "КД508/22-11 клос"
+    },
+    {
+     "studentLogin": 70191201,
+     "studentFIO": "Иванов Владислав Ильич",
+     "admissionNumber": "КД379/22-11 клос"
+    },
+    {
+     "studentLogin": 70188816,
+     "studentFIO": "Ильющенко Евгений Сергеевич",
+     "admissionNumber": "КД097/22-11 клос"
+    },
+    {
+     "studentLogin": 70188522,
+     "studentFIO": "Мамбетов Ислам Рашидович",
+     "admissionNumber": "КД069/22-11 клш77ос"
+    },
+    {
+     "studentLogin": 70189788,
+     "studentFIO": "Низовцев Андрей Дмитриевич",
+     "admissionNumber": "КД226/22-11 клос"
+    },
+    {
+     "studentLogin": 70189260,
+     "studentFIO": "Оглодин Дмитрий Александрович",
+     "admissionNumber": "КД167/22-11 клос"
+    },
+    {
+     "studentLogin": 70190145,
+     "studentFIO": "Салабай Андрей Сергеевич",
+     "admissionNumber": "КД273/22-11 клос"
+    },
+    {
+     "studentLogin": 70194597,
+     "studentFIO": "Ханахмедов Руслан Викторович",
+     "admissionNumber": "КД630/22-11 кл-пос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021018",
+   "groupNum": "КВДтБо 111р-22",
+   "students": [
+    {
+     "studentLogin": 70191316,
+     "studentFIO": "Бельская Екатерина Андреевна",
+     "admissionNumber": "ККВ2271/22-9 клДос"
+    },
+    {
+     "studentLogin": 70190416,
+     "studentFIO": "Буров Лев Михайлович",
+     "admissionNumber": "ККВ1974/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196336,
+     "studentFIO": "Васильев Руслан Александрович",
+     "admissionNumber": "ККВ4722/22-9 клДос"
+    },
+    {
+     "studentLogin": 70193065,
+     "studentFIO": "Ветошкин Матвей Алексеевич",
+     "admissionNumber": "ККВ2906/22-9 клДос"
+    },
+    {
+     "studentLogin": 70191001,
+     "studentFIO": "Власов Александр Юрьевич",
+     "admissionNumber": "ККВ2155/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197407,
+     "studentFIO": "Герасимов Денис Геннадьевич",
+     "admissionNumber": "ККВ5337/22-9 клДос"
+    },
+    {
+     "studentLogin": 70192414,
+     "studentFIO": "Давлетова Виктория Олеговна",
+     "admissionNumber": "ККВ2644/22-9 клДос"
+    },
+    {
+     "studentLogin": 70198049,
+     "studentFIO": "Киналь Евгений Сергеевич",
+     "admissionNumber": "ККВ5663/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195241,
+     "studentFIO": "Ли Давид Дмитриевич",
+     "admissionNumber": "ККВ4026/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194369,
+     "studentFIO": "Мироненко Михаил Евгеньевич",
+     "admissionNumber": "ККВ3532/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187885,
+     "studentFIO": "Моисеев Максим Денисович",
+     "admissionNumber": "ККВ0969/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197574,
+     "studentFIO": "Новаковский Вадим Вадимович",
+     "admissionNumber": "ККВ5412/22-9 клДос"
+    },
+    {
+     "studentLogin": 70192658,
+     "studentFIO": "Перевышко Екатерина Ивановна",
+     "admissionNumber": "ККВ2753/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195486,
+     "studentFIO": "Петров Дмитрий Павлович",
+     "admissionNumber": "ККВ4201/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194787,
+     "studentFIO": "Петров Леонид Леонидович",
+     "admissionNumber": "ККВ3755/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197951,
+     "studentFIO": "Полянский Вадим Ваграмович",
+     "admissionNumber": "ККВ5629/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187889,
+     "studentFIO": "Потапов Никита Александрович",
+     "admissionNumber": "ККВ0972/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194047,
+     "studentFIO": "Прокопьев Михаил Евгеньевич",
+     "admissionNumber": "ККВ3356/22-9 клДос"
+    },
+    {
+     "studentLogin": 70189385,
+     "studentFIO": "Прохоренко Богдан Александрович",
+     "admissionNumber": "ККВ1684/22-9 клДос"
+    },
+    {
+     "studentLogin": 70189730,
+     "studentFIO": "Таймазов Али Рашидович",
+     "admissionNumber": "ККВ1785/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195282,
+     "studentFIO": "Фахретдинова Ирина Мирасевна",
+     "admissionNumber": "ККВ4055/22-9 клДос"
+    },
+    {
+     "studentLogin": 70191277,
+     "studentFIO": "Филиппов Даниель Ясухирович",
+     "admissionNumber": "ККВ2255/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019406",
+   "groupNum": "КВБо 110р/1-21",
+   "students": [
+    {
+     "studentLogin": 70182502,
+     "studentFIO": "Банченко Михаил Витальевич",
+     "admissionNumber": "ККВ3004/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176607,
+     "studentFIO": "Власова Олеся Евгеньевна",
+     "admissionNumber": "ККВ0832/21-9 клДос"
+    },
+    {
+     "studentLogin": 70181517,
+     "studentFIO": "Григорьева Эльвира Романовна",
+     "admissionNumber": "ККВ2508/21-9 клДос"
+    },
+    {
+     "studentLogin": 70181639,
+     "studentFIO": "Кузнецов Степан Александрович",
+     "admissionNumber": "ККВ2558/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183322,
+     "studentFIO": "Лочков Артем Витальевич",
+     "admissionNumber": "ККВ3521/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176865,
+     "studentFIO": "Перов Никита Александрович",
+     "admissionNumber": "ККВ0922/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182814,
+     "studentFIO": "Пономарь Роман Максимович",
+     "admissionNumber": "ККВ3184/21-9 клДос"
+    },
+    {
+     "studentLogin": 70175298,
+     "studentFIO": "Розяев Максим Викторович",
+     "admissionNumber": "КВ1101/21-9 клос"
+    },
+    {
+     "studentLogin": 70185300,
+     "studentFIO": "Сергеев Дмитрий Денисович",
+     "admissionNumber": "ККВ4865/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184716,
+     "studentFIO": "Смирнов Михаил Дмитриевич",
+     "admissionNumber": "ККВ4541/21-9 клДос"
+    },
+    {
+     "studentLogin": 70179840,
+     "studentFIO": "Терешков Андрей Евгеньевич",
+     "admissionNumber": "ККВ1800/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021376",
+   "groupNum": "КБо 112р-22",
+   "students": [
+    {
+     "studentLogin": 70187921,
+     "studentFIO": "Фернандес Мартинес Даниил Хуанович",
+     "admissionNumber": "КД034/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018740",
+   "groupNum": "КВБсп 110р/1-20",
+   "students": [
+    {
+     "studentLogin": 70171104,
+     "studentFIO": "Абрамова Карина Сергеевна",
+     "admissionNumber": "ККЗ3888/20-11 клД"
+    },
+    {
+     "studentLogin": 70163902,
+     "studentFIO": "Анисько Алексей Викторович",
+     "admissionNumber": "ККЗ1334/20-11 клД"
+    },
+    {
+     "studentLogin": 70169258,
+     "studentFIO": "Евдокимов Андрей Александрович",
+     "admissionNumber": "ККЗ3141/20-11 клД"
+    },
+    {
+     "studentLogin": 70162934,
+     "studentFIO": "Завьялов Сергей Александрович",
+     "admissionNumber": "ККЗ0928/20-11 клД"
+    },
+    {
+     "studentLogin": 70170257,
+     "studentFIO": "Мартынов Семен Игоревич",
+     "admissionNumber": "ККЗ3477/20-11 клД"
+    },
+    {
+     "studentLogin": 70167937,
+     "studentFIO": "Петров Дмитрий Вячеславович",
+     "admissionNumber": "ККЗ2708/20-11 клД"
+    },
+    {
+     "studentLogin": 70163701,
+     "studentFIO": "Сафеева Дарья Николаевна",
+     "admissionNumber": "ККЗ1250/20-11 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018745",
+   "groupNum": "КВБо 110р/1-19",
+   "students": [
+    {
+     "studentLogin": 70155915,
+     "studentFIO": "Алексеев Владимир Алексеевич",
+     "admissionNumber": "ККЗ3550/19-9 клД"
+    },
+    {
+     "studentLogin": 70175211,
+     "studentFIO": "Бузаев Иван Евгеньевич",
+     "admissionNumber": "ККЗ6544/20/2-9 клД"
+    },
+    {
+     "studentLogin": 70152920,
+     "studentFIO": "Ессаулов Дмитрий",
+     "admissionNumber": "КД494/19-9 кл"
+    },
+    {
+     "studentLogin": 70153730,
+     "studentFIO": "Сарычева Екатерина Антоновна",
+     "admissionNumber": "ККЗ2409/19-9 клД"
+    },
+    {
+     "studentLogin": 70183830,
+     "studentFIO": "Четверикова Анна Сергеевна",
+     "admissionNumber": "ККВ3990/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70157851,
+     "studentFIO": "Янмаев Андрей Андреевич",
+     "admissionNumber": "ККЗ4522/19-9 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019407",
+   "groupNum": "КВБо 110с/1-21",
+   "students": [
+    {
+     "studentLogin": 70182507,
+     "studentFIO": "Глухов Сергей Ильич",
+     "admissionNumber": "ККВ3006/21-9 клДос"
+    },
+    {
+     "studentLogin": 70177040,
+     "studentFIO": "Фатихов Ярослав",
+     "admissionNumber": "ККВ0980/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018176",
+   "groupNum": "КОМ-610-20 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70166138,
+     "studentFIO": "Бугаков Михаил Олегович",
+     "admissionNumber": "КПД070/20-9 кл"
+    },
+    {
+     "studentLogin": 70170906,
+     "studentFIO": "Бузмаков Александр Михайлович",
+     "admissionNumber": "КПД134/20-9 кл"
+    },
+    {
+     "studentLogin": 70170328,
+     "studentFIO": "Васютинский Богдан Васильевич",
+     "admissionNumber": "КПД117/20-9 кл"
+    },
+    {
+     "studentLogin": 70186107,
+     "studentFIO": "Гареев Кирилл",
+     "admissionNumber": "КПД079/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163879,
+     "studentFIO": "Генералова Анастасия  Евгеньевна",
+     "admissionNumber": "КПД040/20-9 кл"
+    },
+    {
+     "studentLogin": 70170345,
+     "studentFIO": "Ижбулатов Роман Ринатович",
+     "admissionNumber": "КПД118/20-9 кл"
+    },
+    {
+     "studentLogin": 70165206,
+     "studentFIO": "Калашникова Дарья Андреевна",
+     "admissionNumber": "КПД061/20-9 кл"
+    },
+    {
+     "studentLogin": 70165309,
+     "studentFIO": "Колодкин Никита Александрович",
+     "admissionNumber": "КПД062/20-9 кл"
+    },
+    {
+     "studentLogin": 70170848,
+     "studentFIO": "Коряжкин Никита Андреевич",
+     "admissionNumber": "КПД133/20-9 кл"
+    },
+    {
+     "studentLogin": 70186673,
+     "studentFIO": "Косырев Кирилл Владимирович",
+     "admissionNumber": "КПД086/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163917,
+     "studentFIO": "Курочкин Артемий Александрович",
+     "admissionNumber": "КПД042/20-9 кл"
+    },
+    {
+     "studentLogin": 70164342,
+     "studentFIO": "Малетова Карина Александровна",
+     "admissionNumber": "КПД051/20-9 кл"
+    },
+    {
+     "studentLogin": 70172297,
+     "studentFIO": "Мещеряков Михаил Александрович",
+     "admissionNumber": "КПД154/20-9 кл"
+    },
+    {
+     "studentLogin": 70187212,
+     "studentFIO": "Никитин Павел Михайлович",
+     "admissionNumber": "КПД088/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163788,
+     "studentFIO": "Сайфидинов Нуриддинходжа Эшонходжаевич",
+     "admissionNumber": "КПД037/20-9 кл"
+    },
+    {
+     "studentLogin": 70183538,
+     "studentFIO": "Тишина Элина Олеговна",
+     "admissionNumber": "КПД060/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163032,
+     "studentFIO": "Уделов Александр Сергеевич",
+     "admissionNumber": "КПД012/20-9 кл"
+    },
+    {
+     "studentLogin": 70165321,
+     "studentFIO": "Щаднева Дарья Михайловна",
+     "admissionNumber": "КПД063/20-9 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000020991",
+   "groupNum": "КЗДтБо 61-22",
+   "students": [
+    {
+     "studentLogin": 70189138,
+     "studentFIO": "Бритавченко Владислав Владимирович",
+     "admissionNumber": "ККЗ1610/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188943,
+     "studentFIO": "Горбачев Владислав Александрович",
+     "admissionNumber": "ККЗ1544/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195345,
+     "studentFIO": "Дёмина Марина Николаевна",
+     "admissionNumber": "ККЗ4087/22-9 клДос"
+    },
+    {
+     "studentLogin": 70189103,
+     "studentFIO": "Кравчук Лилия Дмитриевна",
+     "admissionNumber": "ККЗ1596/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195492,
+     "studentFIO": "Маркалова Полина Андреевна",
+     "admissionNumber": "ККЗ4208/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194695,
+     "studentFIO": "Митрофанов Александр Сергеевич",
+     "admissionNumber": "ККЗ3707/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195876,
+     "studentFIO": "Пятина Виктория Сергеевна",
+     "admissionNumber": "ККЗ4469/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194690,
+     "studentFIO": "Сибилев Андрей Николаевич",
+     "admissionNumber": "ККЗ3704/22-9 клДос"
+    },
+    {
+     "studentLogin": 70197696,
+     "studentFIO": "Степанян Эрик Габриелович",
+     "admissionNumber": "ККЗ5469/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194741,
+     "studentFIO": "Торопова Виктория Константиновна",
+     "admissionNumber": "ККЗ3734/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195325,
+     "studentFIO": "Фень Анна Александровна",
+     "admissionNumber": "ККЗ4075/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019421",
+   "groupNum": "КДБо 61/1-21",
+   "students": [
+    {
+     "studentLogin": 70181620,
+     "studentFIO": "Амосов Артём Юрьевич",
+     "admissionNumber": "ККЗ2547/21-9 клДос"
+    },
+    {
+     "studentLogin": 70185234,
+     "studentFIO": "Болож Маргарита Валентиновна",
+     "admissionNumber": "ККЗ4817/21-9 клДос"
+    },
+    {
+     "studentLogin": 70152897,
+     "studentFIO": "Гущин Никита Сергеевич",
+     "admissionNumber": "ККЗ4239/22/2-9 клДш82ос"
+    },
+    {
+     "studentLogin": 70181495,
+     "studentFIO": "Девайкина Анастасия Адреевна",
+     "admissionNumber": "КД482/21-9 клос"
+    },
+    {
+     "studentLogin": 70184335,
+     "studentFIO": "Ерматов Руслан Батырович",
+     "admissionNumber": "ККЗ4291/21-9 клДос"
+    },
+    {
+     "studentLogin": 70181726,
+     "studentFIO": "Жердева Елизавета Андреевна",
+     "admissionNumber": "ККЗ2601/21-9 клДос"
+    },
+    {
+     "studentLogin": 70177697,
+     "studentFIO": "Исмаилов Тимур Шахинович",
+     "admissionNumber": "ККЗ1146/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182530,
+     "studentFIO": "Конова Диана Дмитриевна",
+     "admissionNumber": "ККЗ3020/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182020,
+     "studentFIO": "Коноплева Анастасия Викторовна",
+     "admissionNumber": "ККЗ2760/21-9 клДш63ос"
+    },
+    {
+     "studentLogin": 70179905,
+     "studentFIO": "Курьянова Ангелина Сергеевна",
+     "admissionNumber": "КД382/21-9 кл-пос"
+    },
+    {
+     "studentLogin": 70177467,
+     "studentFIO": "Мазаев Степан Денисович",
+     "admissionNumber": "КД195/21-9 клос"
+    },
+    {
+     "studentLogin": 70184240,
+     "studentFIO": "Мамаева Наталья Васильевна",
+     "admissionNumber": "ККЗ4201/21-9 клДос"
+    },
+    {
+     "studentLogin": 70178040,
+     "studentFIO": "Пахомова Александра Андреевна",
+     "admissionNumber": "ККЗ1247/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184741,
+     "studentFIO": "Полищук Владимир Сергеевич",
+     "admissionNumber": "ККЗ4558/21-9 клДос"
+    },
+    {
+     "studentLogin": 70186194,
+     "studentFIO": "Соловьева Ксения Романовна",
+     "admissionNumber": "ККЗ5511/21-9 клДос"
+    },
+    {
+     "studentLogin": 70175453,
+     "studentFIO": "Страпко Ольга Рустамовна",
+     "admissionNumber": "КЗ1117/21-9 клос"
+    },
+    {
+     "studentLogin": 70184521,
+     "studentFIO": "Счастная Даниэлла Андреевна",
+     "admissionNumber": "ККЗ4424/21-9 клДос"
+    },
+    {
+     "studentLogin": 70177159,
+     "studentFIO": "Темников Валерий Андреевич",
+     "admissionNumber": "ККЗ1003/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021406",
+   "groupNum": "КОМ-610-22-1 (9 кл)",
+   "students": [
+    {
+     "studentLogin": 70197142,
+     "studentFIO": "Беспалов Игорь Николаевич",
+     "admissionNumber": "КПД162/22-9 клос"
+    },
+    {
+     "studentLogin": 70194781,
+     "studentFIO": "Борисова Екатерина Васильевна",
+     "admissionNumber": "КПД088/22-9 клос"
+    },
+    {
+     "studentLogin": 70188667,
+     "studentFIO": "Волощенко Яна  Дмитриевна",
+     "admissionNumber": "КПД008/22-9 клос"
+    },
+    {
+     "studentLogin": 70197267,
+     "studentFIO": "Горнеев Олег Александрович",
+     "admissionNumber": "КПД185/22-9 клос"
+    },
+    {
+     "studentLogin": 70195016,
+     "studentFIO": "Елецкий Владислав Александрович",
+     "admissionNumber": "КПД090/22-9 клос"
+    },
+    {
+     "studentLogin": 70197200,
+     "studentFIO": "Зубарев Михаил Владимирович",
+     "admissionNumber": "КПД173/22-9 клос"
+    },
+    {
+     "studentLogin": 70190948,
+     "studentFIO": "Козюлькова Алина Николаевна",
+     "admissionNumber": "КПД046/22-9 клос"
+    },
+    {
+     "studentLogin": 70196752,
+     "studentFIO": "Кочергина Ксения Алексеевна",
+     "admissionNumber": "КПД132/22-9 клос"
+    },
+    {
+     "studentLogin": 70196798,
+     "studentFIO": "Ласькова Анастасия Дмитриевна",
+     "admissionNumber": "КПД136/22-9 клос"
+    },
+    {
+     "studentLogin": 70197188,
+     "studentFIO": "Малиев Руслан Гасенович",
+     "admissionNumber": "КПД170/22-9 клос"
+    },
+    {
+     "studentLogin": 70196788,
+     "studentFIO": "Малышкин Дмитрий Вячеславович",
+     "admissionNumber": "КПД135/22-9 клос"
+    },
+    {
+     "studentLogin": 70190559,
+     "studentFIO": "Маренин Илья Николаевич",
+     "admissionNumber": "КПД039/22-9 клос"
+    },
+    {
+     "studentLogin": 70196949,
+     "studentFIO": "Новоженова Виктория Алексеевна",
+     "admissionNumber": "КПД151/22-9 клос"
+    },
+    {
+     "studentLogin": 70194920,
+     "studentFIO": "Норкина Юлия Юрьевна",
+     "admissionNumber": "КПД089/22-9 клос"
+    },
+    {
+     "studentLogin": 70196756,
+     "studentFIO": "Русинов Тимур Захарович",
+     "admissionNumber": "КПД134/22-9 клос"
+    },
+    {
+     "studentLogin": 70197153,
+     "studentFIO": "Савельев Дмитрий Михайлович",
+     "admissionNumber": "КПД163/22-9 клос"
+    },
+    {
+     "studentLogin": 70193525,
+     "studentFIO": "Сайфидинова Наимахон Эшонходжаевна",
+     "admissionNumber": "КПД064/22-9 клос"
+    },
+    {
+     "studentLogin": 70195948,
+     "studentFIO": "Тараненко Александр Алексеевич",
+     "admissionNumber": "КПД108/22-9 клос"
+    },
+    {
+     "studentLogin": 70190734,
+     "studentFIO": "Финенко Кирилл Дмитриевич",
+     "admissionNumber": "КПД042/22-9 клос"
+    },
+    {
+     "studentLogin": 70195952,
+     "studentFIO": "Флемина Дарья Михайловна",
+     "admissionNumber": "КПД109/22-9 клос"
+    },
+    {
+     "studentLogin": 70194500,
+     "studentFIO": "Чермных Яна Андреевна",
+     "admissionNumber": "КПД085/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021626",
+   "groupNum": "КОМ-610-22-2 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70197843,
+     "studentFIO": "Авдеев Никита Александрович",
+     "admissionNumber": "КПД357/22-9 клос"
+    },
+    {
+     "studentLogin": 70197559,
+     "studentFIO": "Артамошкин Дмитрий Юрьевич",
+     "admissionNumber": "КПД287/22-9 клос"
+    },
+    {
+     "studentLogin": 70197327,
+     "studentFIO": "Дроздов Игорь Олегович",
+     "admissionNumber": "КПД212/22-9 клос"
+    },
+    {
+     "studentLogin": 70197455,
+     "studentFIO": "Льватов Владимир Александрович",
+     "admissionNumber": "КПД239/22-9 клос"
+    },
+    {
+     "studentLogin": 70197453,
+     "studentFIO": "Малышев Александр Иванович",
+     "admissionNumber": "КПД237/22-9 клос"
+    },
+    {
+     "studentLogin": 70197605,
+     "studentFIO": "Платонов Данила Сергеевич",
+     "admissionNumber": "КПД306/22-9 клос"
+    },
+    {
+     "studentLogin": 70197472,
+     "studentFIO": "Радайкин Игорь Викторович",
+     "admissionNumber": "КПД250/22-9 кл-пос"
+    },
+    {
+     "studentLogin": 70197342,
+     "studentFIO": "Сверчков Игорь Владимирович",
+     "admissionNumber": "КПД216/22-9 клос"
+    },
+    {
+     "studentLogin": 70197754,
+     "studentFIO": "Спирин Дмитрий Юрьевич",
+     "admissionNumber": "КПД339/22-9 клос"
+    },
+    {
+     "studentLogin": 70197746,
+     "studentFIO": "Тонсков Денис Сергеевич",
+     "admissionNumber": "КПД335/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018133",
+   "groupNum": "КДБо 51/1-20",
+   "students": [
+    {
+     "studentLogin": 70173309,
+     "studentFIO": "Агасиева Эльнара Ибрагимовна",
+     "admissionNumber": "ККЗ5402/20-9 клД"
+    },
+    {
+     "studentLogin": 70172477,
+     "studentFIO": "Капранова Маргарита Дмитриевна",
+     "admissionNumber": "ККЗ4724/20-9 клД"
+    },
+    {
+     "studentLogin": 70142004,
+     "studentFIO": "Макаров Федор Юрьевич",
+     "admissionNumber": "ККЗ4269/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70172187,
+     "studentFIO": "Малыгин Никита Витальевич",
+     "admissionNumber": "ККЗ4536/20-9 клД"
+    },
+    {
+     "studentLogin": 70172422,
+     "studentFIO": "Мостовская Диана Анатольевна",
+     "admissionNumber": "ККЗ4689/20-9 клД"
+    },
+    {
+     "studentLogin": 70176670,
+     "studentFIO": "Мусалова Вероника Александровна",
+     "admissionNumber": "ККЗ0860/21/2-9 клД-п"
+    },
+    {
+     "studentLogin": 70172728,
+     "studentFIO": "Овчаренко Ярослав",
+     "admissionNumber": "ККЗ4949/20-9 клД-п"
+    },
+    {
+     "studentLogin": 70171789,
+     "studentFIO": "Орлов Даниил Дмитриевич",
+     "admissionNumber": "ККЗ4327/20-9 клД"
+    },
+    {
+     "studentLogin": 70172229,
+     "studentFIO": "Стрельникова Ирина Аркадьевна",
+     "admissionNumber": "ККЗ4570/20-9 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019418",
+   "groupNum": "КЗБсп 51/1-21",
+   "students": [
+    {
+     "studentLogin": 70177480,
+     "studentFIO": "Богданова Мария Александровна",
+     "admissionNumber": "КЗ199/21-11 клос"
+    },
+    {
+     "studentLogin": 70183265,
+     "studentFIO": "Гатаулин Владислав Евгеньевич",
+     "admissionNumber": "КЗ631/21-11 клос"
+    },
+    {
+     "studentLogin": 70187893,
+     "studentFIO": "Давыдова Татьяна Максимовна",
+     "admissionNumber": "КЗ028/22/2-11 клос"
+    },
+    {
+     "studentLogin": 70181991,
+     "studentFIO": "Яганова Александра Вячеславовна",
+     "admissionNumber": "КЗ534/21-11 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000015560",
+   "groupNum": "КДБо 51/0-18",
+   "students": []
+  },
+  {
+   "groupCode": "000016846",
+   "groupNum": "КДБо 141/0-19",
+   "students": [
+    {
+     "studentLogin": 70152819,
+     "studentFIO": "Алмазов Андрей Викторович",
+     "admissionNumber": "ККЗ2014/19-9 клД"
+    },
+    {
+     "studentLogin": 70173503,
+     "studentFIO": "Бабаев Владислав Владимирович",
+     "admissionNumber": "ККЗ5549/20/2-9 клД"
+    },
+    {
+     "studentLogin": 70155324,
+     "studentFIO": "Демина Екатерина Александровна",
+     "admissionNumber": "ККЗ3158/19-9 клД"
+    },
+    {
+     "studentLogin": 70153454,
+     "studentFIO": "Жукова Владлена Валерьевна",
+     "admissionNumber": "ККЗ2294/19-9 клД"
+    },
+    {
+     "studentLogin": 70157341,
+     "studentFIO": "Колычева Алина Олеговна",
+     "admissionNumber": "ККЗ4291/19-9 клД"
+    },
+    {
+     "studentLogin": 70149665,
+     "studentFIO": "Павлова Софья Андреевна",
+     "admissionNumber": "ККЗ1221/19-9 клД"
+    },
+    {
+     "studentLogin": 70172200,
+     "studentFIO": "Потапова Алина Андреевна",
+     "admissionNumber": "КД806/20/2-9 кл"
+    },
+    {
+     "studentLogin": 70184046,
+     "studentFIO": "Рыкалина Влада Михайловна",
+     "admissionNumber": "ККЗ4022/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70156472,
+     "studentFIO": "Рычкова Милана Николаевна",
+     "admissionNumber": "ККЗ3816/19-9 клД"
+    },
+    {
+     "studentLogin": 70174194,
+     "studentFIO": "Шарова Анастасия Николаевна",
+     "admissionNumber": "ККЗ6159/20-9 клД"
+    },
+    {
+     "studentLogin": 70185779,
+     "studentFIO": "Шемякина Вероника Сергеевна",
+     "admissionNumber": "ККЗ5199/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70151208,
+     "studentFIO": "Эдуардова Кристина Альбертовна",
+     "admissionNumber": "ККЗ1547/19-9 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018120",
+   "groupNum": "КДБсп 141/1-20",
+   "students": [
+    {
+     "studentLogin": 70162541,
+     "studentFIO": "Богданова Анастасия Александровна",
+     "admissionNumber": "ККЗ0679/20-11 клД"
+    },
+    {
+     "studentLogin": 70172905,
+     "studentFIO": "Винничук Ольга Владимировна",
+     "admissionNumber": "ККЗ5116/20-11 клД"
+    },
+    {
+     "studentLogin": 70163074,
+     "studentFIO": "Голощапова Виктория Александровна",
+     "admissionNumber": "КД130/20-11 кл"
+    },
+    {
+     "studentLogin": 70166101,
+     "studentFIO": "Никонец Полина Михайловна",
+     "admissionNumber": "ККЗ2185/20-11 клД"
+    },
+    {
+     "studentLogin": 70152988,
+     "studentFIO": "Саянов Александр Алексеевич",
+     "admissionNumber": "ККЗ2069/19-11 клД"
+    },
+    {
+     "studentLogin": 70166349,
+     "studentFIO": "Соболь Таисия Михайловна",
+     "admissionNumber": "ККЗ2293/20-11 клД"
+    },
+    {
+     "studentLogin": 70166010,
+     "studentFIO": "Яшина Дарья Александровна",
+     "admissionNumber": "КД383/20-11 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021007",
+   "groupNum": "КЗДтБо 141-22",
+   "students": [
+    {
+     "studentLogin": 70196863,
+     "studentFIO": "Артемова Дарья Алексеевна",
+     "admissionNumber": "ККЗ5020/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194410,
+     "studentFIO": "Истомина Кристина Вячеславовна",
+     "admissionNumber": "ККЗ3554/22-9 клДос"
+    },
+    {
+     "studentLogin": 70193976,
+     "studentFIO": "Коврова Анна Ивановна",
+     "admissionNumber": "ККЗ3327/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194704,
+     "studentFIO": "Колмогорова-Ушанова Валерия Александровна",
+     "admissionNumber": "ККЗ3712/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194100,
+     "studentFIO": "Конюшенко Виктория Романовна",
+     "admissionNumber": "ККЗ3389/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194950,
+     "studentFIO": "Кузина Екатерина Павловна",
+     "admissionNumber": "ККЗ3847/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194202,
+     "studentFIO": "Луговая Яна Вячеславовна",
+     "admissionNumber": "ККЗ3441/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188170,
+     "studentFIO": "Нигматулина Эвелина Олеговна",
+     "admissionNumber": "ККЗ1180/22-9 клДос"
+    },
+    {
+     "studentLogin": 70193785,
+     "studentFIO": "Радаев Александр Михайлович",
+     "admissionNumber": "ККЗ3233/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187648,
+     "studentFIO": "Стрельцова Елизавета Андреевна",
+     "admissionNumber": "ККЗ0815/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196445,
+     "studentFIO": "Хадаханова Елизавета Алексеевна",
+     "admissionNumber": "ККЗ4755/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187699,
+     "studentFIO": "Шмелева Алёна Александровна",
+     "admissionNumber": "ККЗ0860/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70189192,
+     "studentFIO": "Штыхан Екатерина Игоревна",
+     "admissionNumber": "ККЗ1624/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019425",
+   "groupNum": "КДБо 141/1-21",
+   "students": [
+    {
+     "studentLogin": 70176659,
+     "studentFIO": "Арутюнова Милена Владимировна",
+     "admissionNumber": "ККЗ0854/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184384,
+     "studentFIO": "Асроров Ражабжон Бахтиёр угли",
+     "admissionNumber": "ККЗ4334/21-9 клДос"
+    },
+    {
+     "studentLogin": 70187894,
+     "studentFIO": "Ащеулова Карина Камиловна",
+     "admissionNumber": "ККЗ0976/22/2-9 клДос"
+    },
+    {
+     "studentLogin": 70184038,
+     "studentFIO": "Гасанова Гулясар Элмаровна",
+     "admissionNumber": "ККЗ4013/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176578,
+     "studentFIO": "Довлатова Илона Владимировна",
+     "admissionNumber": "ККЗ0817/21-9 клДос"
+    },
+    {
+     "studentLogin": 70180582,
+     "studentFIO": "Кудрячева Алина Ивановна",
+     "admissionNumber": "ККЗ2079/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183999,
+     "studentFIO": "Лютова Вероника Дмитриевна",
+     "admissionNumber": "ККЗ3980/21-9 клДос"
+    },
+    {
+     "studentLogin": 70181628,
+     "studentFIO": "Максимова Олеся Александровна",
+     "admissionNumber": "ККЗ2553/21-9 клДос"
+    },
+    {
+     "studentLogin": 70193328,
+     "studentFIO": "Мирошина Софья Евгеньевна",
+     "admissionNumber": "ККЗ3023/22/2-9 клДос"
+    },
+    {
+     "studentLogin": 70182092,
+     "studentFIO": "Мушкарина Алиса Сергеевна",
+     "admissionNumber": "ККЗ2798/21-9 клДос"
+    },
+    {
+     "studentLogin": 70177650,
+     "studentFIO": "Попова Лариана Иннокентьевна",
+     "admissionNumber": "ККЗ1130/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184736,
+     "studentFIO": "Потапова Анастасия Вячеславовна",
+     "admissionNumber": "ККЗ4554/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176758,
+     "studentFIO": "Романова Софья Дмитриевна",
+     "admissionNumber": "ККЗ0886/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176491,
+     "studentFIO": "Савельева Юлия Максимовна",
+     "admissionNumber": "ККЗ0763/21-9 клДос"
+    },
+    {
+     "studentLogin": 70189340,
+     "studentFIO": "Тихомирова Дана Игоревна",
+     "admissionNumber": "ККЗ1671/22/2-9 клДос"
+    },
+    {
+     "studentLogin": 70182950,
+     "studentFIO": "Халитова Дарина Дамировна",
+     "admissionNumber": "ККЗ3276/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182672,
+     "studentFIO": "Хитин Евгений Игоревич",
+     "admissionNumber": "ККЗ3106/21-9 клДос"
+    },
+    {
+     "studentLogin": 70175269,
+     "studentFIO": "Шаповалова Диана Николаевна",
+     "admissionNumber": "КЗ1099/21-9 клос"
+    },
+    {
+     "studentLogin": 70195195,
+     "studentFIO": "Якушина Мария Константиновна",
+     "admissionNumber": "ККЗ3994/22/2-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021373",
+   "groupNum": "КБо 142-22",
+   "students": [
+    {
+     "studentLogin": 70193630,
+     "studentFIO": "Масалова Дарья Александровна",
+     "admissionNumber": "КД544/22-9 клос"
+    },
+    {
+     "studentLogin": 70188856,
+     "studentFIO": "Ульянова Виктория Никитична",
+     "admissionNumber": "КД102/22-9 клш92ос"
+    },
+    {
+     "studentLogin": 70194751,
+     "studentFIO": "Фирсова Анастасия Андреевна",
+     "admissionNumber": "КД642/22-9 клос"
+    },
+    {
+     "studentLogin": 70189972,
+     "studentFIO": "Харланов Александр Григорьевич",
+     "admissionNumber": "КД253/22-9 клос"
+    },
+    {
+     "studentLogin": 70190573,
+     "studentFIO": "Янушевская Виолетта Александровна",
+     "admissionNumber": "КД311/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021000",
+   "groupNum": "КЗДтБо 121-22",
+   "students": [
+    {
+     "studentLogin": 70194249,
+     "studentFIO": "Аксенова Ксения Викторовна",
+     "admissionNumber": "ККЗ3468/22-9 клДос"
+    },
+    {
+     "studentLogin": 70191515,
+     "studentFIO": "Аллахвердиев Эльджан Асифович",
+     "admissionNumber": "ККЗ2346/22-9 клДос"
+    },
+    {
+     "studentLogin": 70189333,
+     "studentFIO": "Губарева Вероника Александровна",
+     "admissionNumber": "ККЗ1668/22-9 клДос"
+    },
+    {
+     "studentLogin": 70190809,
+     "studentFIO": "Еремин Сергей Владимирович",
+     "admissionNumber": "ККЗ2089/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188296,
+     "studentFIO": "Ефремова Евгения Валентиновна",
+     "admissionNumber": "ККЗ1274/22-9 клДос"
+    },
+    {
+     "studentLogin": 70191312,
+     "studentFIO": "Жеребятин Павел Даниярович",
+     "admissionNumber": "ККЗ2269/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194865,
+     "studentFIO": "Казачков Алексей Александрович",
+     "admissionNumber": "ККЗ3786/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195668,
+     "studentFIO": "Коцур Имир Иванович",
+     "admissionNumber": "ККЗ4329/22-9 клДос"
+    },
+    {
+     "studentLogin": 70192487,
+     "studentFIO": "Кубли Евгений Владимирович",
+     "admissionNumber": "ККЗ2670/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187941,
+     "studentFIO": "Кузавка Нина Владимировна",
+     "admissionNumber": "ККЗ1013/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187266,
+     "studentFIO": "Лопато Валерий Леонидович",
+     "admissionNumber": "ККЗ0504/22-9 клДос"
+    },
+    {
+     "studentLogin": 70190912,
+     "studentFIO": "Матюшина Софья Андреевна",
+     "admissionNumber": "ККЗ2116/22-9 клДос"
+    },
+    {
+     "studentLogin": 70192231,
+     "studentFIO": "Наракшина Мария Александровна",
+     "admissionNumber": "ККЗ2583/22-9 клДш34ос"
+    },
+    {
+     "studentLogin": 70195799,
+     "studentFIO": "Соколов Егор Алексеевич",
+     "admissionNumber": "ККЗ4411/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70190020,
+     "studentFIO": "Сомова Виктория Владиславовна",
+     "admissionNumber": "ККЗ1881/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195808,
+     "studentFIO": "Хомяков Александр Вячеславович",
+     "admissionNumber": "ККЗ4420/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194984,
+     "studentFIO": "Цыпарь Анна Эдуардовна",
+     "admissionNumber": "ККЗ3872/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019424",
+   "groupNum": "КДБо 121/1-21",
+   "students": [
+    {
+     "studentLogin": 70176599,
+     "studentFIO": "Груздева Александра Алексеевна",
+     "admissionNumber": "ККЗ0826/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182864,
+     "studentFIO": "Ерошкина Ульяна Андреевна",
+     "admissionNumber": "ККЗ3217/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183527,
+     "studentFIO": "Мамедов Мухтар Русланович",
+     "admissionNumber": "ККЗ3653/21-9 клДос"
+    },
+    {
+     "studentLogin": 70176558,
+     "studentFIO": "Мартюченко Полина Алексеевна",
+     "admissionNumber": "ККЗ0806/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183752,
+     "studentFIO": "Махмудов Руслан Мунахварович",
+     "admissionNumber": "ККЗ3782/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182197,
+     "studentFIO": "Наместников Александр Генрихович",
+     "admissionNumber": "ККЗ2845/21-9 клД-пос"
+    },
+    {
+     "studentLogin": 70183030,
+     "studentFIO": "Пальчиков Егор Владимирович",
+     "admissionNumber": "ККЗ3317/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184082,
+     "studentFIO": "Филина Кристина Андреевна",
+     "admissionNumber": "ККЗ4057/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183200,
+     "studentFIO": "Хлыстова Ольга Владимировна",
+     "admissionNumber": "ККЗ3433/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021375",
+   "groupNum": "КБо 122-22",
+   "students": [
+    {
+     "studentLogin": 70196211,
+     "studentFIO": "Гришина Дарья Валерьевна",
+     "admissionNumber": "КД726/22-9 клос"
+    },
+    {
+     "studentLogin": 70196092,
+     "studentFIO": "Неверов Марк Викторович",
+     "admissionNumber": "КД717/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018430",
+   "groupNum": "ПСО-110-20 11 кл. з",
+   "students": [
+    {
+     "studentLogin": 70171998,
+     "studentFIO": "Василевский Вадим Анатольевич",
+     "admissionNumber": "КПЗ150/20-11 кл"
+    },
+    {
+     "studentLogin": 70162639,
+     "studentFIO": "Дарк Александра Юлия Александровна",
+     "admissionNumber": "КПЗ005/20-11 кл"
+    },
+    {
+     "studentLogin": 70167987,
+     "studentFIO": "Емельянов Александр Андреевич",
+     "admissionNumber": "КПЗ086/20-11 кл"
+    },
+    {
+     "studentLogin": 70172835,
+     "studentFIO": "Кобрин Ефим Владимирович",
+     "admissionNumber": "КПЗ160/20-11 кл"
+    },
+    {
+     "studentLogin": 70165011,
+     "studentFIO": "Курмаев Артур Аббясович",
+     "admissionNumber": "КПЗ058/20-11 кл"
+    },
+    {
+     "studentLogin": 70171885,
+     "studentFIO": "Матюшин Никита Сергеевич",
+     "admissionNumber": "КПЗ146/20-11 кл"
+    },
+    {
+     "studentLogin": 70166372,
+     "studentFIO": "Сеничкина Залина Сергеевна",
+     "admissionNumber": "КПЗ071/20-11 кл"
+    },
+    {
+     "studentLogin": 70167829,
+     "studentFIO": "Соколова Ирина Сергеевна",
+     "admissionNumber": "КПЗ085/20-11 кл"
+    },
+    {
+     "studentLogin": 70170049,
+     "studentFIO": "Харитонов Александр Александрович",
+     "admissionNumber": "КПЗ112/20-11 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018106",
+   "groupNum": "КЗБо 11/1-20",
+   "students": [
+    {
+     "studentLogin": 70163698,
+     "studentFIO": "Аникина Виолетта Владимировна",
+     "admissionNumber": "КЗ212/20-9 кл"
+    },
+    {
+     "studentLogin": 70183470,
+     "studentFIO": "Бутаев Карина",
+     "admissionNumber": "КЗ644/21/3-9 клк47"
+    },
+    {
+     "studentLogin": 70162250,
+     "studentFIO": "Бычкова Елизавета Андреевна",
+     "admissionNumber": "КД021/20-9 кл"
+    },
+    {
+     "studentLogin": 70152525,
+     "studentFIO": "Ведяшкина Анна Сергеевна",
+     "admissionNumber": "КЗ464/19-9 кл"
+    },
+    {
+     "studentLogin": 70161553,
+     "studentFIO": "Заскинд Елена Сергеевна",
+     "admissionNumber": "КЗ003/20-9 кл"
+    },
+    {
+     "studentLogin": 70162322,
+     "studentFIO": "Ионова Екатерина Александровна",
+     "admissionNumber": "КД030/20-9 кл"
+    },
+    {
+     "studentLogin": 70162713,
+     "studentFIO": "Касаткина Елизавета Филипповна",
+     "admissionNumber": "КД071/20-9 кл"
+    },
+    {
+     "studentLogin": 70164630,
+     "studentFIO": "Платонова Арина Витальевна",
+     "admissionNumber": "КД284/20-9 кл"
+    },
+    {
+     "studentLogin": 70158522,
+     "studentFIO": "Татауров Алексей Романович",
+     "admissionNumber": "КД707/19-9 кл"
+    },
+    {
+     "studentLogin": 70164043,
+     "studentFIO": "Хапугин Никита Андреевич",
+     "admissionNumber": "КЗ240/20-9 кл"
+    },
+    {
+     "studentLogin": 70169166,
+     "studentFIO": "Чухалова Оксана Денисовна",
+     "admissionNumber": "КД630/20-9 кл-п"
+    },
+    {
+     "studentLogin": 70162678,
+     "studentFIO": "Шмарикова Анастасия Сергеевна",
+     "admissionNumber": "КЗ065/20-9 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018132",
+   "groupNum": "КДБо 11/1-20",
+   "students": [
+    {
+     "studentLogin": 70168629,
+     "studentFIO": "Арчаков Юрий Викторович",
+     "admissionNumber": "ККЗ2917/20-9 клД"
+    },
+    {
+     "studentLogin": 70161512,
+     "studentFIO": "Афлятунова Юлия Александровна",
+     "admissionNumber": "ККЗ0022/20-9 клД"
+    },
+    {
+     "studentLogin": 70163656,
+     "studentFIO": "Батаршина Азалия Артуровна",
+     "admissionNumber": "ККЗ1235/20-9 клД"
+    },
+    {
+     "studentLogin": 70162901,
+     "studentFIO": "Борозинец Жанна Сергеевна",
+     "admissionNumber": "КД108/20-9 кл"
+    },
+    {
+     "studentLogin": 70172015,
+     "studentFIO": "Буйнов Сергей Андреевич",
+     "admissionNumber": "ККЗ4446/20-9 клД"
+    },
+    {
+     "studentLogin": 70181947,
+     "studentFIO": "Бурцев Данил Евгеньевич",
+     "admissionNumber": "КЗ529/21/3-9 кл"
+    },
+    {
+     "studentLogin": 70171634,
+     "studentFIO": "Василенко Анастасия Андреевна",
+     "admissionNumber": "ККЗ4208/20-9 клД"
+    },
+    {
+     "studentLogin": 70185915,
+     "studentFIO": "Вишневская Ксения Андреевна",
+     "admissionNumber": "ККЗ5326/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70169134,
+     "studentFIO": "Галактионов Иван Сергеевич",
+     "admissionNumber": "ККЗ3091/20-9 клД"
+    },
+    {
+     "studentLogin": 70172236,
+     "studentFIO": "Гладышева Ксения Витальевна",
+     "admissionNumber": "ККЗ4574/20-9 клД"
+    },
+    {
+     "studentLogin": 70162617,
+     "studentFIO": "Гривенек Кристина Сергеевна",
+     "admissionNumber": "ККЗ0741/20-9 клД"
+    },
+    {
+     "studentLogin": 70173327,
+     "studentFIO": "Заводчикова Валерия Владимировна",
+     "admissionNumber": "ККЗ5412/20-9 клД"
+    },
+    {
+     "studentLogin": 70185353,
+     "studentFIO": "Зотова Маргарита Александровна",
+     "admissionNumber": "ККЗ4917/21/2-9 клД"
+    },
+    {
+     "studentLogin": 70175033,
+     "studentFIO": "Зырянова Анна Владимировна",
+     "admissionNumber": "ККЗ6542/20-9 клД"
+    },
+    {
+     "studentLogin": 70168965,
+     "studentFIO": "Карпов Дмитрий Евгеньевич",
+     "admissionNumber": "ККЗ3037/20-9 клД"
+    },
+    {
+     "studentLogin": 70171295,
+     "studentFIO": "Карпова Анастасия Витальевна",
+     "admissionNumber": "ККЗ4008/20-9 клД-п"
+    },
+    {
+     "studentLogin": 70162338,
+     "studentFIO": "Клевер Глеб Юрьевич",
+     "admissionNumber": "ККЗ0544/20-9 клД"
+    },
+    {
+     "studentLogin": 70162340,
+     "studentFIO": "Коваленко Екатерина Алексеевна",
+     "admissionNumber": "ККЗ0546/20-9 клД"
+    },
+    {
+     "studentLogin": 70169957,
+     "studentFIO": "Кравченко Софья Дмитриевна",
+     "admissionNumber": "ККЗ3357/20-9 клД"
+    },
+    {
+     "studentLogin": 70163276,
+     "studentFIO": "Лейлакстан Лейрозмир Амритович",
+     "admissionNumber": "ККЗ1079/20-9 клД"
+    },
+    {
+     "studentLogin": 70163171,
+     "studentFIO": "Маликова Екатерина Павловна",
+     "admissionNumber": "ККЗ1026/20-9 клД"
+    },
+    {
+     "studentLogin": 70171343,
+     "studentFIO": "Мамедов Руслан Русланович",
+     "admissionNumber": "ККЗ4044/20-9 клД"
+    },
+    {
+     "studentLogin": 70171344,
+     "studentFIO": "Мамедова Тамила Руслановна",
+     "admissionNumber": "ККЗ4045/20-9 клД"
+    },
+    {
+     "studentLogin": 70134320,
+     "studentFIO": "Махаева Хава Руслановна",
+     "admissionNumber": "ККЗ3313/21/2-9 клД"
+    },
+    {
+     "studentLogin": 70170182,
+     "studentFIO": "Молочиева Валерия Алексеевна",
+     "admissionNumber": "ККЗ3449/20-9 клД"
+    },
+    {
+     "studentLogin": 70173632,
+     "studentFIO": "Остапенко Инна Владимировна",
+     "admissionNumber": "ККЗ5626/20-9 клД"
+    },
+    {
+     "studentLogin": 70161567,
+     "studentFIO": "Самойлова Лилия Дмитриевна",
+     "admissionNumber": "ККЗ0046/20-9 клД"
+    },
+    {
+     "studentLogin": 70163598,
+     "studentFIO": "Смирнова Анастасия Андреевна",
+     "admissionNumber": "ККЗ1212/20-9 клД"
+    },
+    {
+     "studentLogin": 70173594,
+     "studentFIO": "Тареев Евгений Алексеевич",
+     "admissionNumber": "ККЗ5607/20-9 клД"
+    },
+    {
+     "studentLogin": 70163457,
+     "studentFIO": "Хорина Екатерина Александровна",
+     "admissionNumber": "ККЗ1156/20-9 клД"
+    },
+    {
+     "studentLogin": 70161801,
+     "studentFIO": "Худи Ольга Юрьевна",
+     "admissionNumber": "ККЗ0168/20-9 клД"
+    },
+    {
+     "studentLogin": 70163221,
+     "studentFIO": "Черемисова Екатерина Максимовна",
+     "admissionNumber": "ККЗ1053/20-9 клД"
+    },
+    {
+     "studentLogin": 70163217,
+     "studentFIO": "Юмаев Максим Евгеньевич",
+     "admissionNumber": "ККЗ1050/20-9 клДш68"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019415",
+   "groupNum": "КЗБсп 11/1-21",
+   "students": [
+    {
+     "studentLogin": 70182305,
+     "studentFIO": "Абдыбеков Бердалы Акматалиевич",
+     "admissionNumber": "КЗ565/21-11 клос"
+    },
+    {
+     "studentLogin": 70175165,
+     "studentFIO": "Балакина Наталья Дмитриевна",
+     "admissionNumber": "КЗ1095/21-11 клос"
+    },
+    {
+     "studentLogin": 70178140,
+     "studentFIO": "Бычкова Ангелина Александровна",
+     "admissionNumber": "КЗ263/21-11 клш86ос"
+    },
+    {
+     "studentLogin": 70182333,
+     "studentFIO": "Вяжанский Никита Александрович",
+     "admissionNumber": "КЗ570/21-11 клос"
+    },
+    {
+     "studentLogin": 70175323,
+     "studentFIO": "Гадимова Ирада Захидовна",
+     "admissionNumber": "КЗ1105/21-11 клос"
+    },
+    {
+     "studentLogin": 70168829,
+     "studentFIO": "Лукьянов Кирилл Леонидович",
+     "admissionNumber": "КЗ209/22/2-11 клос"
+    },
+    {
+     "studentLogin": 70178464,
+     "studentFIO": "Петрова Владислава Владиславовна",
+     "admissionNumber": "КЗ287/21-11 клос"
+    },
+    {
+     "studentLogin": 70183177,
+     "studentFIO": "Рыбчинская Полина Олеговна",
+     "admissionNumber": "КЗ627/21-11 клос"
+    },
+    {
+     "studentLogin": 70180155,
+     "studentFIO": "Смирнова Ольга Сергеевна",
+     "admissionNumber": "КЗ398/21-11 клос"
+    },
+    {
+     "studentLogin": 70184253,
+     "studentFIO": "Солоненко Анастасия Дмитриевна",
+     "admissionNumber": "КЗ669/21-11 клос"
+    },
+    {
+     "studentLogin": 70182393,
+     "studentFIO": "Столетова Светлана Владимировна",
+     "admissionNumber": "КЗ579/21-11 клос"
+    },
+    {
+     "studentLogin": 70180718,
+     "studentFIO": "Форштретер Анастасия Андреевна",
+     "admissionNumber": "КЗ432/21-11 клос"
+    },
+    {
+     "studentLogin": 70178077,
+     "studentFIO": "Цепелева Ксения Александровна",
+     "admissionNumber": "КЗ259/21-11 кл-пос"
+    },
+    {
+     "studentLogin": 70175074,
+     "studentFIO": "Шашкина Наталия Викторовна",
+     "admissionNumber": "КЗ1088/21-11 клос"
+    },
+    {
+     "studentLogin": 70177750,
+     "studentFIO": "Щетинин Никита Игоревич",
+     "admissionNumber": "КЗ230/21-11 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021379",
+   "groupNum": "КБо 12-22",
+   "students": [
+    {
+     "studentLogin": 70196689,
+     "studentFIO": "Говоркова Луиза Алексеевна",
+     "admissionNumber": "КД755/22-9 клос"
+    },
+    {
+     "studentLogin": 70196683,
+     "studentFIO": "Зарайская Анна Евгеньевна",
+     "admissionNumber": "КД753/22-9 клос"
+    },
+    {
+     "studentLogin": 70196900,
+     "studentFIO": "Колоскова Дарья Витальевна",
+     "admissionNumber": "КД768/22-9 клос"
+    },
+    {
+     "studentLogin": 70195773,
+     "studentFIO": "Мануйлова Анастасия Александровна",
+     "admissionNumber": "КД702/22-9 кл-пос"
+    },
+    {
+     "studentLogin": 70197695,
+     "studentFIO": "Моторина Кристина Михайловна",
+     "admissionNumber": "КД782/22-9 клос"
+    },
+    {
+     "studentLogin": 70192712,
+     "studentFIO": "Сальников Виталий Евгеньевич",
+     "admissionNumber": "КД473/22-9 клш24ос"
+    },
+    {
+     "studentLogin": 70187585,
+     "studentFIO": "Сапронов Матвей Александрович",
+     "admissionNumber": "КД018/22-9 клос"
+    },
+    {
+     "studentLogin": 70189048,
+     "studentFIO": "Силачев Артём Евгеньевич",
+     "admissionNumber": "КД133/22-9 клш68ос"
+    },
+    {
+     "studentLogin": 70191923,
+     "studentFIO": "Ситник Кира Сергеевна",
+     "admissionNumber": "КД428/22-9 клос"
+    },
+    {
+     "studentLogin": 70192516,
+     "studentFIO": "Сметанина Дарья Андреевна",
+     "admissionNumber": "КД458/22-9 клос"
+    },
+    {
+     "studentLogin": 70195214,
+     "studentFIO": "Хомяков Георгий Алексеевич",
+     "admissionNumber": "КД678/22-9 клос"
+    },
+    {
+     "studentLogin": 70189222,
+     "studentFIO": "Шевердак Марк Сергеевич",
+     "admissionNumber": "КД161/22-9 клос"
+    },
+    {
+     "studentLogin": 70191470,
+     "studentFIO": "Щепотьева Ангелина Алексеевна",
+     "admissionNumber": "КД397/22-9 клос"
+    },
+    {
+     "studentLogin": 70194587,
+     "studentFIO": "Яшкова Галина Сергеевна",
+     "admissionNumber": "КД629/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021404",
+   "groupNum": "ПСО-110-22-1 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70190898,
+     "studentFIO": "Ананьина Диана Эмилевна",
+     "admissionNumber": "КПД044/22-9 клос"
+    },
+    {
+     "studentLogin": 70192778,
+     "studentFIO": "Бахарева Ева Александровна",
+     "admissionNumber": "КПД060/22-9 клос"
+    },
+    {
+     "studentLogin": 70190372,
+     "studentFIO": "Давыдов Бадретдин Зиннятович",
+     "admissionNumber": "КПД038/22-9 клос"
+    },
+    {
+     "studentLogin": 70189111,
+     "studentFIO": "Добрынина Валерия Викторовна",
+     "admissionNumber": "КПД014/22-9 клос"
+    },
+    {
+     "studentLogin": 70191713,
+     "studentFIO": "Зайцева Елизавета Алексеевна",
+     "admissionNumber": "КПД054/22-9 клос"
+    },
+    {
+     "studentLogin": 70188697,
+     "studentFIO": "Зимина Тамара Ивановна",
+     "admissionNumber": "КПД009/22-9 клос"
+    },
+    {
+     "studentLogin": 70189395,
+     "studentFIO": "Иванов Никита Сергеевич",
+     "admissionNumber": "КПД027/22-9 клос"
+    },
+    {
+     "studentLogin": 70194426,
+     "studentFIO": "Игонина Дарья Сергеевна",
+     "admissionNumber": "КПД084/22-9 клос"
+    },
+    {
+     "studentLogin": 70192258,
+     "studentFIO": "Ильева Екатерина Игоревна",
+     "admissionNumber": "КПД057/22-9 клос"
+    },
+    {
+     "studentLogin": 70191236,
+     "studentFIO": "Каримова Елизавета Андреевна",
+     "admissionNumber": "КПД051/22-9 клос"
+    },
+    {
+     "studentLogin": 70191982,
+     "studentFIO": "Касимов Данил Алексеевич",
+     "admissionNumber": "КПД056/22-9 клос"
+    },
+    {
+     "studentLogin": 70196649,
+     "studentFIO": "Киртока Богдан Андреевич",
+     "admissionNumber": "КПД127/22-9 клос"
+    },
+    {
+     "studentLogin": 70191113,
+     "studentFIO": "Козлова Виталина Дмитриевна",
+     "admissionNumber": "КПД049/22-9 клос"
+    },
+    {
+     "studentLogin": 70188333,
+     "studentFIO": "Круглова Алина Алексеевна",
+     "admissionNumber": "КПД005/22-9 клос"
+    },
+    {
+     "studentLogin": 70189619,
+     "studentFIO": "Кузгунова Галия Ильясовна",
+     "admissionNumber": "КПД031/22-9 клос"
+    },
+    {
+     "studentLogin": 70187963,
+     "studentFIO": "Лобзарева Анастасия Александровна",
+     "admissionNumber": "КПД002/22-9 клос"
+    },
+    {
+     "studentLogin": 70193913,
+     "studentFIO": "Макаркин Андрей Дмитриевич",
+     "admissionNumber": "КПД069/22-9 клос"
+    },
+    {
+     "studentLogin": 70193001,
+     "studentFIO": "Мамелина Карина Алексеевна",
+     "admissionNumber": "КПД061/22-9 клос"
+    },
+    {
+     "studentLogin": 70190718,
+     "studentFIO": "Медведева Диана Алексеевна",
+     "admissionNumber": "КПД041/22-9 клос"
+    },
+    {
+     "studentLogin": 70189164,
+     "studentFIO": "Мирошкина Яна Михайловна",
+     "admissionNumber": "КПД019/22-9 клос"
+    },
+    {
+     "studentLogin": 70188954,
+     "studentFIO": "Моксина Алёна Игоревна",
+     "admissionNumber": "КПД012/22-9 клос"
+    },
+    {
+     "studentLogin": 70197292,
+     "studentFIO": "Симонова Елизавета Сергеевна",
+     "admissionNumber": "КПД199/22-9 клос"
+    },
+    {
+     "studentLogin": 70196450,
+     "studentFIO": "Федотов Кирилл Андреевич",
+     "admissionNumber": "КПД125/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021405",
+   "groupNum": "ПСО-110-22-2 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70195682,
+     "studentFIO": "Бирюков Даниил Николаевич",
+     "admissionNumber": "КПД102/22-9 клос"
+    },
+    {
+     "studentLogin": 70196654,
+     "studentFIO": "Бобков Евгений Алексеевич",
+     "admissionNumber": "КПД128/22-9 клос"
+    },
+    {
+     "studentLogin": 70195513,
+     "studentFIO": "Болясова Кира Дмитриевна",
+     "admissionNumber": "КПД099/22-9 клос"
+    },
+    {
+     "studentLogin": 70196142,
+     "studentFIO": "Гордеев Николай Алексеевич",
+     "admissionNumber": "КПД113/22-9 клос"
+    },
+    {
+     "studentLogin": 70195735,
+     "studentFIO": "Комлева Кристина Сергеевна",
+     "admissionNumber": "КПД104/22-9 клос"
+    },
+    {
+     "studentLogin": 70196043,
+     "studentFIO": "Костогрыз Илья Алексеевич",
+     "admissionNumber": "КПД111/22-9 клос"
+    },
+    {
+     "studentLogin": 70195903,
+     "studentFIO": "Кривошеина София Александровна",
+     "admissionNumber": "КПД107/22-9 клос"
+    },
+    {
+     "studentLogin": 70189273,
+     "studentFIO": "Поликутина Ольга Павловна",
+     "admissionNumber": "КПД022/22-9 клос"
+    },
+    {
+     "studentLogin": 70193368,
+     "studentFIO": "Прозорова Алёна Александровна",
+     "admissionNumber": "КПД063/22-9 клос"
+    },
+    {
+     "studentLogin": 70189299,
+     "studentFIO": "Прошкина Мария Михайловна",
+     "admissionNumber": "КПД024/22-9 клос"
+    },
+    {
+     "studentLogin": 70194257,
+     "studentFIO": "Рахимжанова Жасмина Равшан кизи",
+     "admissionNumber": "КПД072/22-9 клос"
+    },
+    {
+     "studentLogin": 70194388,
+     "studentFIO": "Рудяк Данила Евгеньевич",
+     "admissionNumber": "КПД083/22-9 клос"
+    },
+    {
+     "studentLogin": 70193580,
+     "studentFIO": "Сарбаева Диана Дмитриевна",
+     "admissionNumber": "КПД065/22-9 клос"
+    },
+    {
+     "studentLogin": 70190322,
+     "studentFIO": "Смирнова Валерия Викторовна",
+     "admissionNumber": "КПД037/22-9 клос"
+    },
+    {
+     "studentLogin": 70196449,
+     "studentFIO": "Талеева Сабина Рафаэлевна",
+     "admissionNumber": "КПД124/22-9 клос"
+    },
+    {
+     "studentLogin": 70189714,
+     "studentFIO": "Туркичева Алина Дмитриевна",
+     "admissionNumber": "КПД032/22-9 клос"
+    },
+    {
+     "studentLogin": 70193665,
+     "studentFIO": "Учуев Иван Алексеевич",
+     "admissionNumber": "КПД066/22-9 клос"
+    },
+    {
+     "studentLogin": 70190908,
+     "studentFIO": "Цаплина Алина Алексеевна",
+     "admissionNumber": "КПД045/22-9 клос"
+    },
+    {
+     "studentLogin": 70194246,
+     "studentFIO": "Частухин Егор Алексеевич",
+     "admissionNumber": "КПД071/22-9 клос"
+    },
+    {
+     "studentLogin": 70194094,
+     "studentFIO": "Чашечникова Вероника Игоревна",
+     "admissionNumber": "КПД070/22-9 клос"
+    },
+    {
+     "studentLogin": 70189828,
+     "studentFIO": "Яманин Александр Витальевич",
+     "admissionNumber": "КПД034/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021612",
+   "groupNum": "ПСО-110-22-3 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70197272,
+     "studentFIO": "Алексеев Антон Викторович",
+     "admissionNumber": "КПД188/22-9 клос"
+    },
+    {
+     "studentLogin": 70197826,
+     "studentFIO": "Антипов Алексей Витальевич",
+     "admissionNumber": "КПД348/22-9 клос"
+    },
+    {
+     "studentLogin": 70197576,
+     "studentFIO": "Баишев Амаль Маратович",
+     "admissionNumber": "КПД296/22-9 клос"
+    },
+    {
+     "studentLogin": 70197567,
+     "studentFIO": "Балухтин Сергей Александрович",
+     "admissionNumber": "КПД292/22-9 клос"
+    },
+    {
+     "studentLogin": 70197265,
+     "studentFIO": "Горнеев Дмитрий Александрович",
+     "admissionNumber": "КПД183/22-9 клос"
+    },
+    {
+     "studentLogin": 70197184,
+     "studentFIO": "Дашкин Наиль Расимович",
+     "admissionNumber": "КПД169/22-9 клос"
+    },
+    {
+     "studentLogin": 70197703,
+     "studentFIO": "Девяткина Елена Николаевна",
+     "admissionNumber": "КПД329/22-9 клос"
+    },
+    {
+     "studentLogin": 70197865,
+     "studentFIO": "Конкин Алексей Васильевич",
+     "admissionNumber": "КПД366/22-9 клос"
+    },
+    {
+     "studentLogin": 70197579,
+     "studentFIO": "Кульгин  Алексей Евгеньевич",
+     "admissionNumber": "КПД298/22-9 клос"
+    },
+    {
+     "studentLogin": 70197968,
+     "studentFIO": "Лапин Константин Викторович",
+     "admissionNumber": "КПД391/22-9 клос"
+    },
+    {
+     "studentLogin": 70196753,
+     "studentFIO": "Макаров Володя Владимирович",
+     "admissionNumber": "КПД133/22-9 клос"
+    },
+    {
+     "studentLogin": 70197569,
+     "studentFIO": "Мирошников Алексей  Алексеевич",
+     "admissionNumber": "КПД294/22-9 клос"
+    },
+    {
+     "studentLogin": 70197568,
+     "studentFIO": "Михейкин Сергей Александрович",
+     "admissionNumber": "КПД293/22-9 клос"
+    },
+    {
+     "studentLogin": 70197854,
+     "studentFIO": "Мутяев Павел  Павлович",
+     "admissionNumber": "КПД362/22-9 клос"
+    },
+    {
+     "studentLogin": 70197193,
+     "studentFIO": "Платонов Евгений Викторович",
+     "admissionNumber": "КПД171/22-9 клос"
+    },
+    {
+     "studentLogin": 70197305,
+     "studentFIO": "Содель Игорь Викторович",
+     "admissionNumber": "КПД204/22-9 клос"
+    },
+    {
+     "studentLogin": 70197937,
+     "studentFIO": "Таньков Андрей Андреевич",
+     "admissionNumber": "КПД381/22-9 клос"
+    },
+    {
+     "studentLogin": 70197500,
+     "studentFIO": "Тимонин Сергей Александрович",
+     "admissionNumber": "КПД260/22-9 клос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018130",
+   "groupNum": "КДБо 41/1-20",
+   "students": [
+    {
+     "studentLogin": 70185435,
+     "studentFIO": "Байниязова Алина Кунскиреевна",
+     "admissionNumber": "ККЗ4950/21-9 клДос"
+    },
+    {
+     "studentLogin": 70162154,
+     "studentFIO": "Зайнуллина Софья Игоревна",
+     "admissionNumber": "ККЗ0381/20-9 клД"
+    },
+    {
+     "studentLogin": 70119757,
+     "studentFIO": "Кувшинов Артем Анатольевич",
+     "admissionNumber": "ККЗ0658/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70163746,
+     "studentFIO": "Кулиева Людмила Викторовна",
+     "admissionNumber": "ККЗ1273/20-9 клД"
+    },
+    {
+     "studentLogin": 70142846,
+     "studentFIO": "Насибова Аишагюл Худаят кызы",
+     "admissionNumber": "ККЗ5119/21/3-9 клД"
+    },
+    {
+     "studentLogin": 70165660,
+     "studentFIO": "Распопова Надежда Алексеевна",
+     "admissionNumber": "КД359/20-9 кл"
+    },
+    {
+     "studentLogin": 70171006,
+     "studentFIO": "Сидеропуло Инна Валерьевна",
+     "admissionNumber": "ККЗ3822/20-9 клД"
+    },
+    {
+     "studentLogin": 70169175,
+     "studentFIO": "Стариков Данила Владимирович",
+     "admissionNumber": "ККЗ3103/20-9 клДш21"
+    },
+    {
+     "studentLogin": 70172562,
+     "studentFIO": "Титова Кристина Андреевна",
+     "admissionNumber": "ККЗ4793/20-9 клД"
+    },
+    {
+     "studentLogin": 70186176,
+     "studentFIO": "Ткачева Валерия Александровна",
+     "admissionNumber": "ККЗ5500/21/2-9 клД"
+    },
+    {
+     "studentLogin": 70179028,
+     "studentFIO": "Холкина Анна Евгеньевна",
+     "admissionNumber": "КД319/21/2-9 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000020989",
+   "groupNum": "КЗДтБо 41-22",
+   "students": [
+    {
+     "studentLogin": 70195781,
+     "studentFIO": "Абдуллаев Яшад Яшарович",
+     "admissionNumber": "ККЗ4396/22-9 клДш26-пос"
+    },
+    {
+     "studentLogin": 70193553,
+     "studentFIO": "Бондарчук Лев Валерьевич",
+     "admissionNumber": "ККЗ3121/22-9 клДос"
+    },
+    {
+     "studentLogin": 70191328,
+     "studentFIO": "Данилина Вероника Владиславовна",
+     "admissionNumber": "ККЗ2274/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188295,
+     "studentFIO": "Дворская Александра Любомировна",
+     "admissionNumber": "ККЗ1273/22-9 клДос"
+    },
+    {
+     "studentLogin": 70194038,
+     "studentFIO": "Клепикова Виолетта Валерьевна",
+     "admissionNumber": "ККЗ3348/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188123,
+     "studentFIO": "Королева Анастасия Игоревна",
+     "admissionNumber": "ККЗ1140/22-9 клДос"
+    },
+    {
+     "studentLogin": 70196244,
+     "studentFIO": "Кочкоров Ильяс",
+     "admissionNumber": "ККЗ4670/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188134,
+     "studentFIO": "Крамаренко Ульяна Сергеевна",
+     "admissionNumber": "ККЗ1150/22-9 клДос"
+    },
+    {
+     "studentLogin": 70188622,
+     "studentFIO": "Кушарская Валерия Романовна",
+     "admissionNumber": "ККЗ1440/22-9 клДос"
+    },
+    {
+     "studentLogin": 70187138,
+     "studentFIO": "Митяшина Анастасия Владимировна",
+     "admissionNumber": "ККЗ0394/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195479,
+     "studentFIO": "Самойлова Татьяна Игоревна",
+     "admissionNumber": "ККЗ4195/22-9 клДос"
+    },
+    {
+     "studentLogin": 70195780,
+     "studentFIO": "Симонян Алла Артуровна",
+     "admissionNumber": "ККЗ4395/22-9 клД-пос"
+    },
+    {
+     "studentLogin": 70194268,
+     "studentFIO": "Султанов Тимур Болатович",
+     "admissionNumber": "ККЗ3478/22-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019420",
+   "groupNum": "КДБо 41/1-21",
+   "students": [
+    {
+     "studentLogin": 70179561,
+     "studentFIO": "Аветисян Эрик Генадиевич",
+     "admissionNumber": "ККЗ1704/21-9 клДос"
+    },
+    {
+     "studentLogin": 70185200,
+     "studentFIO": "Власова Анжела Викторовна",
+     "admissionNumber": "ККЗ4806/21-9 клДос"
+    },
+    {
+     "studentLogin": 70183406,
+     "studentFIO": "Григорян Анаит Саргисовна",
+     "admissionNumber": "ККЗ3581/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184183,
+     "studentFIO": "Каныбекова Мээримгул Зайырбековна",
+     "admissionNumber": "ККЗ4156/21-9 клДос"
+    },
+    {
+     "studentLogin": 70103352,
+     "studentFIO": "Назарина Татьяна Александровна",
+     "admissionNumber": "ККЗ2881/22/3-9 клД"
+    },
+    {
+     "studentLogin": 70184801,
+     "studentFIO": "Наумова Анастасия Дмитриевна",
+     "admissionNumber": "ККЗ4602/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182199,
+     "studentFIO": "Печурин Роман",
+     "admissionNumber": "ККЗ2846/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184636,
+     "studentFIO": "Саликов Роман Александрович",
+     "admissionNumber": "ККЗ4495/21-9 клДос"
+    },
+    {
+     "studentLogin": 70182267,
+     "studentFIO": "Ческидов Дмитрий Камалович",
+     "admissionNumber": "ККЗ2879/21-9 клДос"
+    },
+    {
+     "studentLogin": 70180260,
+     "studentFIO": "Ширяев Александр Алексеевич",
+     "admissionNumber": "ККЗ1953/21-9 клДос"
+    },
+    {
+     "studentLogin": 70184025,
+     "studentFIO": "Этумян Валерий Викторович",
+     "admissionNumber": "ККЗ4001/21-9 клДос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000015554",
+   "groupNum": "КДБо 41/0-18",
+   "students": []
+  },
+  {
+   "groupCode": "000016604",
+   "groupNum": "КБо 81/0-19",
+   "students": [
+    {
+     "studentLogin": 70155086,
+     "studentFIO": "Бакаев Михаил Андреевич",
+     "admissionNumber": "КД638/19-9 кл"
+    },
+    {
+     "studentLogin": 70147689,
+     "studentFIO": "Барсуков Александр Дмитриевич",
+     "admissionNumber": "КД066/19-9 кл"
+    },
+    {
+     "studentLogin": 70149214,
+     "studentFIO": "Белимов Добрыня Викторович",
+     "admissionNumber": "КД190/19-9 кл"
+    },
+    {
+     "studentLogin": 70151129,
+     "studentFIO": "Бойко Илья Родионович",
+     "admissionNumber": "КД355/19-9 кл"
+    },
+    {
+     "studentLogin": 70151840,
+     "studentFIO": "Большаков Никита Алексеевич",
+     "admissionNumber": "КД420/19-9 клш24-п"
+    },
+    {
+     "studentLogin": 70150269,
+     "studentFIO": "Викторов Данила Вячеславович",
+     "admissionNumber": "КД274/19-9 кл"
+    },
+    {
+     "studentLogin": 70148918,
+     "studentFIO": "Гумаров Рафаэль Ленарович",
+     "admissionNumber": "КД175/19-9 кл"
+    },
+    {
+     "studentLogin": 70151065,
+     "studentFIO": "Гусеинов Анил Сахилович",
+     "admissionNumber": "КД347/19-9 кл"
+    },
+    {
+     "studentLogin": 70151486,
+     "studentFIO": "Казарян Арман Самвелович",
+     "admissionNumber": "КД387/19-9 кл"
+    },
+    {
+     "studentLogin": 70148064,
+     "studentFIO": "Лушина Виктория Игоревна",
+     "admissionNumber": "КД098/19-9 клш61"
+    },
+    {
+     "studentLogin": 70150034,
+     "studentFIO": "Свиридов Павел Сергеевич",
+     "admissionNumber": "КД254/19-9 кл"
+    },
+    {
+     "studentLogin": 70151494,
+     "studentFIO": "Талаев Данила Сергеевич",
+     "admissionNumber": "КД389/19-9 кл"
+    },
+    {
+     "studentLogin": 70168352,
+     "studentFIO": "Усков Кирилл Ильич",
+     "admissionNumber": "КД551/20/2-9 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016848",
+   "groupNum": "КДБо 81/0-19",
+   "students": [
+    {
+     "studentLogin": 70146863,
+     "studentFIO": "Арутюнян Эрик Артурович",
+     "admissionNumber": "ККЗ0684/19-9 клД"
+    },
+    {
+     "studentLogin": 70155386,
+     "studentFIO": "Зайцев Андрей Александрович",
+     "admissionNumber": "ККЗ3196/19-9 клД"
+    },
+    {
+     "studentLogin": 70164988,
+     "studentFIO": "Суксов Виталий Владимирович",
+     "admissionNumber": "ККЗ6671/19/2-9 клД"
+    },
+    {
+     "studentLogin": 70146112,
+     "studentFIO": "Филиппов Максим Олегович",
+     "admissionNumber": "ККЗ0444/19-9 клД"
+    },
+    {
+     "studentLogin": 70145565,
+     "studentFIO": "Щерый Денис Владимирович",
+     "admissionNumber": "ККЗ0013/19-9 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018090",
+   "groupNum": "КБсп 81/1-20",
+   "students": [
+    {
+     "studentLogin": 70172071,
+     "studentFIO": "Галлямов Григорий Васильевич",
+     "admissionNumber": "КД799/20-11 кл-п"
+    },
+    {
+     "studentLogin": 70171181,
+     "studentFIO": "Завьялов Даниил Игоревич",
+     "admissionNumber": "КД773/20-11 кл-п"
+    },
+    {
+     "studentLogin": 70168568,
+     "studentFIO": "Кутилин Сергей Алексеевич",
+     "admissionNumber": "КД571/20-11 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018121",
+   "groupNum": "КДБсп 81/1-20",
+   "students": [
+    {
+     "studentLogin": 70172079,
+     "studentFIO": "Богданов Артем Леонидович",
+     "admissionNumber": "ККЗ4493/20-11 клД"
+    },
+    {
+     "studentLogin": 70170904,
+     "studentFIO": "Долгодворов Даниил Вячеславович",
+     "admissionNumber": "ККЗ3755/20-11 клД"
+    },
+    {
+     "studentLogin": 70165981,
+     "studentFIO": "Ковригин Николай Олегович",
+     "admissionNumber": "ККЗ2142/20-11 клД"
+    },
+    {
+     "studentLogin": 70164149,
+     "studentFIO": "Летников Игорь Олегович",
+     "admissionNumber": "ККЗ1446/20-11 клД"
+    },
+    {
+     "studentLogin": 70167919,
+     "studentFIO": "Селезнев Дмитрий Михайлович",
+     "admissionNumber": "ККЗ2703/20-11 клД"
+    },
+    {
+     "studentLogin": 70173013,
+     "studentFIO": "Смирнов Максим Михайлович",
+     "admissionNumber": "ККЗ5212/20-11 клД"
+    },
+    {
+     "studentLogin": 70161659,
+     "studentFIO": "Тур Дмитрий Олегович",
+     "admissionNumber": "ККЗ0075/20-11 клД"
+    },
+    {
+     "studentLogin": 70162847,
+     "studentFIO": "Чиглинцев Михаил Викторович",
+     "admissionNumber": "ККЗ0891/20-11 клД"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018129",
+   "groupNum": "КДБо 81/1-20",
+   "students": [
+    {
+     "studentLogin": 70172341,
+     "studentFIO": "Воробьёв Денис Александрович",
+     "admissionNumber": "ККЗ4642/20-9 клД"
+    },
+    {
+     "studentLogin": 70172291,
+     "studentFIO": "Кондратьев Максим Сергеевич",
+     "admissionNumber": "ККЗ4610/20-9 клД"
+    }
+   ]
+  }
+ ]
+}
