@@ -14,3 +14,4 @@ class TimetableAPI(generics.ListAPIView):
             return Timetable.objects.filter(tutor__tutor_name=self.request.query_params['tutor'])
         
         return Timetable.objects.all()
+    
