@@ -1,0 +1,796 @@
+{
+ "sheduler": [
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 17,
+   "workDateName": "17 декабря 2022 г.",
+   "workDay": "суббота",
+   "workSheduler": [
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Лекции",
+     "place": "ауд.  107",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "12:30",
+     "workEnd": "14:00",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Лекции",
+     "place": "ауд.  107",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Семейное право",
+     "workType": "Лекции",
+     "place": "ауд.  207",
+     "tutor": "Бухонова Лилия Рафиковна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 23,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      },
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Семейное право",
+     "workType": "Лекции",
+     "place": "ауд.  207",
+     "tutor": "Бухонова Лилия Рафиковна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 23,
+     "groups": [
+      {
+       "groupCode": "000018414",
+       "groupNum": "СПЮСс22.1/Б-20",
+       "groupStudents": 18
+      },
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Прогнозирование и планирование",
+     "workType": "Лекции",
+     "place": "ауд.  211",
+     "tutor": "Рябышкина Елена Викторовна",
+     "cathedra": "Кафедра экономики, финансов и бухгалтерского учета",
+     "students": 19,
+     "groups": [
+      {
+       "groupCode": "000018412",
+       "groupNum": "СПЭСс20.1/Б-20",
+       "groupStudents": 17
+      },
+      {
+       "groupCode": "000016720",
+       "groupNum": "СПЭС20.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Прогнозирование и планирование",
+     "workType": "Лекции",
+     "place": "ауд.  211",
+     "tutor": "Рябышкина Елена Викторовна",
+     "cathedra": "Кафедра экономики, финансов и бухгалтерского учета",
+     "students": 19,
+     "groups": [
+      {
+       "groupCode": "000018412",
+       "groupNum": "СПЭСс20.1/Б-20",
+       "groupStudents": 17
+      },
+      {
+       "groupCode": "000016720",
+       "groupNum": "СПЭС20.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 18,
+   "workDateName": "18 декабря 2022 г.",
+   "workDay": "воскресенье",
+   "workSheduler": [
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Лекции",
+     "place": "ауд.  107",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "12:30",
+     "workEnd": "14:00",
+     "hours": 2,
+     "area": "Управление проектами",
+     "workType": "Лекции",
+     "place": "ауд.  107",
+     "tutor": "Имшинецкая Ия Анатольевна",
+     "cathedra": "Кафедра менеджмента и маркетинга",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000016722",
+       "groupNum": "СПУС21.1/Б-19",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "09:00",
+     "workEnd": "10:30",
+     "hours": 2,
+     "area": "Право социального обеспечения",
+     "workType": "Лекции",
+     "place": "ауд. 105",
+     "tutor": "Жебель Нина Афанасьевна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 5,
+     "groups": [
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г.Сергиевом  Посаде",
+     "workStart": "10:40",
+     "workEnd": "12:10",
+     "hours": 2,
+     "area": "Право социального обеспечения",
+     "workType": "Лекции",
+     "place": "ауд. 105",
+     "tutor": "Жебель Нина Афанасьевна",
+     "cathedra": "Кафедра юридических дисциплин",
+     "students": 5,
+     "groups": [
+      {
+       "groupCode": "000016716",
+       "groupNum": "СПЮС22.1/Б-19",
+       "groupStudents": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 12,
+   "workDateName": "12 декабря 2022 г.",
+   "workDay": "понедельник",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Учебная практика (ПМ.02)",
+     "workType": "Зачеты с оценкой",
+     "place": "Д",
+     "tutor": "Курдова Малика Агамурадовна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 18,
+     "groups": [
+      {
+       "groupCode": "000018176",
+       "groupNum": "КОМ-610-20 (9 кл.)",
+       "groupStudents": 18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 13,
+   "workDateName": "13 декабря 2022 г.",
+   "workDay": "вторник",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Основы экологического права",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Коркина Светлана Александровна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "11:10",
+     "workEnd": "12:40",
+     "hours": 2,
+     "area": "Право социального обеспечения",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Акулина Наталья Евгеньевна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "13:10",
+     "workEnd": "14:40",
+     "hours": 2,
+     "area": "Психология социально-правовой деятельности",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Гуляева Людмила Владимировна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 14,
+   "workDateName": "14 декабря 2022 г.",
+   "workDay": "среда",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Иностранный язык",
+     "workType": "Практическое занятие",
+     "place": "Д",
+     "tutor": "Кайманова Надежда Петровна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "11:10",
+     "workEnd": "12:40",
+     "hours": 2,
+     "area": "Трудовое право",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Синюгин Вадим Вадимович",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "13:10",
+     "workEnd": "14:40",
+     "hours": 2,
+     "area": "Страховое дело",
+     "workType": "Лекции",
+     "place": "Д",
+     "tutor": "Синюгин Вадим Вадимович",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000019738",
+       "groupNum": "ПСО-110-21 (11 з.)",
+       "groupStudents": 10
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "groupCode": "000016722",
+   "groupNum": "СПУС21.1/Б-19",
+   "students": [
+    {
+     "studentLogin": 70100549,
+     "studentFIO": "Варварычева Ольга  Алексеевна",
+     "admissionNumber": "СпБЗ130/22/4"
+    },
+    {
+     "studentLogin": 70172461,
+     "studentFIO": "Султонов Бахромбек Акбарали угли",
+     "admissionNumber": "СпБЗ094/20/2"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018414",
+   "groupNum": "СПЮСс22.1/Б-20",
+   "students": [
+    {
+     "studentLogin": 70167610,
+     "studentFIO": "Абрамов Владислав Николаевич",
+     "admissionNumber": "СпБВ060/20-c-п"
+    },
+    {
+     "studentLogin": 70163525,
+     "studentFIO": "Алексеева  Ольга Викторовна",
+     "admissionNumber": "СпБВ004/20-c"
+    },
+    {
+     "studentLogin": 70170638,
+     "studentFIO": "Барашков Никита Павлович",
+     "admissionNumber": "СпБВ084/20-c"
+    },
+    {
+     "studentLogin": 70163758,
+     "studentFIO": "Болдырева Алёна Денисовна",
+     "admissionNumber": "СпБВ006/20-c"
+    },
+    {
+     "studentLogin": 70166968,
+     "studentFIO": "Бударгин Михаил Алексеевич",
+     "admissionNumber": "СпБВ056/20-c"
+    },
+    {
+     "studentLogin": 70164357,
+     "studentFIO": "Василенко Оксана Александровна",
+     "admissionNumber": "СпБВ031/20-c"
+    },
+    {
+     "studentLogin": 70164360,
+     "studentFIO": "Горшкова Анастасия Игоревна",
+     "admissionNumber": "СпБВ033/20-c"
+    },
+    {
+     "studentLogin": 70164135,
+     "studentFIO": "Дронова Ульяна Павловна",
+     "admissionNumber": "СпБВ026/20-c"
+    },
+    {
+     "studentLogin": 70164355,
+     "studentFIO": "Ергунов  Павел Сергеевич",
+     "admissionNumber": "СпБВ030/20-c"
+    },
+    {
+     "studentLogin": 70168521,
+     "studentFIO": "Жуков Артем Сергеевич",
+     "admissionNumber": "СпБВ066/20"
+    },
+    {
+     "studentLogin": 70164123,
+     "studentFIO": "Косячкова  Полина Александровна ",
+     "admissionNumber": "СпБВ022/20-c"
+    },
+    {
+     "studentLogin": 70169548,
+     "studentFIO": "Курских Роман Алексеевич",
+     "admissionNumber": "СпБВ076/20-c"
+    },
+    {
+     "studentLogin": 70174832,
+     "studentFIO": "Макеев  Степан Владимирович",
+     "admissionNumber": "СпБВ105/20-c"
+    },
+    {
+     "studentLogin": 70166609,
+     "studentFIO": "Мельников Михаил Артемович",
+     "admissionNumber": "СпБВ052/20-c"
+    },
+    {
+     "studentLogin": 70168653,
+     "studentFIO": "Подгорнов Михаил Александрович",
+     "admissionNumber": "СпБВ067/20"
+    },
+    {
+     "studentLogin": 70164681,
+     "studentFIO": "Сухова Валерия Николаевна",
+     "admissionNumber": "СпБВ036/20-c"
+    },
+    {
+     "studentLogin": 70163987,
+     "studentFIO": "Филимонова Елизавета Владимировна",
+     "admissionNumber": "СпБВ008/20-c"
+    },
+    {
+     "studentLogin": 70163759,
+     "studentFIO": "Цекоев Михаил Алексеевич",
+     "admissionNumber": "СпБВ007/20-c"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016716",
+   "groupNum": "СПЮС22.1/Б-19",
+   "students": [
+    {
+     "studentLogin": 70150703,
+     "studentFIO": "Коник Карина Сергеевна",
+     "admissionNumber": "СпБД024/19"
+    },
+    {
+     "studentLogin": 70152958,
+     "studentFIO": "Кочетов Артем Сергеевич",
+     "admissionNumber": "СпБВ059/19"
+    },
+    {
+     "studentLogin": 70154677,
+     "studentFIO": "Петренко Александр Витальевич",
+     "admissionNumber": "СпБВ101/19"
+    },
+    {
+     "studentLogin": 70149335,
+     "studentFIO": "Самохина Татьяна Игоревна",
+     "admissionNumber": "СпБД015/19"
+    },
+    {
+     "studentLogin": 70149001,
+     "studentFIO": "Сиднева Виктория Михайловна",
+     "admissionNumber": "СпБВ013/19"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018412",
+   "groupNum": "СПЭСс20.1/Б-20",
+   "students": [
+    {
+     "studentLogin": 70164124,
+     "studentFIO": "Баранова Екатерина Игоревна",
+     "admissionNumber": "СпБЗ023/20-c"
+    },
+    {
+     "studentLogin": 70169850,
+     "studentFIO": "Григорьев Даниил Александрович",
+     "admissionNumber": "СпБЗ078/20-c"
+    },
+    {
+     "studentLogin": 70164339,
+     "studentFIO": "Драгина Александра Витальевна",
+     "admissionNumber": "СпБЗ028/20-c"
+    },
+    {
+     "studentLogin": 70164122,
+     "studentFIO": "Зонина Александра Павловна",
+     "admissionNumber": "СпБЗ021/20-c"
+    },
+    {
+     "studentLogin": 70164125,
+     "studentFIO": "Капустина Анастасия  Кирилловна",
+     "admissionNumber": "СпБЗ024/20-c"
+    },
+    {
+     "studentLogin": 70163521,
+     "studentFIO": "Кашицын Дмитрий Павлович",
+     "admissionNumber": "СпБД002/20-c"
+    },
+    {
+     "studentLogin": 70164004,
+     "studentFIO": "Ким Сергей Дмитриевич",
+     "admissionNumber": "СпБД019/20-c"
+    },
+    {
+     "studentLogin": 70163996,
+     "studentFIO": "Козачук Ольга Владимировна",
+     "admissionNumber": "СпБЗ014/20-c"
+    },
+    {
+     "studentLogin": 70163991,
+     "studentFIO": "Палагина Дарья Максимовна",
+     "admissionNumber": "СпБЗ012/20-c"
+    },
+    {
+     "studentLogin": 70164003,
+     "studentFIO": "Потапенко Даниил Валерьевич",
+     "admissionNumber": "СпБЗ018/20-c"
+    },
+    {
+     "studentLogin": 70164000,
+     "studentFIO": "Преображенская  Мария Олеговна",
+     "admissionNumber": "СпБЗ016/20-c"
+    },
+    {
+     "studentLogin": 70163994,
+     "studentFIO": "Растрыгин Антон Алексеевич",
+     "admissionNumber": "СпБЗ013/20-c"
+    },
+    {
+     "studentLogin": 70164001,
+     "studentFIO": "Савинов Дмитрий Максимович",
+     "admissionNumber": "СпБД017/20-c"
+    },
+    {
+     "studentLogin": 70169537,
+     "studentFIO": "Сахабиев Илья Ильнурович",
+     "admissionNumber": "СпБЗ075/20-c"
+    },
+    {
+     "studentLogin": 70163988,
+     "studentFIO": "Солодова Диана Алексеевна",
+     "admissionNumber": "СпБЗ009/20-c"
+    },
+    {
+     "studentLogin": 70163989,
+     "studentFIO": "Шемшурина Кристина Георгиевна",
+     "admissionNumber": "СпБЗ010/20-c"
+    },
+    {
+     "studentLogin": 70169174,
+     "studentFIO": "Щербаков Матвей Геннадиевич",
+     "admissionNumber": "СпБЗ071/20-c"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016720",
+   "groupNum": "СПЭС20.1/Б-19",
+   "students": [
+    {
+     "studentLogin": 70154680,
+     "studentFIO": "Семичастнова Светлана Владимировна",
+     "admissionNumber": "СпБЗ103/19"
+    },
+    {
+     "studentLogin": 70149042,
+     "studentFIO": "Уполовникова Анна Константиновна",
+     "admissionNumber": "СпБЗ014/19"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018176",
+   "groupNum": "КОМ-610-20 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70166138,
+     "studentFIO": "Бугаков Михаил Олегович",
+     "admissionNumber": "КПД070/20-9 кл"
+    },
+    {
+     "studentLogin": 70170906,
+     "studentFIO": "Бузмаков Александр Михайлович",
+     "admissionNumber": "КПД134/20-9 кл"
+    },
+    {
+     "studentLogin": 70170328,
+     "studentFIO": "Васютинский Богдан Васильевич",
+     "admissionNumber": "КПД117/20-9 кл"
+    },
+    {
+     "studentLogin": 70186107,
+     "studentFIO": "Гареев Кирилл",
+     "admissionNumber": "КПД079/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163879,
+     "studentFIO": "Генералова Анастасия  Евгеньевна",
+     "admissionNumber": "КПД040/20-9 кл"
+    },
+    {
+     "studentLogin": 70170345,
+     "studentFIO": "Ижбулатов Роман Ринатович",
+     "admissionNumber": "КПД118/20-9 кл"
+    },
+    {
+     "studentLogin": 70165206,
+     "studentFIO": "Калашникова Дарья Андреевна",
+     "admissionNumber": "КПД061/20-9 кл"
+    },
+    {
+     "studentLogin": 70165309,
+     "studentFIO": "Колодкин Никита Александрович",
+     "admissionNumber": "КПД062/20-9 кл"
+    },
+    {
+     "studentLogin": 70170848,
+     "studentFIO": "Коряжкин Никита Андреевич",
+     "admissionNumber": "КПД133/20-9 кл"
+    },
+    {
+     "studentLogin": 70186673,
+     "studentFIO": "Косырев Кирилл Владимирович",
+     "admissionNumber": "КПД086/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163917,
+     "studentFIO": "Курочкин Артемий Александрович",
+     "admissionNumber": "КПД042/20-9 кл"
+    },
+    {
+     "studentLogin": 70164342,
+     "studentFIO": "Малетова Карина Александровна",
+     "admissionNumber": "КПД051/20-9 кл"
+    },
+    {
+     "studentLogin": 70172297,
+     "studentFIO": "Мещеряков Михаил Александрович",
+     "admissionNumber": "КПД154/20-9 кл"
+    },
+    {
+     "studentLogin": 70187212,
+     "studentFIO": "Никитин Павел Михайлович",
+     "admissionNumber": "КПД088/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163788,
+     "studentFIO": "Сайфидинов Нуриддинходжа Эшонходжаевич",
+     "admissionNumber": "КПД037/20-9 кл"
+    },
+    {
+     "studentLogin": 70183538,
+     "studentFIO": "Тишина Элина Олеговна",
+     "admissionNumber": "КПД060/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70163032,
+     "studentFIO": "Уделов Александр Сергеевич",
+     "admissionNumber": "КПД012/20-9 кл"
+    },
+    {
+     "studentLogin": 70165321,
+     "studentFIO": "Щаднева Дарья Михайловна",
+     "admissionNumber": "КПД063/20-9 кл"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019738",
+   "groupNum": "ПСО-110-21 (11 з.)",
+   "students": [
+    {
+     "studentLogin": 70183883,
+     "studentFIO": "Букин Павел Сергеевич",
+     "admissionNumber": "КПЗ066/21-11 клос"
+    },
+    {
+     "studentLogin": 70184346,
+     "studentFIO": "Козлова Ксения Михайловна",
+     "admissionNumber": "КПЗ069/21-11 клос"
+    },
+    {
+     "studentLogin": 70183458,
+     "studentFIO": "Корниенко Владислав Николаевич",
+     "admissionNumber": "КПЗ059/21-11 клос"
+    },
+    {
+     "studentLogin": 70180236,
+     "studentFIO": "Лукьянов Валерий Александрович",
+     "admissionNumber": "КПЗ041/21-11 клос"
+    },
+    {
+     "studentLogin": 70180892,
+     "studentFIO": "Наумкина Дарья Дмитриевна",
+     "admissionNumber": "КПД043/21-11 клос"
+    },
+    {
+     "studentLogin": 70181957,
+     "studentFIO": "Пика Сергей Игоревич",
+     "admissionNumber": "КПЗ050/21-11 клос"
+    },
+    {
+     "studentLogin": 70183454,
+     "studentFIO": "Степанова Сабина Шохратовна",
+     "admissionNumber": "КПЗ058/21-11 клос"
+    },
+    {
+     "studentLogin": 70184918,
+     "studentFIO": "Сунцова Татьяна Вадимовна",
+     "admissionNumber": "КПЗ073/21-11 клос"
+    },
+    {
+     "studentLogin": 70182076,
+     "studentFIO": "Трегулова Алина Руслановна",
+     "admissionNumber": "КПЗ052/21-11 клос"
+    },
+    {
+     "studentLogin": 70183758,
+     "studentFIO": "Храпунков Роман Николаевич",
+     "admissionNumber": "КПЗ062/21-11 клос"
+    }
+   ]
+  }
+ ]
+}

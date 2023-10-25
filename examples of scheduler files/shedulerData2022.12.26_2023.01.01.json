@@ -1,0 +1,1554 @@
+{
+ "sheduler": [
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 30,
+   "workDateName": "30 декабря 2022 г.",
+   "workDay": "пятница",
+   "workSheduler": [
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "20:20",
+     "workEnd": "21:50",
+     "hours": 2,
+     "area": "Физическая культура и спорт",
+     "workType": "Лекции",
+     "place": "Спортивный зал",
+     "tutor": "Рыбцова Ольга Матвеевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 80,
+     "groups": [
+      {
+       "groupCode": "000021648",
+       "groupNum": "РЭВс 21.1-22",
+       "groupStudents": 43
+      },
+      {
+       "groupCode": "000021647",
+       "groupNum": "РЭВс 20.1-22",
+       "groupStudents": 37
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "08:20",
+     "workEnd": "09:50",
+     "hours": 2,
+     "area": "Социология",
+     "workType": "Лекции",
+     "place": "ауд. 301",
+     "tutor": "Гордова Татьяна Викторовна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 43,
+     "groups": [
+      {
+       "groupCode": "000021648",
+       "groupNum": "РЭВс 21.1-22",
+       "groupStudents": 43
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Правоведение",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Романова Ирина Николаевна",
+     "cathedra": "Кафедра гражданско-правовых дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "08:20",
+     "workEnd": "09:50",
+     "hours": 2,
+     "area": "Политология",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Романова Ирина Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "11:40",
+     "workEnd": "13:10",
+     "hours": 2,
+     "area": "Психология",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "13:45",
+     "workEnd": "15:15",
+     "hours": 2,
+     "area": "Русский язык и культура речи",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "15:25",
+     "workEnd": "16:55",
+     "hours": 2,
+     "area": "Социология",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "17:05",
+     "workEnd": "18:35",
+     "hours": 2,
+     "area": "Статистика",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Швайка Ольга Ивановна",
+     "cathedra": "Кафедра экономики и финансов",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "20:20",
+     "workEnd": "21:50",
+     "hours": 2,
+     "area": "Физическая культура и спорт",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 34,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      },
+      {
+       "groupCode": "000021642",
+       "groupNum": "РЮВв 22.1-22",
+       "groupStudents": 28
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "18:40",
+     "workEnd": "20:10",
+     "hours": 2,
+     "area": "Теория вероятностей и математическая статистика",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Швайка Ольга Ивановна",
+     "cathedra": "Кафедра бизнеса и управления",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "11:40",
+     "workEnd": "13:10",
+     "hours": 2,
+     "area": "Введение в профессиональную деятельность",
+     "workType": "Лекции",
+     "place": "ауд. 205",
+     "tutor": "Бабкин Леонид Михайлович",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000021349",
+       "groupNum": "РЮДс 22.1-22",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Информационные технологии в юридической деятельности",
+     "workType": "Лекции",
+     "place": "ауд. 324",
+     "tutor": "Оленников Сергей Станиславович",
+     "cathedra": "Кафедра бизнеса и управления",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000021349",
+       "groupNum": "РЮДс 22.1-22",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "08:20",
+     "workEnd": "09:50",
+     "hours": 2,
+     "area": "Экологическое право",
+     "workType": "Лекции",
+     "place": "ауд. 324",
+     "tutor": "Дрожжина Инна Валерьевна",
+     "cathedra": "Кафедра гражданско-правовых дисциплин",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000021349",
+       "groupNum": "РЮДс 22.1-22",
+       "groupStudents": 10
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Философия",
+     "workType": "Лекции",
+     "place": "ауд. 205",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 28,
+     "groups": [
+      {
+       "groupCode": "000021642",
+       "groupNum": "РЮВв 22.1-22",
+       "groupStudents": 28
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "08:20",
+     "workEnd": "09:50",
+     "hours": 2,
+     "area": "Физическая культура и спорт (элективные дисциплины): Общая физическая подготовка",
+     "workType": "Лекции",
+     "place": "ауд. 322",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 28,
+     "groups": [
+      {
+       "groupCode": "000021642",
+       "groupNum": "РЮВв 22.1-22",
+       "groupStudents": 28
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 31,
+   "workDateName": "31 декабря 2022 г.",
+   "workDay": "суббота",
+   "workSheduler": [
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "18:40",
+     "workEnd": "20:10",
+     "hours": 2,
+     "area": "Информатика",
+     "workType": "Лекции",
+     "place": "ауд. 205",
+     "tutor": "Оленников Сергей Станиславович",
+     "cathedra": "Кафедра бизнеса и управления",
+     "students": 80,
+     "groups": [
+      {
+       "groupCode": "000021648",
+       "groupNum": "РЭВс 21.1-22",
+       "groupStudents": 43
+      },
+      {
+       "groupCode": "000021647",
+       "groupNum": "РЭВс 20.1-22",
+       "groupStudents": 37
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "18:40",
+     "workEnd": "20:10",
+     "hours": 2,
+     "area": "Деловые коммуникации",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Кострова Юлия Борисовна",
+     "cathedra": "Кафедра бизнеса и управления",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "10:00",
+     "workEnd": "11:30",
+     "hours": 2,
+     "area": "Экономика и социология труда",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Швайка Ольга Ивановна",
+     "cathedra": "Кафедра бизнеса и управления",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "08:20",
+     "workEnd": "09:50",
+     "hours": 2,
+     "area": "Физическая культура и спорт (элективные дисциплины): Общая физическая подготовка",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "11:40",
+     "workEnd": "13:10",
+     "hours": 2,
+     "area": "Экономика организаций",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Швайка Ольга Ивановна",
+     "cathedra": "Кафедра экономики и финансов",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "13:45",
+     "workEnd": "15:15",
+     "hours": 2,
+     "area": "Экономическая теория",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Швайка Ольга Ивановна",
+     "cathedra": "Кафедра экономики и финансов",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "15:25",
+     "workEnd": "16:55",
+     "hours": 2,
+     "area": "Иностранный язык",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Романова Ирина Николаевна",
+     "cathedra": "Кафедра гражданско-правовых дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "17:05",
+     "workEnd": "18:35",
+     "hours": 2,
+     "area": "Культура интеллектуального труда",
+     "workType": "Лекции",
+     "place": "ауд. 201",
+     "tutor": "Мальцева Светлана Николаевна",
+     "cathedra": "Кафедра уголовно-правовых и гуманитарных дисциплин",
+     "students": 6,
+     "groups": [
+      {
+       "groupCode": "000021649",
+       "groupNum": "РЭВв 21.1-22",
+       "groupStudents": 6
+      }
+     ]
+    },
+    {
+     "branch": "Филиал ЧОУ ВО \"МУ имени С.Ю. Витте\" в г. Рязани",
+     "workStart": "17:05",
+     "workEnd": "18:35",
+     "hours": 2,
+     "area": "Налоговое право",
+     "workType": "Лекции",
+     "place": "ауд. 205",
+     "tutor": "Романова Ирина Николаевна",
+     "cathedra": "Кафедра гражданско-правовых дисциплин",
+     "students": 28,
+     "groups": [
+      {
+       "groupCode": "000021642",
+       "groupNum": "РЮВв 22.1-22",
+       "groupStudents": 28
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 28,
+   "workDateName": "28 декабря 2022 г.",
+   "workDay": "среда",
+   "workSheduler": [
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Научно-исследовательская деятельность",
+     "workType": "Зачеты",
+     "place": "ауд.123",
+     "tutor": "Колонтаевская Ирина Федоровна",
+     "cathedra": "Кафедра гражданского права и процесса",
+     "students": 11,
+     "groups": [
+      {
+       "groupCode": "000018391",
+       "groupNum": "АД 9-20",
+       "groupStudents": 7
+      },
+      {
+       "groupCode": "000019566",
+       "groupNum": "АД 15-21",
+       "groupStudents": 4
+      }
+     ]
+    },
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Научно-исследовательская деятельность",
+     "workType": "Зачеты",
+     "place": "321",
+     "tutor": "Савощикова Евгения Васильевна",
+     "cathedra": "Кафедра теории и истории государства и права",
+     "students": 1,
+     "groups": [
+      {
+       "groupCode": "000016816",
+       "groupNum": "АЗ 4-19",
+       "groupStudents": 1
+      }
+     ]
+    },
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+     "workType": "Зачеты",
+     "place": "ауд.507",
+     "tutor": "Зайцев Сергей Александрович",
+     "cathedra": "Кафедра информационных систем",
+     "students": 11,
+     "groups": [
+      {
+       "groupCode": "000016804",
+       "groupNum": "АД 7-19",
+       "groupStudents": 11
+      }
+     ]
+    },
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Подготовка научно-квалификационной работы (диссертации) на соискание ученой степени кандидата наук",
+     "workType": "Зачеты с оценкой",
+     "place": "315",
+     "tutor": "Брыкин Юрий Вадимович",
+     "cathedra": "Кафедра психологии и педагогики",
+     "students": 2,
+     "groups": [
+      {
+       "groupCode": "000019564",
+       "groupNum": "АД 12-21",
+       "groupStudents": 2
+      }
+     ]
+    },
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+     "workType": "Зачеты",
+     "place": "323",
+     "tutor": "Бушуева Наталья Владимировна",
+     "cathedra": "Кафедра экономики городского хозяйства и сферы обслуживания",
+     "students": 3,
+     "groups": [
+      {
+       "groupCode": "000018812",
+       "groupNum": "АД 2-20(ЭГХиСО)",
+       "groupStudents": 3
+      }
+     ]
+    },
+    {
+     "branch": "Аспирантура",
+     "workStart": "18:40",
+     "workEnd": "21:50",
+     "hours": 4,
+     "area": "Экономика и управление народным хозяйством",
+     "workType": "Зачеты",
+     "place": "319",
+     "tutor": "Суптело Наталья Петровна",
+     "cathedra": "Кафедра экономики городского хозяйства и сферы обслуживания",
+     "students": 3,
+     "groups": [
+      {
+       "groupCode": "000019565",
+       "groupNum": "АД 14-21",
+       "groupStudents": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "workYear": 2022,
+   "workMonth": 12,
+   "workDate": 26,
+   "workDateName": "26 декабря 2022 г.",
+   "workDay": "понедельник",
+   "workSheduler": [
+    {
+     "branch": "Филиал г. Пензе",
+     "workStart": "09:30",
+     "workEnd": "11:00",
+     "hours": 2,
+     "area": "Производственная практика (по профилю специальности) (ПМ.03)",
+     "workType": "Зачеты с оценкой",
+     "place": "Д",
+     "tutor": "Батова Вера Николаевна",
+     "cathedra": "Филиал ЧОУВО \"МУ им. С. Ю. Витте\" в г. Пензе",
+     "students": 10,
+     "groups": [
+      {
+       "groupCode": "000018178",
+       "groupNum": "БУХ-510-20 (9 кл.)",
+       "groupStudents": 10
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "groupCode": "000021648",
+   "groupNum": "РЭВс 21.1-22",
+   "students": [
+    {
+     "studentLogin": 70188533,
+     "studentFIO": "Абрамов Степан Александрович",
+     "admissionNumber": "РБВ083/22-cос"
+    },
+    {
+     "studentLogin": 70197247,
+     "studentFIO": "Агафонов Илья Андреевич",
+     "admissionNumber": "РБВ746/22-cос"
+    },
+    {
+     "studentLogin": 70187800,
+     "studentFIO": "Андреев Андрей Романович",
+     "admissionNumber": "РБВ033/22-cос"
+    },
+    {
+     "studentLogin": 70196154,
+     "studentFIO": "Астахова Галина Викторовна",
+     "admissionNumber": "РБВ609/22-cос"
+    },
+    {
+     "studentLogin": 70195309,
+     "studentFIO": "Барабанов Максим Александрович",
+     "admissionNumber": "РБВ493/22-cос"
+    },
+    {
+     "studentLogin": 70187608,
+     "studentFIO": "Благов Андрей Васильевич",
+     "admissionNumber": "РБВ020/22-cос"
+    },
+    {
+     "studentLogin": 70196811,
+     "studentFIO": "Болашонков Дмитрий Андреевич",
+     "admissionNumber": "РБВ696/22-cос"
+    },
+    {
+     "studentLogin": 70196789,
+     "studentFIO": "Головкин Дмитрий Сергеевич",
+     "admissionNumber": "РБВ692/22-cос"
+    },
+    {
+     "studentLogin": 70194988,
+     "studentFIO": "Гречушкин Иван Сергеевич",
+     "admissionNumber": "РБВ456/22-cос"
+    },
+    {
+     "studentLogin": 70188696,
+     "studentFIO": "Дорофеев Александр Владимирович",
+     "admissionNumber": "РБВ108/22-c-пос"
+    },
+    {
+     "studentLogin": 70196081,
+     "studentFIO": "Дьячкова Юлия Игоревна",
+     "admissionNumber": "РБВ584/22-cос"
+    },
+    {
+     "studentLogin": 70195568,
+     "studentFIO": "Ермаков Анар Гусейнович",
+     "admissionNumber": "РБВ515/22-cос"
+    },
+    {
+     "studentLogin": 70196684,
+     "studentFIO": "Зорин Дмитрий Владимирович",
+     "admissionNumber": "РБВ685/22-cос"
+    },
+    {
+     "studentLogin": 70188565,
+     "studentFIO": "Комарова Ульяна Александровна",
+     "admissionNumber": "РБВ087/22-cос"
+    },
+    {
+     "studentLogin": 70195002,
+     "studentFIO": "Коновалова Любовь Денисовна",
+     "admissionNumber": "РБВ459/22-cос"
+    },
+    {
+     "studentLogin": 70194996,
+     "studentFIO": "Коновалова Светлана Денисовна",
+     "admissionNumber": "РБВ458/22-cос"
+    },
+    {
+     "studentLogin": 70196176,
+     "studentFIO": "Кормилицын Иван Владимирович",
+     "admissionNumber": "РБВ612/22-cос"
+    },
+    {
+     "studentLogin": 70195093,
+     "studentFIO": "Костиков Вячеслав Михайлович",
+     "admissionNumber": "РБВ476/22-cос"
+    },
+    {
+     "studentLogin": 70196996,
+     "studentFIO": "Костылева Светлана Николаевна",
+     "admissionNumber": "РБВ721/22-cос"
+    },
+    {
+     "studentLogin": 70193524,
+     "studentFIO": "Крюков Алексей Сергеевич",
+     "admissionNumber": "РБВ395/22-cос"
+    },
+    {
+     "studentLogin": 70196865,
+     "studentFIO": "Мальчиков Евгений Витальевич",
+     "admissionNumber": "РБВ700/22-cос"
+    },
+    {
+     "studentLogin": 70196013,
+     "studentFIO": "Морозов Виктор Валерьевич",
+     "admissionNumber": "РБВ560/22-cос"
+    },
+    {
+     "studentLogin": 70196793,
+     "studentFIO": "Морщинин Сергей Евгеньевич",
+     "admissionNumber": "РБВ693/22-cос"
+    },
+    {
+     "studentLogin": 70190142,
+     "studentFIO": "Пескова Валерия Игоревна",
+     "admissionNumber": "РБВ190/22-cос"
+    },
+    {
+     "studentLogin": 70196948,
+     "studentFIO": "Писчиков Максим Олегович",
+     "admissionNumber": "РБВ713/22-cос"
+    },
+    {
+     "studentLogin": 70187619,
+     "studentFIO": "Поборуева Кристина Сергеевна",
+     "admissionNumber": "РБВ026/22-cос"
+    },
+    {
+     "studentLogin": 70187678,
+     "studentFIO": "Подольский Виталий Андреевич",
+     "admissionNumber": "РБВ027/22-c-пос"
+    },
+    {
+     "studentLogin": 70196993,
+     "studentFIO": "Санин Михаил Александрович",
+     "admissionNumber": "РБВ720/22-c-пос"
+    },
+    {
+     "studentLogin": 70196799,
+     "studentFIO": "Семёнов Дмитрий Вячеславович",
+     "admissionNumber": "РБВ695/22-cос"
+    },
+    {
+     "studentLogin": 70196582,
+     "studentFIO": "Сорокин Александр Александрович",
+     "admissionNumber": "РБВ674/22-cос"
+    },
+    {
+     "studentLogin": 70189331,
+     "studentFIO": "Сорокин Вадим Сергеевич",
+     "admissionNumber": "РБВ154/22-cос"
+    },
+    {
+     "studentLogin": 70187108,
+     "studentFIO": "Сысманова Елена Константиновна",
+     "admissionNumber": "РБВ009/22-cос"
+    },
+    {
+     "studentLogin": 70197239,
+     "studentFIO": "Толоконников Максим Сергеевич",
+     "admissionNumber": "РБВ744/22-cос"
+    },
+    {
+     "studentLogin": 70195549,
+     "studentFIO": "Трундаева Диана Дмитриевна",
+     "admissionNumber": "РБВ512/22-c-пос"
+    },
+    {
+     "studentLogin": 70196796,
+     "studentFIO": "Трусов Алексей Сергеевич",
+     "admissionNumber": "РБВ694/22-cос"
+    },
+    {
+     "studentLogin": 70195818,
+     "studentFIO": "Ульянов  Илья Сергеевич",
+     "admissionNumber": "РБВ531/22-cос"
+    },
+    {
+     "studentLogin": 70196785,
+     "studentFIO": "Федулов Кирилл Андреевич",
+     "admissionNumber": "РБВ691/22-cос"
+    },
+    {
+     "studentLogin": 70196128,
+     "studentFIO": "Халимов Андрей Николаевич",
+     "admissionNumber": "РБВ599/22-cос"
+    },
+    {
+     "studentLogin": 70197245,
+     "studentFIO": "Харитонов Владимир Леонидович",
+     "admissionNumber": "РБВ745/22-cос"
+    },
+    {
+     "studentLogin": 70187610,
+     "studentFIO": "Храпов Артём Витальевич",
+     "admissionNumber": "РБВ022/22-cос"
+    },
+    {
+     "studentLogin": 70196011,
+     "studentFIO": "Хужанова Евгения Сергеевна",
+     "admissionNumber": "РБВ559/22-cос"
+    },
+    {
+     "studentLogin": 70196781,
+     "studentFIO": "Черников Станислав Сергеевич",
+     "admissionNumber": "РБВ690/22-cос"
+    },
+    {
+     "studentLogin": 70196267,
+     "studentFIO": "Шмелев Илья Михайлович",
+     "admissionNumber": "РБВ631/22-cос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021649",
+   "groupNum": "РЭВв 21.1-22",
+   "students": [
+    {
+     "studentLogin": 70195752,
+     "studentFIO": "Барков Роман Константинович",
+     "admissionNumber": "РБВ527/22-вос"
+    },
+    {
+     "studentLogin": 70187783,
+     "studentFIO": "Горбунов Игорь Иванович",
+     "admissionNumber": "РБВ032/22-вос"
+    },
+    {
+     "studentLogin": 70196048,
+     "studentFIO": "Катков Даниил Александрович",
+     "admissionNumber": "РБВ573/22-вос"
+    },
+    {
+     "studentLogin": 70196163,
+     "studentFIO": "Коняев Алексей Анатольевич",
+     "admissionNumber": "РБВ611/22-вос"
+    },
+    {
+     "studentLogin": 70196004,
+     "studentFIO": "Кузьмина Виктория Михайловна",
+     "admissionNumber": "РБВ555/22-вос"
+    },
+    {
+     "studentLogin": 70189537,
+     "studentFIO": "Токарева Марина Владимировна",
+     "admissionNumber": "РБВ171/22-вос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021349",
+   "groupNum": "РЮДс 22.1-22",
+   "students": [
+    {
+     "studentLogin": 70190380,
+     "studentFIO": "Белова Виктория Валериевна",
+     "admissionNumber": "РБД207/22-cос"
+    },
+    {
+     "studentLogin": 70191751,
+     "studentFIO": "Калабушкин Георгий Андреевич",
+     "admissionNumber": "РБД247/22-cос"
+    },
+    {
+     "studentLogin": 70189971,
+     "studentFIO": "Кацура Валерия Андреевна",
+     "admissionNumber": "РБД188/22-cос"
+    },
+    {
+     "studentLogin": 70190727,
+     "studentFIO": "Павловичева Екатерина Андреевна",
+     "admissionNumber": "РБД228/22-cос"
+    },
+    {
+     "studentLogin": 70191766,
+     "studentFIO": "Пушкина Анастасия Ярославовна",
+     "admissionNumber": "РБД248/22-cос"
+    },
+    {
+     "studentLogin": 70191840,
+     "studentFIO": "Рогалев Егор Александрович",
+     "admissionNumber": "РБД253/22-c-пос"
+    },
+    {
+     "studentLogin": 70191722,
+     "studentFIO": "Скворцов Алексей Григорьевич",
+     "admissionNumber": "РБД245/22-cос"
+    },
+    {
+     "studentLogin": 70191772,
+     "studentFIO": "Скворцова Мария Алексеевна",
+     "admissionNumber": "РБД249/22-cос"
+    },
+    {
+     "studentLogin": 70195150,
+     "studentFIO": "Тройнякова Анастасия Дмитриевна",
+     "admissionNumber": "РБД479/22-cос"
+    },
+    {
+     "studentLogin": 70190393,
+     "studentFIO": "Челнокова Екатерина Викторовна",
+     "admissionNumber": "РБД210/22-cос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021642",
+   "groupNum": "РЮВв 22.1-22",
+   "students": [
+    {
+     "studentLogin": 70196130,
+     "studentFIO": "Абросимова Олеся Владимировна",
+     "admissionNumber": "РБВ600/22-вос"
+    },
+    {
+     "studentLogin": 70196006,
+     "studentFIO": "Алуи Юлия Александровна",
+     "admissionNumber": "РБВ556/22-вос"
+    },
+    {
+     "studentLogin": 70196230,
+     "studentFIO": "Афиногентова Мария Борисовна",
+     "admissionNumber": "РБВ626/22-вос"
+    },
+    {
+     "studentLogin": 70188666,
+     "studentFIO": "Вислогузов Денис Викторович",
+     "admissionNumber": "РБВ102/22-вос"
+    },
+    {
+     "studentLogin": 70188494,
+     "studentFIO": "Гарманчук Илья Викторович",
+     "admissionNumber": "РБВ078/22-вос"
+    },
+    {
+     "studentLogin": 70187613,
+     "studentFIO": "Гришина Галина Сергеевна",
+     "admissionNumber": "РБВ023/22-вос"
+    },
+    {
+     "studentLogin": 70188205,
+     "studentFIO": "Егорова Ольга Сергеевна",
+     "admissionNumber": "РБВ062/22-вос"
+    },
+    {
+     "studentLogin": 70196066,
+     "studentFIO": "Ефремова Любовь Викторовна",
+     "admissionNumber": "РБВ578/22-вос"
+    },
+    {
+     "studentLogin": 70188029,
+     "studentFIO": "Заморова Инна Владиславовна",
+     "admissionNumber": "РБВ052/22-вос"
+    },
+    {
+     "studentLogin": 70187600,
+     "studentFIO": "Киселев Дмитрий Александрович",
+     "admissionNumber": "РБВ016/22-вос"
+    },
+    {
+     "studentLogin": 70188673,
+     "studentFIO": "Козик Алина Сергеевна",
+     "admissionNumber": "РБВ104/22-вос"
+    },
+    {
+     "studentLogin": 70196227,
+     "studentFIO": "Козлов Егор Александрович",
+     "admissionNumber": "РБВ625/22-вос"
+    },
+    {
+     "studentLogin": 70196982,
+     "studentFIO": "Коровин Александр Сергеевич",
+     "admissionNumber": "РБВ719/22-вос"
+    },
+    {
+     "studentLogin": 70188207,
+     "studentFIO": "Королев Андрей Викторович",
+     "admissionNumber": "РБВ063/22-вос"
+    },
+    {
+     "studentLogin": 70196060,
+     "studentFIO": "Купцова Мария Валерьевна",
+     "admissionNumber": "РБВ577/22-вос"
+    },
+    {
+     "studentLogin": 70196978,
+     "studentFIO": "Леонов Сергей Александрович",
+     "admissionNumber": "РБВ718/22-вос"
+    },
+    {
+     "studentLogin": 70195346,
+     "studentFIO": "Майоров Дмитрий Игоревич",
+     "admissionNumber": "РБВ499/22-вос"
+    },
+    {
+     "studentLogin": 70196535,
+     "studentFIO": "Нехорошева Дарья Ивановна",
+     "admissionNumber": "РБВ666/22-вос"
+    },
+    {
+     "studentLogin": 70188507,
+     "studentFIO": "Петрова Дарья Андреевна",
+     "admissionNumber": "РБВ081/22-вос"
+    },
+    {
+     "studentLogin": 70195281,
+     "studentFIO": "Плешкова Анна Александровна",
+     "admissionNumber": "РБВ484/22ос"
+    },
+    {
+     "studentLogin": 70195700,
+     "studentFIO": "Терешина Элла Владиславовна",
+     "admissionNumber": "РБВ521/22-вос"
+    },
+    {
+     "studentLogin": 70196966,
+     "studentFIO": "Улитин Николай Сергеевич",
+     "admissionNumber": "РБВ716/22-вос"
+    },
+    {
+     "studentLogin": 70196971,
+     "studentFIO": "Улитин Сергей Сергеевич",
+     "admissionNumber": "РБВ717/22-вос"
+    },
+    {
+     "studentLogin": 70189502,
+     "studentFIO": "Фролова Мария Алексеевна",
+     "admissionNumber": "РБВ167/22-вос"
+    },
+    {
+     "studentLogin": 70187811,
+     "studentFIO": "Чадин Дмитрий Сергеевич",
+     "admissionNumber": "РБВ036/22-вос"
+    },
+    {
+     "studentLogin": 70188466,
+     "studentFIO": "Шмакова  Анастасия Игоревна",
+     "admissionNumber": "РБВ072/22-вос"
+    },
+    {
+     "studentLogin": 70196178,
+     "studentFIO": "Штиф Анна Александровна",
+     "admissionNumber": "РБВ613/22-вос"
+    },
+    {
+     "studentLogin": 70196907,
+     "studentFIO": "Юнусов Руслан Ильизарович",
+     "admissionNumber": "РБВ711/22-вос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000021647",
+   "groupNum": "РЭВс 20.1-22",
+   "students": [
+    {
+     "studentLogin": 70196870,
+     "studentFIO": "Амеркаева Юлия Андреевна",
+     "admissionNumber": "РБВ701/22-cос"
+    },
+    {
+     "studentLogin": 70192255,
+     "studentFIO": "Астахова Анастасия Михайловна",
+     "admissionNumber": "РБВ311/22-cос"
+    },
+    {
+     "studentLogin": 70195968,
+     "studentFIO": "Барыкина Алина Алексеевна",
+     "admissionNumber": "РБВ553/22-cос"
+    },
+    {
+     "studentLogin": 70195840,
+     "studentFIO": "Белова Наталья Александровна",
+     "admissionNumber": "РБВ533/22-cос"
+    },
+    {
+     "studentLogin": 70196035,
+     "studentFIO": "Билан Савелий Александрович",
+     "admissionNumber": "РБВ569/22-cос"
+    },
+    {
+     "studentLogin": 70196029,
+     "studentFIO": "Богдановская Софья Александровна",
+     "admissionNumber": "РБВ567/22-cос"
+    },
+    {
+     "studentLogin": 70190187,
+     "studentFIO": "Денисова Виктория Андреевна",
+     "admissionNumber": "РБВ194/22-cос"
+    },
+    {
+     "studentLogin": 70195316,
+     "studentFIO": "Дик Роман Александрович",
+     "admissionNumber": "РБВ494/22-cос"
+    },
+    {
+     "studentLogin": 70190172,
+     "studentFIO": "Жукова Дарья Алексеевна",
+     "admissionNumber": "РБВ192/22-cос"
+    },
+    {
+     "studentLogin": 70195896,
+     "studentFIO": "Капитонова Наталия Валентиновна",
+     "admissionNumber": "РБВ541/22-cос"
+    },
+    {
+     "studentLogin": 70197120,
+     "studentFIO": "Каретникова Вероника Станиславовна",
+     "admissionNumber": "РБВ727/22-cос"
+    },
+    {
+     "studentLogin": 70196112,
+     "studentFIO": "Карпухина Юлия Алексеевна",
+     "admissionNumber": "РБВ595/22-cос"
+    },
+    {
+     "studentLogin": 70187219,
+     "studentFIO": "Комарова Юлия Юрьевна",
+     "admissionNumber": "РБВ011/22-cос"
+    },
+    {
+     "studentLogin": 70196133,
+     "studentFIO": "Купченко Юлия Андреевна",
+     "admissionNumber": "РБВ601/22-cос"
+    },
+    {
+     "studentLogin": 70196345,
+     "studentFIO": "Локтюшин Павел Олегович",
+     "admissionNumber": "РБВ639/22-cос"
+    },
+    {
+     "studentLogin": 70196675,
+     "studentFIO": "Маничев Дмитрий Алексеевич",
+     "admissionNumber": "РБВ682/22-cос"
+    },
+    {
+     "studentLogin": 70196010,
+     "studentFIO": "Мартынов Роман Сергеевич",
+     "admissionNumber": "РБВ558/22-cос"
+    },
+    {
+     "studentLogin": 70189420,
+     "studentFIO": "Панина Елена Александровна",
+     "admissionNumber": "РБВ158/22-cос"
+    },
+    {
+     "studentLogin": 70196074,
+     "studentFIO": "Перекальская Анастасия Владимировна",
+     "admissionNumber": "РБВ580/22-cос"
+    },
+    {
+     "studentLogin": 70196340,
+     "studentFIO": "Попеленская Мария Сергеевна",
+     "admissionNumber": "РБВ637/22-cос"
+    },
+    {
+     "studentLogin": 70195005,
+     "studentFIO": "Ребрищев Максим Игоревич",
+     "admissionNumber": "РБВ460/22-cос"
+    },
+    {
+     "studentLogin": 70197087,
+     "studentFIO": "Рубайлова Татьяна Владимировна",
+     "admissionNumber": "РБВ725/22-cос"
+    },
+    {
+     "studentLogin": 70189438,
+     "studentFIO": "Сазонова Екатерина Александровна",
+     "admissionNumber": "РБВ161/22-cос"
+    },
+    {
+     "studentLogin": 70188748,
+     "studentFIO": "Сенюкова Виктория Андреевна",
+     "admissionNumber": "РБВ112/22-cос"
+    },
+    {
+     "studentLogin": 70188926,
+     "studentFIO": "Староверова Алина Михайловна",
+     "admissionNumber": "РБВ127/22-cос"
+    },
+    {
+     "studentLogin": 70195409,
+     "studentFIO": "Степанов Артём Сергеевич",
+     "admissionNumber": "РБВ509/22-cос"
+    },
+    {
+     "studentLogin": 70196145,
+     "studentFIO": "Степанова Светлана Игоревна",
+     "admissionNumber": "РБВ605/22-cос"
+    },
+    {
+     "studentLogin": 70190280,
+     "studentFIO": "Тимкина Екатерина Юрьевна",
+     "admissionNumber": "РБВ200/22-cос"
+    },
+    {
+     "studentLogin": 70195843,
+     "studentFIO": "Толочков Владислав Григорьевич",
+     "admissionNumber": "РБВ534/22-cос"
+    },
+    {
+     "studentLogin": 70190667,
+     "studentFIO": "Топская Юлия Александровна",
+     "admissionNumber": "РБВ225/22-cос"
+    },
+    {
+     "studentLogin": 70197150,
+     "studentFIO": "Ульянова Агата Ивановна",
+     "admissionNumber": "РБВ731/22-cос"
+    },
+    {
+     "studentLogin": 70196084,
+     "studentFIO": "Ульянова Елизавета Игоревна",
+     "admissionNumber": "РБВ586/22-cос"
+    },
+    {
+     "studentLogin": 70196877,
+     "studentFIO": "Усачёва Виктория Владимировна",
+     "admissionNumber": "РБВ703/22-cос"
+    },
+    {
+     "studentLogin": 70196873,
+     "studentFIO": "Федоров Александр Анатольевич",
+     "admissionNumber": "РБВ702/22-cос"
+    },
+    {
+     "studentLogin": 70195293,
+     "studentFIO": "Хромова Юлия Федоровна",
+     "admissionNumber": "РБВ488/22-cос"
+    },
+    {
+     "studentLogin": 70197012,
+     "studentFIO": "Чуфистова Екатерина Ивановна",
+     "admissionNumber": "РБВ724/22-cос"
+    },
+    {
+     "studentLogin": 70189865,
+     "studentFIO": "Шехова Зарина Азамжоновна",
+     "admissionNumber": "РБВ182/22-cос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018391",
+   "groupNum": "АД 9-20",
+   "students": [
+    {
+     "studentLogin": 70166962,
+     "studentFIO": "Бехштайн Илья Маттиасович",
+     "admissionNumber": "ААД2105/20-в"
+    },
+    {
+     "studentLogin": 70168476,
+     "studentFIO": "Бредун Анатолий Сергеевич",
+     "admissionNumber": "ААД2978/20-в"
+    },
+    {
+     "studentLogin": 70165136,
+     "studentFIO": "Зяблицкий Алексей Владимирович",
+     "admissionNumber": "ААД1183/20-вк133"
+    },
+    {
+     "studentLogin": 70165204,
+     "studentFIO": "Кулев Андрей Юрьевич",
+     "admissionNumber": "ААД1214/20-вк133"
+    },
+    {
+     "studentLogin": 70153504,
+     "studentFIO": "Муратов Никита Валерьевич",
+     "admissionNumber": "ААД2658/19-в"
+    },
+    {
+     "studentLogin": 70166431,
+     "studentFIO": "Сысоев Николай Владимирович",
+     "admissionNumber": "ААД1806/20-в"
+    },
+    {
+     "studentLogin": 70163956,
+     "studentFIO": "Фадеев Алексей Викторович",
+     "admissionNumber": "ААД0677/20-в"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016816",
+   "groupNum": "АЗ 4-19",
+   "students": [
+    {
+     "studentLogin": 70154338,
+     "studentFIO": "Полищук Дмитрий Александрович",
+     "admissionNumber": "ААЗ2864/19-в"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019566",
+   "groupNum": "АД 15-21",
+   "students": [
+    {
+     "studentLogin": 70180813,
+     "studentFIO": "Алексеев Никита Сергеевич",
+     "admissionNumber": "ААД2776/21-вос"
+    },
+    {
+     "studentLogin": 70167906,
+     "studentFIO": "Гриднев Евгений Витальевич",
+     "admissionNumber": "ААД2683/20-в"
+    },
+    {
+     "studentLogin": 70178280,
+     "studentFIO": "Мосьпан Владислав Викторович",
+     "admissionNumber": "ААД1583/21-вк133ос"
+    },
+    {
+     "studentLogin": 70180921,
+     "studentFIO": "Чёрный Павел Анатольевич",
+     "admissionNumber": "ААД2826/21-вос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000016804",
+   "groupNum": "АД 7-19",
+   "students": [
+    {
+     "studentLogin": 70153391,
+     "studentFIO": "Куликов Николай Алексеевич",
+     "admissionNumber": "ААД2623/19-в"
+    },
+    {
+     "studentLogin": 70154011,
+     "studentFIO": "Куренков Александр Александрович",
+     "admissionNumber": "ААД2781/19-в"
+    },
+    {
+     "studentLogin": 70153404,
+     "studentFIO": "Марков Александр Сергеевич",
+     "admissionNumber": "ААД2628/19-в"
+    },
+    {
+     "studentLogin": 70154784,
+     "studentFIO": "Метель Владислав Анатольевич",
+     "admissionNumber": "ААД2966/19-в"
+    },
+    {
+     "studentLogin": 70153883,
+     "studentFIO": "Мостовщиков Владимир Дмитриевич",
+     "admissionNumber": "ААД2751/19-в"
+    },
+    {
+     "studentLogin": 70152915,
+     "studentFIO": "Наумов Александр Сергеевич",
+     "admissionNumber": "ААД2476/19-в"
+    },
+    {
+     "studentLogin": 70152319,
+     "studentFIO": "Осипенко Святослав Андреевич",
+     "admissionNumber": "ААД2275/19-в"
+    },
+    {
+     "studentLogin": 70153300,
+     "studentFIO": "Сабурин Антон Сергеевич",
+     "admissionNumber": "ААД2586/19-в"
+    },
+    {
+     "studentLogin": 70151642,
+     "studentFIO": "Синёв Виктор Евгеньевич",
+     "admissionNumber": "ААД2033/19-в"
+    },
+    {
+     "studentLogin": 70149276,
+     "studentFIO": "Тюрин Иван Дмитриевич",
+     "admissionNumber": "ААД0958/19-в"
+    },
+    {
+     "studentLogin": 70153968,
+     "studentFIO": "Фомичев Максим Васильевич",
+     "admissionNumber": "ААД2770/19-в"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019564",
+   "groupNum": "АД 12-21",
+   "students": [
+    {
+     "studentLogin": 70176877,
+     "studentFIO": "Волошина Лада Александровна",
+     "admissionNumber": "ААД0880/21-вк133ос"
+    },
+    {
+     "studentLogin": 70183110,
+     "studentFIO": "Панасюк Владимир Викторович",
+     "admissionNumber": "ААД3484/21-в-пос"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018812",
+   "groupNum": "АД 2-20(ЭГХиСО)",
+   "students": [
+    {
+     "studentLogin": 70151252,
+     "studentFIO": "Бычков Иван Викторович",
+     "admissionNumber": "ААД1902/19-в"
+    },
+    {
+     "studentLogin": 70168277,
+     "studentFIO": "Лапшин Никита Константинович",
+     "admissionNumber": "ААД2885/20-в"
+    },
+    {
+     "studentLogin": 70154127,
+     "studentFIO": "Почтовик Денис Викторович",
+     "admissionNumber": "ААД2814/19-в"
+    }
+   ]
+  },
+  {
+   "groupCode": "000019565",
+   "groupNum": "АД 14-21",
+   "students": [
+    {
+     "studentLogin": 70181891,
+     "studentFIO": "Выборнов Никита Александрович",
+     "admissionNumber": "ААД3147/21-вос"
+    },
+    {
+     "studentLogin": 70179823,
+     "studentFIO": "Петров Алексей Дмитриевич",
+     "admissionNumber": "ААД2368/21-вк133ос"
+    },
+    {
+     "studentLogin": 70165232,
+     "studentFIO": "Хлопонин Александр Алексеевич",
+     "admissionNumber": "ААД1226/20-вк133"
+    }
+   ]
+  },
+  {
+   "groupCode": "000018178",
+   "groupNum": "БУХ-510-20 (9 кл.)",
+   "students": [
+    {
+     "studentLogin": 70170019,
+     "studentFIO": "Афанасьева Влада Александровна",
+     "admissionNumber": "КПД111/20-9 кл"
+    },
+    {
+     "studentLogin": 70163381,
+     "studentFIO": "Барабанщикова Алина Дмитриевна",
+     "admissionNumber": "КПД021/20-9 кл"
+    },
+    {
+     "studentLogin": 70170578,
+     "studentFIO": "Кострикин Вадим Вячеславович",
+     "admissionNumber": "КПД122/20-9 кл"
+    },
+    {
+     "studentLogin": 70170615,
+     "studentFIO": "Кочетова Виктория Алексеевна",
+     "admissionNumber": "КПД124/20-9 кл"
+    },
+    {
+     "studentLogin": 70167535,
+     "studentFIO": "Мельниченкова Любовь Антоновна",
+     "admissionNumber": "КПД083/20-9 кл"
+    },
+    {
+     "studentLogin": 70170307,
+     "studentFIO": "Савкина Галина Александровна",
+     "admissionNumber": "КПД115/20-9 кл"
+    },
+    {
+     "studentLogin": 70174940,
+     "studentFIO": "Тюгаева Амина Ильясовна",
+     "admissionNumber": "КПД168/20-9 кл"
+    },
+    {
+     "studentLogin": 70186262,
+     "studentFIO": "Тюнина Мария Дмитриевна",
+     "admissionNumber": "КПД083/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70186215,
+     "studentFIO": "Финогенова Дарья Сергеевна",
+     "admissionNumber": "КПД082/21/2-9 кл"
+    },
+    {
+     "studentLogin": 70170820,
+     "studentFIO": "Эрфорт Вадим Викторович",
+     "admissionNumber": "КПД130/20-9 кл"
+    }
+   ]
+  }
+ ]
+}
