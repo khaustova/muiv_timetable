@@ -126,3 +126,27 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Email
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Admingo
+
+ADMINGO_CUSTOMIZATION = {
+    'search_model': 'timetable.timetable',
+    'sidebar_icons': {
+        'auth.user': 'person',
+        'auth.group': 'groups',
+        'timetable.classroom': 'apartment',
+        'timetable.subject': 'quiz',
+        'timetable.group': 'diversity_3',
+        'timetable.tutor': 'face',
+        'timetable.worktype': 'format_list_bulleted',
+        'timetable.timetable': 'view_timeline',
+        'timetable.jsontimetable': 'description',
+    },
+    'hidden_apps': [
+        'admingo',
+    ],
+    'apps_order': [
+        'timetable', 
+        'auth',
+    ],
+}
