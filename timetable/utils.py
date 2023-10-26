@@ -30,8 +30,8 @@ def filter_by_day(
     if to_date:
         timetable = timetable.filter(work_day__lte=to_date) 
     
-    start = datetime.strptime(from_date, "%Y-%m-%d").date() if from_date else datetime.now().date()
-    end = datetime.strptime(to_date, "%Y-%m-%d").date() if to_date else datetime.now().date()
+    start = datetime.strptime(from_date, '%Y-%m-%d').date() if from_date else datetime.now().date()
+    end = datetime.strptime(to_date, '%Y-%m-%d').date() if to_date else datetime.now().date()
     
     timetable_by_days = {}
     
@@ -158,7 +158,7 @@ def upload_data(file: TextIO) -> None:
                     work_type = WorkType.objects.get(work_type = each_timetable["work_type"]),
                 )
                     
-        return 'Данные успешно загружены'
+        return {'is_upload': True, 'message': 'Данные успешно загружены'}
     
     except Exception as e: 
-        return e
+        return {'is_upload': False, 'message': e}

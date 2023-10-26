@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Classroom(models.Model): 
     """
     Определяет аудитории:
@@ -41,7 +42,10 @@ class Group(models.Model):
     students - количество студентов в ней.
     """
     group_num = models.CharField(max_length=50, verbose_name='Группа')
-    students = models.IntegerField(default=0, verbose_name='Количество студентов')
+    students = models.IntegerField(
+        default=0, 
+        verbose_name='Количество студентов'
+    )
 
     class Meta:
         ordering = ('group_num',)
@@ -146,9 +150,24 @@ class JsonTimetable(models.Model):
     json_file - загруженный файл;
     date_time_of_upload - время загрузки (заполняется автоматически).
     """
-    json_file = models.FileField(upload_to='uploads/', verbose_name='Название файла')
-    date_time_of_upload = models.DateTimeField(auto_now = True, verbose_name='Время загрузки')
-    message = models.CharField(max_length=1024, blank=True, null=True, verbose_name='Сообщение')
+    json_file = models.FileField(
+        upload_to='uploads/', 
+        verbose_name='Название файла'
+    )
+    date_time_of_upload = models.DateTimeField(
+        auto_now = True, 
+        verbose_name='Время загрузки'
+    )
+    is_upload = models.BooleanField(
+        blank=True, 
+        verbose_name='Данные загружены'
+    )
+    message = models.CharField(
+        max_length=1024, 
+        blank=True, 
+        null=True, 
+        verbose_name='Сообщение'
+    )
     
     class Meta:
         ordering = ('date_time_of_upload',)
@@ -157,5 +176,4 @@ class JsonTimetable(models.Model):
     
     def __str__(self):
         return str(self.json_file)
-    
     
