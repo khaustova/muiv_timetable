@@ -56,15 +56,12 @@ def json_to_dict(file: TextIO) -> Tuple:
     all_groups = set()
     all_classrooms = set()
     all_work_types = set()
-    
     for one_day in scheduler["sheduler"]:
         year = str(one_day["workYear"])
-        month = str(one_day["workDate"])
-        day = str(one_day["workMonth"])
-        
-        date = datetime.strptime(year + month + day, "%Y%m%d").date()
+        month = str(one_day["workMonth"])
+        day = str(one_day["workDate"])
+        date = datetime.strptime(year + '-' + month + '-' + day, "%Y-%m-%d").date()
         timetable[date] = []
-        
         for routine in one_day["workSheduler"]:
             daily_routine = {}
             daily_routine["work_start"] = datetime.strptime(routine["workStart"], "%H:%M").time()
@@ -79,7 +76,6 @@ def json_to_dict(file: TextIO) -> Tuple:
             all_tutors.add(daily_routine["tutor"])
             all_classrooms.add(daily_routine["classroom"])
             all_work_types.add(daily_routine["work_type"])
-            
             groups_temp = []
             for groups in routine["groups"]:
                 groups_temp.append(groups["groupNum"])  
