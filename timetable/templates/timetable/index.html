@@ -27,7 +27,7 @@
                     </ul>
                     <div class="tab-content mb-3" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <select  name="select_group" class="js-example-basic-single form-select ">
+                            <select  name="select_group" class="select2-group form-select">
                                 <option selected disabled>Выбрать</option>  
                                 {% for group in groups %}
                                     <option value="{{ group.group_num }}">{{ group.group_num }}</option>
@@ -35,7 +35,7 @@
                             </select>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <select name="select_tutor" class="form-select">
+                            <select name="select_tutor" class="select2-tutor form-select">
                                 <option selected disabled>Выбрать</option>  
                                 {% for tutor in tutors %}
                                     <option value="{{ tutor.tutor_name }}">{{ tutor.tutor_name }}</option>
@@ -137,7 +137,8 @@
 
 <script>
     $(document).ready(function() {
-        $('.js-example-basic-single').select2();
+        $('.select2-group').select2();
+        $('.select2-tutor').select2();
     });
 </script>
 
