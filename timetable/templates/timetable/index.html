@@ -27,7 +27,7 @@
                     </ul>
                     <div class="tab-content mb-3" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <select name="select_group" class="form-select">
+                            <select  name="select_group" class="js-example-basic-single form-select ">
                                 <option selected disabled>Выбрать</option>  
                                 {% for group in groups %}
                                     <option value="{{ group.group_num }}">{{ group.group_num }}</option>
@@ -87,13 +87,13 @@
             </div>
             <div class="justify-content-center table-responsive">
                 {% for day, daily_timetable in timetable_by_days.items %}
-                {{ day|date:"l" }} / {{ day }}
+                <b>{{ day|date:"l" }} / {{ day }}</b>
                 <table class="table align-self-center table-responsive">         
                     <thead class="table-group-divider table-ruby">
                         <th style="width: 10%">Время</th>
                         <th style="width: 32%">Дисциплина</th>
-                        <th style="width: 10%" class="text-center">Аудитория</th>
-                        <th style="width: 23%" class="text-end">
+                        <th style="width: 10%">Аудитория</th>
+                        <th style="width: 23%">
                             {% if is_group %}
                             Преподаватель
                             {% else %}
@@ -107,11 +107,11 @@
                             <td>{{ each.work_start}} - {{ each.work_end }}</td>
                             <td>{{ each.subject.subject_name}} ({{ each.work_type }})</td>
                             {% if not each.classroom %}
-                                <td class="text-center">-</td>
+                                <td>-</td>
                             {% else %}
-                                <td class="text-center">{{ each.classroom }}</td>
+                                <td>{{ each.classroom }}</td>
                             {% endif %}                                      
-                            <td class="text-end">
+                            <td>
                                 {% if is_group %}
                                 {{ each.tutor }}
                                 {% else %}
@@ -134,4 +134,11 @@
         {% endif %}
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('.js-example-basic-single').select2();
+    });
+</script>
+
 {% endblock %}
