@@ -70,7 +70,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'core.wsgi.application'
 
 INTERNAL_IPS = [
-    '127.0.0.1',
+    #'127.0.0.1',
 ]
 
 # Database
@@ -130,6 +130,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Admingo
 
 ADMINGO_CUSTOMIZATION = {
+    'dashboard_name': 'Управление расписанием',
     'search_model': 'timetable.timetable',
     'sidebar_icons': {
         'auth.user': 'person',

@@ -255,13 +255,6 @@
     {% endblock %}
     </main>
     {% block footer %}
-    {% if not is_popup %}
-        <footer>
-            {% autoescape off %}
-                {% trans 'Copyright' %} &copy; <a href="https://github.com/khaustiv/admingo/">Admingo</a>, 2023.
-            {% endautoescape %}
-        </footer>
-    {% endif %}
     {% endblock %}
 </div>
 {% if not is_popup %}
