@@ -24,7 +24,6 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 Приложение запустится на http://127.0.0.1:8000. Примеры файлов с расписанием находятся в папке examples of scheduler files.
-Также создан суперпользователь с логином и паролем admin.
 ### 4. Скриншоты ###
 ![timetable](https://github.com/khaustiv/timetable/assets/143105312/225b5d9d-9454-48f8-a761-0a3b9dcc74ec)
 ![files](https://github.com/khaustiv/timetable/assets/143105312/062aba6c-41b4-4a9e-b6eb-3c366c3db0e6)
