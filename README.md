@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/Python-3.11.4-orange) ![Static Badge](https://img.shields.io/badge/Django-4.2.6-blue) ![Static Badge](https://img.shields.io/badge/Django_REST_framework-3.14.0-blue)
+
 Приложение позволяет загружать расписание занятий в формате JSON, выгруженное из информационной системы «Сириус» Московского университета им. Витте, и предоставляет удобные инструменты для просмотра и управления расписаниями через фильтры.
 
 ## Основные возможности 
