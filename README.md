@@ -1,29 +1,79 @@
-### 1. О приложении ###
-Приложение позволяет загружать файлы с расписанием в формате JSON, выгруженные из информационной системы "Сириус" Московского университета им. Витте, и обеспечивает удобный просмотр расписания с помощью фильтров.
+Приложение позволяет загружать расписание занятий в формате JSON, выгруженное из информационной системы «Сириус» Московского университета им. Витте, и предоставляет удобные инструменты для просмотра и управления расписаниями через фильтры.
 
-:small_blue_diamond: Фильтр расписания по дате / диапазону дат  
-:small_blue_diamond: Фильтр расписания по группе / преподавателю  
-:small_blue_diamond: Собственная панель администратора  
-:small_blue_diamond: Отслеживание загрузки расписания из JSON-файла в базу данных  
-:small_blue_diamond: Ручное редактирование расписания  
-:small_blue_diamond: API для получения расписания  
-### 2. Технологии ###
-:small_orange_diamond: Python 3.11.4  
-:small_orange_diamond: Django 4.2.6  
-:small_orange_diamond: Django Rest Framework 3.14.0  
-### 3. Запуск ###
-С помощью докера:
-```python
+## Основные возможности 
+:calendar: Поиск расписания по дате / диапазону дат   
+:busts_in_silhouette: Поиск расписания по группе / преподавателю   
+:control_knobs: Панель администратора для управления расписанием   
+:arrow_up: Загрузка расписаний из JSON-файлов в базу данных  
+:pencil2: Ручное редактирование расписания   
+:globe_with_meridians: API для интеграции с другими системами  
+ 
+## Запуск
+
+1. Клонируйте репозиторий проекта на свой компьютер:
+
+```
+git clone https://github.com/khaustova/muiv_timetable.git
+```
+2. Запустите приложение одним из двух способов:
+<details>
+  <summary>В Docker</summary>
+
+```
 docker-compose up --build
 ```
-Без докера:
-```python
-pip install -r requirements.txt
-```
-```python
-python3 manage.py runserver
-```
-Приложение запустится на http://127.0.0.1:8000. Примеры файлов с расписанием находятся в папке examples of scheduler files.
-### 4. Скриншоты ###
+  
+</details>  
+
+<details>
+  <summary>В виртуальном окружении</summary>
+
+  * Создайте виртуальное окружение:
+    
+
+  ```
+  python3 -m venv .venv
+  ```
+
+  * Активируйте виртуальное окружение:  
+
+    * Для Linux/MacOS:  
+
+    ```
+    source .venv/bin/activate
+    ```
+   
+    * Для Windows:  
+
+    ```
+    .venv\Scripts\activate
+    ```
+
+  * Установите необходимые библиотеки:
+
+  ```
+  pip install -r requirements.txt
+  ```
+
+  * Выполните миграции базы данных:
+    
+
+  ```
+  python3 manage.py migrate
+  ```
+
+  * Запустите сервер:
+
+  ```
+  python3 manage.py runserver
+  ```
+  
+</details> 
+
+3. Приложение будет доступно по адресу http://127.0.0.1:8000.  
+  
+Примеры файлов с расписанием находятся в папке `examples of scheduler files`.
+
+### Скриншоты
 ![timetable](https://github.com/khaustiv/timetable/assets/143105312/225b5d9d-9454-48f8-a761-0a3b9dcc74ec)
 ![files](https://github.com/khaustiv/timetable/assets/143105312/062aba6c-41b4-4a9e-b6eb-3c366c3db0e6)
