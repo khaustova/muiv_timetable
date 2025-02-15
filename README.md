@@ -18,59 +18,59 @@
 git clone https://github.com/khaustova/muiv_timetable.git
 ```
 2. Запустите приложение одним из двух способов:
-<details>
-  <summary>В Docker</summary>
+    <details>
+    <summary>В Docker</summary>
 
-```
-docker-compose up --build
-```
-  
-</details>  
-
-<details>
-  <summary>В виртуальном окружении</summary>
-
-  * Создайте виртуальное окружение:
+    ```
+    docker-compose up --build
+    ```
     
+    </details>  
 
-  ```
-  python3 -m venv .venv
-  ```
+    <details>
+    <summary>В виртуальном окружении</summary>
 
-  * Активируйте виртуальное окружение:  
-
-    * Для Linux/MacOS:  
-
-    ```
-    source .venv/bin/activate
-    ```
-   
-    * Для Windows:  
+    * Создайте виртуальное окружение:
+        
 
     ```
-    .venv\Scripts\activate
+    python3 -m venv .venv
     ```
 
-  * Установите необходимые библиотеки:
+    * Активируйте виртуальное окружение:  
 
-  ```
-  pip install -r requirements.txt
-  ```
+        * Для Linux/MacOS:  
 
-  * Выполните миграции базы данных:
+        ```
+        source .venv/bin/activate
+        ```
     
+        * Для Windows:  
 
-  ```
-  python3 manage.py migrate
-  ```
+        ```
+        .venv\Scripts\activate
+        ```
 
-  * Запустите сервер:
+    * Установите необходимые библиотеки:
 
-  ```
-  python3 manage.py runserver
-  ```
-  
-</details> 
+    ```
+    pip install -r requirements.txt
+    ```
+
+    * Выполните миграции базы данных:
+        
+
+    ```
+    python3 manage.py migrate
+    ```
+
+    * Запустите сервер:
+
+    ```
+    python3 manage.py runserver
+    ```
+    
+    </details> 
 
 3. Приложение будет доступно по адресу http://127.0.0.1:8000.  
   
